@@ -1,0 +1,212 @@
+MySQL – Best Practices for Organizing and Naming Databases.
+Nice 👍 — this is a high-yield CCEE area (conceptual + syntax traps).
+I’ll cover both topics separately, each with:
+
+10 Basic MCQs
+
+10 Intermediate MCQs
+
+10 Advanced MCQs
+
+Clear answer keys at the bottom
+
+Aligned with CDAC–DITISS / CCEE mindset.
+
+✅ TOPIC 1: MySQL – Best Practices for Organizing and Naming Databases
+🔹 BASIC MCQs (10)
+
+Which naming convention is recommended for MySQL databases?
+A. CamelCase
+B. Uppercase letters
+C. lowercase_with_underscores
+D. MixedCase123
+
+Why should spaces be avoided in database names?
+A. Reduce memory
+B. Improve indexing
+C. Require backticks
+D. Slow execution
+
+Which database name follows best practices?
+A. SalesDB
+B. sales-db
+C. sales_db
+D. sales db
+
+Which character is preferred to separate words?
+A. Hyphen (-)
+B. Dot (.)
+C. Underscore (_)
+D. Space
+
+Why should meaningful names be used?
+A. Faster queries
+B. Better readability
+C. Better storage
+D. Better locking
+
+Which is NOT recommended?
+A. Using prefixes
+B. Using reserved keywords
+C. Using consistent naming
+D. Using descriptive names
+
+Database names should reflect:
+A. OS name
+B. Server name
+C. Application/domain
+D. Storage engine
+
+Which naming improves maintainability?
+A. Short random names
+B. Numeric-only names
+C. Logical grouping
+D. Uppercase names
+
+Which is a valid best practice?
+A. One database for all apps
+B. Separate databases per application
+C. Multiple schemas per table
+D. One table per database
+
+Which is recommended for versioning?
+A. Append version in table
+B. Append version in database name
+C. Rename database frequently
+D. Use temporary databases
+
+🔸 INTERMEDIATE MCQs (10)
+
+Why avoid MySQL reserved keywords as database names?
+A. Syntax errors
+B. Performance issues
+C. Security risk
+D. Storage waste
+
+Which example follows enterprise naming?
+A. db1
+B. prod_db
+C. mydatabase
+D. test
+
+Best practice for environment separation is:
+A. Same database, different tables
+B. Same name everywhere
+C. Separate databases (dev/test/prod)
+D. Use comments
+
+Why avoid special characters?
+A. Index corruption
+B. Encoding problems
+C. Requires escaping
+D. Slows joins
+
+Which improves access control?
+A. Large tables
+B. Separate databases
+C. Long column names
+D. Triggers
+
+Which prefix helps identify purpose?
+A. sys_
+B. app_
+C. tmp_
+D. All of the above
+
+Naming databases after users is:
+A. Recommended
+B. Required
+C. Not recommended
+D. Mandatory
+
+Which practice helps backup strategy?
+A. Random naming
+B. Logical grouping
+C. Uppercase naming
+D. Numeric naming
+
+Which should be avoided in production DB names?
+A. prod
+B. live
+C. test
+D. app
+
+Why consistency matters?
+A. Faster MySQL startup
+B. Easier automation
+C. Reduced disk usage
+D. Better indexing
+
+🔺 ADVANCED MCQs (10)
+
+Which naming aids CI/CD pipelines?
+A. Uppercase
+B. Random names
+C. Predictable patterns
+D. Numeric IDs
+
+What is the risk of using same DB name across environments?
+A. Data overwrite
+B. Index corruption
+C. Slower queries
+D. Deadlocks
+
+Which strategy improves scalability?
+A. Single large database
+B. Module-based databases
+C. Frequent renaming
+D. Using schemas only
+
+Best practice for multi-tenant apps:
+A. One DB per tenant
+B. One table per tenant
+C. One column per tenant
+D. Shared system DB
+
+Which naming supports monitoring?
+A. Short names
+B. Environment-based prefixes
+C. Random strings
+D. Numeric suffixes
+
+Database name length should be:
+A. Maximum allowed
+B. Very short
+C. Meaningful but concise
+D. Exactly 10 chars
+
+Why avoid changing database names frequently?
+A. Syntax errors
+B. Breaks dependencies
+C. Slows queries
+D. Index loss
+
+Which is CCEE-preferred advice?
+A. Technical names
+B. Business-oriented names
+C. OS-based names
+D. User-based names
+
+Which naming helps disaster recovery?
+A. Logical & consistent
+B. Uppercase
+C. Numeric only
+D. Random
+
+Which is the BEST database name?
+A. db2025
+B. myproject
+C. hr_payroll_prod
+D. data
+
+✅ ANSWER KEY (Topic 1)
+
+Basic:
+
+C | 2. C | 3. C | 4. C | 5. B | 6. B | 7. C | 8. C | 9. B | 10. B
+
+Intermediate:
+11. A | 12. B | 13. C | 14. C | 15. B | 16. D | 17. C | 18. B | 19. C | 20. B
+
+Advanced:
+21. C | 22. A | 23. B | 24. A | 25. B | 26. C | 27. B | 28. B | 29. A | 30. C
