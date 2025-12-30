@@ -1,0 +1,201 @@
+✅ TOPIC 2: MySQL – Syntax and Examples for Dropping Databases
+🔹 BASIC MCQs (10)
+
+31. Which command deletes a database permanently?
+A. DELETE DATABASE
+B. REMOVE DATABASE
+C. DROP DATABASE
+D. ERASE DATABASE
+
+32. Syntax to drop database testdb is:
+A. DROP testdb;
+B. DELETE DATABASE testdb;
+C. DROP DATABASE testdb;
+D. REMOVE testdb;
+
+33. Dropping a database removes:
+A. Tables only
+B. Data only
+C. Structure only
+D. All objects
+
+34. Which keyword prevents error if DB doesn’t exist?
+A. IF EXISTS
+B. IF NOT EXISTS
+C. SAFE
+D. CHECK
+
+35. DROP DATABASE is:
+A. Reversible
+B. Transactional
+C. Irreversible
+D. Temporary
+
+36. Which privilege is required?
+A. DELETE
+B. DROP
+C. CREATE
+D. ALTER
+
+37. Semicolon is:
+A. Optional
+B. Mandatory in CLI
+C. Invalid
+D. Deprecated
+
+38. Which command lists databases before drop?
+A. SHOW DATABASES;
+B. SHOW TABLES;
+C. DESCRIBE DATABASE;
+D. LIST DBS;
+
+39. What happens to users linked to DB?
+A. Deleted
+B. Disabled
+C. Remain intact
+D. Archived
+
+40. Which database should NOT be dropped?
+A. test
+B. sys
+C. user_db
+D. demo
+
+🔸 INTERMEDIATE MCQs (10)
+
+41. Correct safe syntax is:
+A. DROP DATABASE test IF EXISTS;
+B. DROP DATABASE IF EXISTS test;
+C. DROP IF EXISTS DATABASE test;
+D. DELETE DATABASE IF EXISTS test;
+
+42. Dropping database also drops:
+A. Users
+B. Privileges
+C. Tables & views
+D. Server config
+
+43. DROP DATABASE affects:
+A. Current database only
+B. Entire MySQL server
+C. Target database only
+D. OS files only
+
+44. Which statement is TRUE?
+A. DROP DATABASE can be rolled back
+B. DROP DATABASE deletes metadata
+C. DROP DATABASE keeps tables
+D. DROP DATABASE renames DB
+
+45. Which system database is protected?
+A. mysql
+B. test
+C. app_db
+D. temp
+
+46. Why use IF EXISTS?
+A. Faster execution
+B. Avoid warnings
+C. Avoid script failure
+D. Improve security
+
+47. Which tool warns before drop?
+A. MySQL engine
+B. CLI prompt
+C. GUI tools
+D. Server logs
+
+48. What happens if DB is in use?
+A. Drop fails
+B. Sessions terminated
+C. DB renamed
+D. Tables locked
+
+49. DROP DATABASE implicitly performs:
+A. COMMIT
+B. ROLLBACK
+C. CHECKPOINT
+D. SAVEPOINT
+
+50. Which is best practice before drop?
+A. ANALYZE
+B. BACKUP
+C. OPTIMIZE
+D. INDEX
+
+🔺 ADVANCED MCQs (10)
+
+51. DROP DATABASE cannot be undone because:
+A. No logs
+B. Auto-commit behavior
+C. OS limitation
+D. Storage engine
+
+52. Which statement is safest in production?
+A. DROP DATABASE prod;
+B. DROP DATABASE IF EXISTS prod;
+C. DROP DATABASE prod;
+D. Avoid DROP DATABASE
+
+53. DROP DATABASE removes data from:
+A. Buffer pool
+B. Disk
+C. Cache
+D. Memory only
+
+54. Which failure is most critical?
+A. Syntax error
+B. Permission denied
+C. Accidental drop
+D. Warning
+
+55. Which DB object survives drop?
+A. Tables
+B. Indexes
+C. Stored procedures
+D. None
+
+56. Which MySQL schema is non-droppable?
+A. sys
+B. mysql
+C. information_schema
+D. test
+
+57. Best protection against accidental drop?
+A. Naming conventions
+B. Access control
+C. Backups
+D. All of the above
+
+58. DROP DATABASE executes at:
+A. Table level
+B. Row level
+C. Database level
+D. Server level
+
+59. Which exam trap is common?
+A. DROP vs DELETE
+B. IF EXISTS placement
+C. Privilege mismatch
+D. All of the above
+
+60. CCEE preferred advice is:
+A. Use DROP often
+B. Avoid DROP in prod
+C. Drop without backup
+D. Ignore IF EXISTS
+
+✅ ANSWER KEY (Topic 2)
+
+Basic:
+31. C | 32. C | 33. D | 34. A | 35. C | 36. B | 37. B | 38. A | 39. C | 40. B
+
+Intermediate:
+41. B | 42. C | 43. C | 44. B | 45. A | 46. C | 47. C | 48. B | 49. A | 50. B
+
+Advanced:
+51. B | 52. D | 53. B | 54. C | 55. D | 56. C | 57. D | 58. C | 59. D | 60. B
+
+📌 CCEE Final Tip:
+
+Most mistakes happen between DROP vs DELETE, IF EXISTS placement, and system databases — revise these twice.
