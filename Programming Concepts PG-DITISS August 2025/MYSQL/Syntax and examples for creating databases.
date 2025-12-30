@@ -1,0 +1,241 @@
+MySQL: Syntax and examples for creating databases.
+Below are CCEE-focused MCQs for PG-DITISS (Programming Concepts – MySQL) on the topic:
+
+MySQL: Syntax and Examples for Creating Databases
+(As per your request: 10 Basic + 10 Intermediate + 10 Advanced MCQs
+with Answer Key at the bottom)
+
+🔹 BASIC LEVEL MCQs (10)
+1. Which SQL statement is used to create a new database in MySQL?
+A. CREATE DB database_name;
+B. CREATE DATABASE database_name;
+C. MAKE DATABASE database_name;
+D. NEW DATABASE database_name;
+
+2. Which keyword is optional in CREATE DATABASE syntax?
+A. DATABASE
+B. CREATE
+C. IF
+D. EXISTS
+
+3. What does the following command do?
+
+CREATE DATABASE testdb;
+A. Deletes testdb
+B. Creates table testdb
+C. Creates database testdb
+D. Selects testdb
+
+4. Which command avoids error if database already exists?
+A. CREATE DATABASE SAFE db1;
+B. CREATE DATABASE db1 CHECK;
+C. CREATE DATABASE IF EXISTS db1;
+D. CREATE DATABASE IF NOT EXISTS db1;
+
+5. What is the default character set if not specified?
+A. utf16
+B. ascii
+C. latin1
+D. utf8mb4
+
+6. Which statement is used after database creation to work with it?
+A. SELECT DATABASE db;
+B. OPEN DATABASE db;
+C. USE db;
+D. SET DATABASE db;
+
+7. Which symbol ends a SQL statement in MySQL?
+A. ,
+B. .
+C. ;
+D. :
+
+8. Database names in MySQL are:
+A. Case-sensitive always
+B. Case-insensitive always
+C. OS-dependent
+D. Always uppercase
+
+9. Which of the following is a valid database name?
+A. 123db
+B. my-db
+C. my_db
+D. my db
+
+10. Which command shows all databases?
+A. SHOW DATABASE;
+B. SHOW ALL DATABASES;
+C. SHOW DATABASES;
+D. LIST DATABASES;
+
+🔸 INTERMEDIATE LEVEL MCQs (10)
+11. What will be the output of:
+
+CREATE DATABASE IF NOT EXISTS sales;
+A. Error if exists
+B. Creates database always
+C. Creates only if not present
+D. Deletes existing database
+
+12. Which clause specifies character set during database creation?
+A. CHARSET
+B. CHARACTER SET
+C. SET CHAR
+D. COLLATE
+
+13. Which syntax is correct?
+A. CREATE DATABASE db CHARSET utf8;
+B. CREATE DATABASE db CHARACTER SET utf8;
+C. CREATE DATABASE db SET utf8;
+D. CREATE DATABASE db WITH utf8;
+
+14. What does COLLATE define?
+A. Storage size
+B. Sorting rules
+C. Index type
+D. Table engine
+
+15. Which is a valid CREATE DATABASE statement?
+A. CREATE DATABASE 2025db;
+B. CREATE DATABASE db@123;
+C. CREATE DATABASE 2025db;
+D. CREATE DATABASE my.db;
+
+16. Which privilege is required to create a database?
+A. INSERT
+B. CREATE
+C. ALTER
+D. DROP
+
+17. What happens if semicolon is missing in MySQL CLI?
+A. Command executes
+B. Syntax error immediately
+C. MySQL waits for completion
+D. Session closes
+
+18. Which command shows database creation syntax?
+A. SHOW DATABASE db_name;
+B. DESCRIBE DATABASE db_name;
+C. SHOW CREATE DATABASE db_name;
+D. EXPLAIN DATABASE db_name;
+
+19. Default collation of utf8mb4 is:
+A. utf8mb4_bin
+B. utf8mb4_general_ci
+C. utf8mb4_unicode_ci
+D. utf8mb4_0900_ai_ci
+
+20. Which statement is TRUE?
+A. Database and schema differ in MySQL
+B. CREATE SCHEMA creates table
+C. CREATE SCHEMA = CREATE DATABASE
+D. Schema cannot be named
+
+🔺 ADVANCED LEVEL MCQs (10)
+21. Which command creates database with both charset and collation?
+A.
+
+CREATE DATABASE db CHARACTER SET utf8 COLLATE utf8_general_ci;
+B.
+
+CREATE DATABASE db SET utf8 COLLATE;
+C.
+
+CREATE DATABASE db CHAR utf8;
+D.
+
+CREATE DATABASE db COLLATE utf8;
+22. What is the effect of using backticks in database names?
+A. Improves speed
+B. Allows reserved words
+C. Encrypts name
+D. Improves security
+
+23. Which database name is INVALID without backticks?
+A. sales_db
+B. test123
+C. order
+D. company
+
+24. In MySQL 8+, recommended charset is:
+A. latin1
+B. utf16
+C. utf8
+D. utf8mb4
+
+25. What happens if CREATE DATABASE fails due to permission?
+A. Database partially created
+B. Server crashes
+C. Error returned, no creation
+D. User logged out
+
+26. Which command creates schema as per SQL standard?
+A. CREATE DB
+B. CREATE DATABASE
+C. CREATE SCHEMA
+D. MAKE SCHEMA
+
+27. Why is IF NOT EXISTS important in scripts?
+A. Improves speed
+B. Prevents duplication
+C. Avoids script failure
+D. Reduces memory
+
+28. Which metadata table stores database info?
+A. mysql.databases
+B. information_schema.SCHEMATA
+C. performance_schema.db
+D. sys.databases
+
+29. What is the scope of CHARACTER SET defined at database level?
+A. Only tables
+B. Only columns
+C. Tables & columns (default)
+D. Only indexes
+
+30. Which scenario causes CREATE DATABASE to fail?
+A. Existing database
+B. Invalid collation
+C. Missing semicolon
+D. All of the above
+
+✅ ANSWER KEY
+Basic:
+
+B
+D
+C
+D
+D
+C
+C
+C
+C
+C
+Intermediate:
+11. C
+12. B
+13. B
+14. B
+15. C
+16. B
+17. C
+18. C
+19. D
+20. C
+
+Advanced:
+21. A
+22. B
+23. C
+24. D
+25. C
+26. C
+27. C
+28. B
+29. C
+30. D
+
+📌 CCEE Tip:
+
+Expect syntax-trap MCQs on IF NOT EXISTS, charset, collation, and backticks — these are very common in CDAC exams.
