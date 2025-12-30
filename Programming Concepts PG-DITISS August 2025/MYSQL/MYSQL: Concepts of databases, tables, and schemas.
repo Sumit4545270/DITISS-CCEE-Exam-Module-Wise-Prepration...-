@@ -1,0 +1,266 @@
+Perfect 👍
+Here are CCEE-oriented MCQs for PG-DITISS – Programming Concepts (MySQL) on the topic:
+
+MySQL: Concepts of Databases, Tables, and Schemas
+🔹 BASIC LEVEL (10 MCQs)
+1. In MySQL, a database is best described as:
+A. A collection of rows
+B. A collection of columns
+C. A collection of related tables
+D. A collection of indexes
+
+2. Which SQL command is used to create a database in MySQL?
+A. MAKE DATABASE
+B. CREATE DB
+C. CREATE DATABASE
+D. NEW DATABASE
+
+3. Which statement selects a database for use?
+A. USE database_name
+B. SELECT database_name
+C. OPEN database_name
+D. SET database_name
+
+4. A table in MySQL consists of:
+A. Only rows
+B. Only columns
+C. Rows and columns
+D. Files and indexes
+
+5. What uniquely identifies each row in a table?
+A. Column
+B. Primary Key
+C. Schema
+D. Index
+
+6. Which data structure is used to store data in MySQL?
+A. File
+B. Object
+C. Table
+D. Schema
+
+7. A schema in MySQL is:
+A. Same as a table
+B. Same as a database
+C. A backup file
+D. A view
+
+8. Which command lists all databases in MySQL?
+A. SHOW TABLES;
+B. SHOW SCHEMAS;
+C. SHOW DATABASES;
+D. LIST DATABASES;
+
+9. What is the default schema when a database is created?
+A. public
+B. mysql
+C. Same name as database
+D. information_schema
+
+10. Which command removes a database permanently?
+A. DELETE DATABASE
+B. DROP DATABASE
+C. REMOVE DATABASE
+D. ERASE DATABASE
+
+🔸 INTERMEDIATE LEVEL (10 MCQs)
+11. Which statement is TRUE about schemas in MySQL?
+A. One database can have multiple schemas
+B. Schema and database are synonyms
+C. Schema stores only metadata
+D. Schema exists outside database
+
+12. What happens if you create a table without selecting a database?
+A. Table is created in mysql database
+B. Error occurs
+C. Table is created in default schema
+D. Table is created temporarily
+
+13. Which MySQL schema stores system metadata?
+A. sys
+B. information_schema
+C. mysql
+D. performance_schema
+
+14. Which of the following is NOT a valid table constraint?
+A. PRIMARY KEY
+B. FOREIGN KEY
+C. UNIQUE
+D. TRIGGER
+
+15. What does SHOW TABLES; display?
+A. Tables from all databases
+B. Tables from selected database
+C. Tables from mysql schema only
+D. Temporary tables only
+
+16. Which key enforces entity integrity?
+A. Foreign Key
+B. Candidate Key
+C. Primary Key
+D. Composite Key
+
+17. If a database is dropped, what happens to its tables?
+A. Tables remain intact
+B. Tables are archived
+C. Tables are deleted
+D. Tables move to mysql schema
+
+18. Which statement about schemas improves security?
+A. Schemas allow role-based access
+B. Schemas encrypt data
+C. Schemas compress tables
+D. Schemas replicate data
+
+19. How many primary keys can a table have?
+A. Zero
+B. One
+C. Two
+D. Unlimited
+
+20. What is the scope of a table name in MySQL?
+A. Global
+B. Server-level
+C. Database-level
+D. Schema-level
+
+🔺 ADVANCED LEVEL (15 MCQs)
+21. Which fully qualified name correctly identifies a table?
+A. table_name
+B. database.table
+C. schema.database.table
+D. server.database.table
+
+22. Why does MySQL treat schema and database as identical?
+A. SQL standard limitation
+B. Storage engine design
+C. MySQL architecture choice
+D. Backward compatibility
+
+23. Which schema cannot be dropped in MySQL?
+A. user_schema
+B. sys
+C. information_schema
+D. test
+
+24. What is stored in information_schema.TABLES?
+A. Actual table data
+B. Table metadata
+C. Table indexes
+D. Table triggers
+
+25. Which command shows tables from a specific database without using USE?
+A. SHOW TABLES FROM db_name;
+B. SHOW db_name.TABLES;
+C. LIST TABLES FROM db_name;
+D. DISPLAY TABLES db_name;
+
+26. Which operation violates referential integrity?
+A. Inserting duplicate primary key
+B. Inserting NULL in NOT NULL column
+C. Deleting parent row without cascade
+D. Creating index
+
+27. In MySQL, schemas help mainly in:
+A. Data normalization
+B. Logical organization
+C. Physical storage
+D. Query optimization
+
+28. What happens if two tables in different databases have same name?
+A. Conflict occurs
+B. Error is thrown
+C. Allowed without ambiguity
+D. One overrides the other
+
+29. Which schema is performance-focused?
+A. mysql
+B. sys
+C. information_schema
+D. performance_schema
+
+30. What is the main role of the mysql schema?
+A. User data storage
+B. Query optimization
+C. Privilege management
+D. Table metadata
+
+31. Which command renames a database in MySQL?
+A. RENAME DATABASE
+B. ALTER DATABASE
+C. Not directly supported
+D. MOVE DATABASE
+
+32. Which object logically belongs inside a schema?
+A. Database server
+B. Tables
+C. Disk files
+D. Network sockets
+
+33. Which constraint ensures domain integrity?
+A. PRIMARY KEY
+B. FOREIGN KEY
+C. CHECK
+D. INDEX
+
+34. In CCEE, which scenario best uses schemas?
+A. Increasing storage size
+B. Separating application modules
+C. Speeding up joins
+D. Reducing disk I/O
+
+35. Dropping a schema in MySQL effectively means:
+A. Dropping tables only
+B. Dropping indexes only
+C. Dropping database
+D. Dropping users
+
+✅ ANSWER KEY
+Basic:
+
+C
+C
+A
+C
+B
+C
+B
+C
+C
+B
+Intermediate:
+11. B
+12. B
+13. B
+14. D
+15. B
+16. C
+17. C
+18. A
+19. B
+20. C
+
+Advanced:
+21. B
+22. C
+23. C
+24. B
+25. A
+26. C
+27. B
+28. C
+29. D
+30. C
+31. C
+32. B
+33. C
+34. B
+35. C
+
+If you want, next I can:
+
+🔥 Add output-based MCQs
+🎯 Highlight high-frequency CCEE questions
+🧠 Give memory tricks & pitfalls
+📊 Increase difficulty further
+👉 Send the next topic when ready
