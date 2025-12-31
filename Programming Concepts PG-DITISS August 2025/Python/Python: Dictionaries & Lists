@@ -1,242 +1,216 @@
-Perfect 👍 — this is a **very high-probability Python section for CCEE**, especially **dictionary vs list behavior, syntax traps, and operations**.
+Perfect 👍 — this is a very high-probability Python section for CCEE, especially dictionary vs list behavior, syntax traps, and operations.
 
-Below is a **single, consolidated MCQ set** covering **ALL the given Python topics**:
+Below is a single, consolidated MCQ set covering ALL the given Python topics:
 
-> ✅ **10 Basic + 10 Intermediate + 10 Advanced MCQs**
-> Topics covered:
+✅ 10 Basic + 10 Intermediate + 10 Advanced MCQs
+Topics covered:
 
-* Dictionaries: introduction, definition, modification, deletion
-* Lists: introduction, definition, adding/searching/deleting elements, operators
+Dictionaries: introduction, definition, modification, deletion
+Lists: introduction, definition, adding/searching/deleting elements, operators
+Answer key is clearly listed at the bottom.
 
-Answer key is **clearly listed at the bottom**.
-
----
-
-# 📘 Python: Dictionaries & Lists (CCEE-Oriented)
-
----
-
-## 🔹 BASIC LEVEL MCQs (10)
-
-**1.** Which data type stores data as key–value pairs?
+📘 Python: Dictionaries & Lists (CCEE-Oriented)
+🔹 BASIC LEVEL MCQs (10)
+1. Which data type stores data as key–value pairs?
 A. List
 B. Tuple
 C. Dictionary
 D. Set
 
-**2.** How is a dictionary defined in Python?
-A. `d = []`
-B. `d = ()`
-C. `d = {}`
-D. `d = <>`
+2. How is a dictionary defined in Python?
+A. d = []
+B. d = ()
+C. d = {}
+D. d = <>
 
-**3.** Which is a valid dictionary?
-A. `{1,2,3}`
-B. `{'a':1, 'b':2}`
-C. `[a:1, b:2]`
-D. `(a=1, b=2)`
+3. Which is a valid dictionary?
+A. {1,2,3}
+B. {'a':1, 'b':2}
+C. [a:1, b:2]
+D. (a=1, b=2)
 
-**4.** Which data type stores ordered elements?
+4. Which data type stores ordered elements?
 A. Dictionary
 B. Set
 C. List
 D. None
 
-**5.** How is a list defined?
-A. `l = {}`
-B. `l = []`
-C. `l = ()`
-D. `l = <>`
+5. How is a list defined?
+A. l = {}
+B. l = []
+C. l = ()
+D. l = <>
 
-**6.** Which method adds an element to a list?
+6. Which method adds an element to a list?
 A. add()
 B. insert()
 C. append()
 D. push()
 
-**7.** Which operator checks membership in a list?
+7. Which operator checks membership in a list?
 A. ==
 B. in
 C. is
 D. has
 
-**8.** Which function returns number of elements in a list?
+8. Which function returns number of elements in a list?
 A. size()
 B. count()
 C. len()
 D. length()
 
-**9.** Which method removes a key from dictionary?
+9. Which method removes a key from dictionary?
 A. remove()
 B. delete()
 C. pop()
 D. discard()
 
-**10.** Indexing in Python lists starts from:
+10. Indexing in Python lists starts from:
 A. 1
 B. -1
 C. 0
 D. Any number
 
----
+🔸 INTERMEDIATE LEVEL MCQs (10)
+11. How do you access value of key 'name' in dictionary d?
+A. d('name')
+B. d['name']
+C. d.name
+D. get(d,'name')
 
-## 🔸 INTERMEDIATE LEVEL MCQs (10)
-
-**11.** How do you access value of key `'name'` in dictionary `d`?
-A. `d('name')`
-B. `d['name']`
-C. `d.name`
-D. `get(d,'name')`
-
-**12.** What happens if you assign an existing key again?
+12. What happens if you assign an existing key again?
 A. Error
 B. Duplicate key created
 C. Value updated
 D. Program crashes
 
-**13.** Which method safely retrieves value without KeyError?
+13. Which method safely retrieves value without KeyError?
 A. fetch()
 B. value()
 C. get()
 D. read()
 
-**14.** Which deletes an element at index 2 from list `l`?
-A. `l.remove(2)`
-B. `l.pop(2)`
-C. `del l[2]`
+14. Which deletes an element at index 2 from list l?
+A. l.remove(2)
+B. l.pop(2)
+C. del l[2]
 D. Both B and C
 
-**15.** Which statement is TRUE?
+15. Which statement is TRUE?
 A. Lists are immutable
 B. Dictionaries are ordered (Python <3.7)
 C. Lists allow duplicates
 D. Dictionary keys must be lists
 
-**16.** Which method searches an element in list?
+16. Which method searches an element in list?
 A. search()
 B. find()
 C. index()
 D. locate()
 
-**17.** Which operator concatenates two lists?
+17. Which operator concatenates two lists?
 A. *
 B. +
 C. &
 D. |
 
-**18.** Which expression repeats list elements?
-A. `l + 2`
-B. `l * 2`
-C. `l ** 2`
-D. `repeat(l)`
+18. Which expression repeats list elements?
+A. l + 2
+B. l * 2
+C. l ** 2
+D. repeat(l)
 
-**19.** Which deletes entire dictionary?
-A. `dict.clear()`
-B. `dict.remove()`
-C. `del dict`
-D. `dict.pop()`
+19. Which deletes entire dictionary?
+A. dict.clear()
+B. dict.remove()
+C. del dict
+D. dict.pop()
 
-**20.** Which operation is NOT allowed on dictionary keys?
+20. Which operation is NOT allowed on dictionary keys?
 A. Integer key
 B. String key
 C. List key
 D. Tuple key
 
----
+🔺 ADVANCED LEVEL MCQs (10)
+21. Output of:
 
-## 🔺 ADVANCED LEVEL MCQs (10)
-
-**21.** Output of:
-
-```python
 d = {'a':1,'b':2}
 d['a'] = 5
 print(d)
-```
-
-A. `{'a':1,'b':2}`
-B. `{'a':5,'b':2}`
+A. {'a':1,'b':2}
+B. {'a':5,'b':2}
 C. Error
 D. Duplicate key created
 
-**22.** What happens if key does not exist in `pop()`?
+22. What happens if key does not exist in pop()?
 A. Returns None
 B. Error
 C. Creates key
 D. Ignores silently
 
-**23.** Time complexity of dictionary key lookup is:
+23. Time complexity of dictionary key lookup is:
 A. O(n)
 B. O(log n)
 C. O(1) average
 D. O(n²)
 
-**24.** Which removes all elements but keeps dictionary?
-A. `del d`
-B. `d = {}`
-C. `d.clear()`
+24. Which removes all elements but keeps dictionary?
+A. del d
+B. d = {}
+C. d.clear()
 D. Both B and C
 
-**25.** Output of:
+25. Output of:
 
-```python
 l = [1,2,3]
 print(3 in l)
-```
-
 A. True
 B. False
 C. Error
 D. None
 
-**26.** Which list operation modifies original list?
+26. Which list operation modifies original list?
 A. slicing
 B. + operator
 C. append()
 D. * operator
 
-**27.** Difference between `remove()` and `pop()`?
+27. Difference between remove() and pop()?
 A. Same
 B. remove uses index, pop uses value
 C. remove uses value, pop uses index
 D. Both use index
 
-**28.** Which raises ValueError?
-A. `l.pop()`
-B. `l.remove(10)` when 10 not in list
-C. `del l[0]`
-D. `len(l)`
+28. Which raises ValueError?
+A. l.pop()
+B. l.remove(10) when 10 not in list
+C. del l[0]
+D. len(l)
 
-**29.** Which creates shallow copy of list?
-A. `l2 = l`
-B. `l2 = l.copy()`
-C. `l2 = l.append()`
-D. `l2 = l += []`
+29. Which creates shallow copy of list?
+A. l2 = l
+B. l2 = l.copy()
+C. l2 = l.append()
+D. l2 = l += []
 
-**30.** CCEE MOST COMMON TRAP is:
+30. CCEE MOST COMMON TRAP is:
 A. List indexing
 B. Dict key mutability
 C. List vs dict syntax
 D. All of the above
 
----
+✅ ANSWER KEY
+Basic:
 
-## ✅ ANSWER KEY
-
-**Basic:**
-
-1. C | 2. C | 3. B | 4. C | 5. B | 6. C | 7. B | 8. C | 9. C | 10. C
-
-**Intermediate:**
+C | 2. C | 3. B | 4. C | 5. B | 6. C | 7. B | 8. C | 9. C | 10. C
+Intermediate:
 11. B | 12. C | 13. C | 14. D | 15. C | 16. C | 17. B | 18. B | 19. C | 20. C
 
-**Advanced:**
+Advanced:
 21. B | 22. B | 23. C | 24. D | 25. A | 26. C | 27. C | 28. B | 29. B | 30. D
 
----
-
-### 🎯 FINAL CCEE MEMORY TRICKS
-
-* **Dict → key:value, unordered (pre-3.7), O(1) lookup**
-* **List → ordered, index-based, supports + and ***
-* **remove(value) vs pop(index)** ← *very common trap*
+🎯 FINAL CCEE MEMORY TRICKS
+Dict → key:value, unordered (pre-3.7), O(1) lookup
+**List → ordered, index-based, supports + and ***
+remove(value) vs pop(index) ← very common trap
