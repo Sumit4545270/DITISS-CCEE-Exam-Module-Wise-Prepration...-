@@ -1,0 +1,216 @@
+Excellent choice 👍 — this block is very high-weight in CCEE and often appears as combined logic MCQs.
+
+Below is a single, exam-ready MCQ set covering ALL 3 topics together:
+
+✅ 10 Basic + 10 Intermediate + 10 Advanced MCQs
+Topics covered:
+
+Aggregate functions: SUM, COUNT, AVG
+GROUP BY & HAVING
+Subqueries / Nested queries
+Answer key is at the bottom (CCEE-style).
+
+📘 MySQL: Aggregate Functions, GROUP BY, HAVING & Subqueries
+🔹 BASIC LEVEL MCQs (10)
+1. Which function returns total of a numeric column?
+A. COUNT
+B. AVG
+C. SUM
+D. TOTAL
+
+2. Which function counts number of rows?
+A. SUM()
+B. COUNT()
+C. AVG()
+D. TOTAL()
+
+3. What does AVG() return?
+A. Total rows
+B. Sum of values
+C. Average value
+D. Maximum value
+
+4. Which clause groups rows with same values?
+A. ORDER BY
+B. GROUP BY
+C. HAVING
+D. WHERE
+
+5. Which clause filters grouped data?
+A. WHERE
+B. GROUP BY
+C. HAVING
+D. ORDER BY
+
+6. Which query counts all employees?
+A. SELECT COUNT(emp) FROM emp;
+B. SELECT COUNT() FROM emp;
+C. SELECT TOTAL() FROM emp;
+D. SELECT SUM(*) FROM emp;
+
+7. Aggregate functions operate on:
+A. Single row
+B. Multiple rows
+C. Only integers
+D. Only strings
+
+8. Which clause must appear after GROUP BY?
+A. WHERE
+B. HAVING
+C. SELECT
+D. FROM
+
+9. What is a subquery?
+A. Query inside JOIN
+B. Query inside another query
+C. Query with GROUP BY
+D. Query with ORDER BY
+
+10. Which keyword is used to compare with subquery result?
+A. WITH
+B. IN
+C. BETWEEN
+D. JOIN
+
+🔸 INTERMEDIATE LEVEL MCQs (10)
+11. Which query calculates average salary?
+A. SELECT salary FROM emp;
+B. SELECT AVG(salary) FROM emp;
+C. SELECT salary/COUNT() FROM emp;
+D. SELECT AVG() FROM emp;
+
+12. Difference between WHERE and HAVING?
+A. Same
+B. WHERE filters rows, HAVING filters groups
+C. HAVING faster
+D. WHERE used with aggregates
+
+13. Which is valid GROUP BY query?
+A. SELECT dept, SUM(salary) FROM emp;
+B. SELECT dept, SUM(salary) FROM emp GROUP BY dept;
+C. SELECT SUM(salary) FROM emp GROUP dept;
+D. SELECT dept FROM emp SUM(salary);
+
+14. Which clause is evaluated first?
+A. HAVING
+B. GROUP BY
+C. WHERE
+D. SELECT
+
+15. Which query finds departments with more than 5 employees?
+A.
+
+SELECT dept FROM emp WHERE COUNT(*) > 5;
+B.
+
+SELECT dept FROM emp GROUP BY dept HAVING COUNT(*) > 5;
+C.
+
+SELECT dept HAVING COUNT(*) > 5 FROM emp;
+D.
+
+SELECT dept WHERE COUNT(*) > 5 FROM emp;
+16. Which function ignores NULL values?
+A. SUM
+B. AVG
+C. COUNT(column)
+D. All of the above
+
+17. Which subquery returns multiple values?
+A. Scalar subquery
+B. Correlated subquery
+C. Multi-row subquery
+D. Nested join
+
+18. Which operator is used with multi-row subquery?
+A. =
+B. >
+C. IN
+D. !=
+
+19. Which subquery depends on outer query?
+A. Nested
+B. Scalar
+C. Correlated
+D. Independent
+
+20. Subqueries can appear in:
+A. SELECT
+B. WHERE
+C. FROM
+D. All of the above
+
+🔺 ADVANCED LEVEL MCQs (10)
+21. Logical execution order is:
+A. SELECT → FROM → WHERE → GROUP BY → HAVING
+B. FROM → WHERE → GROUP BY → HAVING → SELECT
+C. WHERE → GROUP BY → SELECT → HAVING
+D. FROM → SELECT → WHERE → GROUP BY
+
+22. Which query is INVALID?
+A. SELECT dept, COUNT() FROM emp GROUP BY dept;
+B. SELECT dept, salary FROM emp GROUP BY dept;
+C. SELECT dept FROM emp GROUP BY dept HAVING COUNT()>1;
+D. SELECT dept, AVG(salary) FROM emp GROUP BY dept;
+
+23. Why WHERE cannot use aggregate functions?
+A. Syntax limitation
+B. WHERE executes before aggregation
+C. WHERE slower
+D. WHERE ignores groups
+
+24. Which HAVING condition is valid?
+A. HAVING salary > 50000
+B. HAVING AVG(salary) > 50000
+C. WHERE AVG(salary) > 50000
+D. WHERE COUNT(*) > 5
+
+25. Which subquery executes once per row?
+A. Scalar
+B. Multi-row
+C. Correlated
+D. Inline
+
+26. Which clause improves performance when filtering rows before grouping?
+A. HAVING
+B. WHERE
+C. ORDER BY
+D. SELECT
+
+27. COUNT() vs COUNT(column):
+A. Both same
+B. COUNT(column) counts NULLs
+C. COUNT() includes NULL rows
+D. COUNT(*) counts rows, COUNT(column) ignores NULLs
+
+28. Which returns single value?
+A. Multi-row subquery
+B. Correlated subquery
+C. Scalar subquery
+D. Inline view
+
+29. Which is CCEE-common trap?
+A. AVG syntax
+B. GROUP BY missing column
+C. SUM on strings
+D. HAVING before GROUP BY
+
+30. Best practice for complex filtering is:
+A. Nested subqueries
+B. WHERE + HAVING combo
+C. Filtering early with WHERE
+D. Avoid GROUP BY
+
+✅ ANSWER KEY
+Basic:
+
+C | 2. B | 3. C | 4. B | 5. C | 6. B | 7. B | 8. B | 9. B | 10. B
+Intermediate:
+11. B | 12. B | 13. B | 14. C | 15. B | 16. D | 17. C | 18. C | 19. C | 20. D
+
+Advanced:
+21. B | 22. B | 23. B | 24. B | 25. C | 26. B | 27. D | 28. C | 29. B | 30. C
+
+🎯 CCEE SUPER-IMPORTANT NOTE
+Remember this order — it cracks 90% of MySQL MCQs:
+FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY
