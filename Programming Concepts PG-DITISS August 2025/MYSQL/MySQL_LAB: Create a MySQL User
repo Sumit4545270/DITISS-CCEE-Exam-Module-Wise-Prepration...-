@@ -1,0 +1,255 @@
+Perfect — this is core hands-on MySQL, and very common in CCEE (syntax + privilege + order-of-operations traps).
+
+I’ll cover ALL 3 sub-topics together, with a combined MCQ set:
+
+10 Basic + 10 Intermediate + 10 Advanced MCQs
+Focused on:
+
+Creating MySQL users
+Creating database → tables → inserting data
+Deleting / Modifying tables & databases
+Answer key is at the bottom (as you prefer).
+
+📘 MySQL: Users, Databases, Tables & Data Operations (CCEE-Oriented)
+🔹 BASIC LEVEL MCQs (10)
+1. Which command creates a new MySQL user?
+A. ADD USER
+B. CREATE USER
+C. NEW USER
+D. MAKE USER
+
+2. Correct syntax to create a user appuser?
+A. CREATE USER appuser;
+B. CREATE USER 'appuser'@'localhost';
+C. ADD USER 'appuser';
+D. CREATE LOGIN appuser;
+
+3. Which command grants privileges to a user?
+A. ALLOW
+B. ASSIGN
+C. GRANT
+D. PERMIT
+
+4. Which statement creates a database?
+A. CREATE DB mydb;
+B. CREATE DATABASE mydb;
+C. MAKE DATABASE mydb;
+D. NEW DATABASE mydb;
+
+5. Which command selects a database?
+A. OPEN mydb;
+B. USE mydb;
+C. SELECT mydb;
+D. SET mydb;
+
+6. Which statement creates a table?
+A. MAKE TABLE
+B. CREATE TABLE
+C. ADD TABLE
+D. NEW TABLE
+
+7. Which command inserts data into a table?
+A. ADD INTO
+B. INSERT TABLE
+C. INSERT INTO
+D. PUT INTO
+
+8. Which command removes a table?
+A. DELETE TABLE
+B. DROP TABLE
+C. REMOVE TABLE
+D. ERASE TABLE
+
+9. Which command deletes all rows but keeps table structure?
+A. DROP TABLE
+B. DELETE TABLE
+C. DELETE FROM table_name;
+D. REMOVE FROM table_name;
+
+10. Which command removes a database completely?
+A. DELETE DATABASE
+B. DROP DATABASE
+C. REMOVE DATABASE
+D. CLEAR DATABASE
+
+🔸 INTERMEDIATE LEVEL MCQs (10)
+11. Which privilege is needed to create tables?
+A. INSERT
+B. CREATE
+C. ALTER
+D. DROP
+
+12. Correct order to store data logically is:
+A. Table → DB → Data
+B. DB → Table → Data
+C. User → Table → DB
+D. DB → Data → Table
+
+13. Which statement creates a table with a primary key?
+A.
+
+CREATE TABLE emp(id INT);
+B.
+
+CREATE TABLE emp(id INT PRIMARY KEY);
+C.
+
+CREATE TABLE emp(PRIMARY id);
+D.
+
+CREATE emp TABLE(id PRIMARY);
+14. Which command modifies table structure?
+A. MODIFY TABLE
+B. CHANGE TABLE
+C. ALTER TABLE
+D. UPDATE TABLE
+
+15. Which command adds a column to an existing table?
+A.
+
+ALTER TABLE emp ADD salary INT;
+B.
+
+UPDATE emp ADD salary;  
+C.
+
+MODIFY emp salary;  
+D.
+
+CHANGE emp ADD salary;  
+16. Which statement deletes specific rows?
+A. DROP TABLE emp;
+B. DELETE emp;
+C. DELETE FROM emp WHERE id=1;
+D. REMOVE emp WHERE id=1;
+
+17. What happens if DROP TABLE is executed?
+A. Only rows deleted
+B. Structure retained
+C. Table removed permanently
+D. Table archived
+
+18. Which command changes database name?
+A. RENAME DATABASE
+B. ALTER DATABASE
+C. Not directly supported
+D. MOVE DATABASE
+
+19. Which is safer than DROP for removing data?
+A. DELETE
+B. DROP
+C. REMOVE
+D. ERASE
+
+20. Which command removes a column?
+A.
+
+ALTER TABLE emp DROP salary;
+B.
+
+DELETE salary FROM emp;  
+C.
+
+REMOVE salary FROM emp;  
+D.
+
+UPDATE emp DROP salary;  
+🔺 ADVANCED LEVEL MCQs (10)
+21. Correct syntax to create user with password is:
+A.
+
+CREATE USER 'u1' IDENTIFIED pwd;
+B.
+
+CREATE USER 'u1'@'localhost' IDENTIFIED BY 'pwd';
+C.
+
+ADD USER 'u1' PASSWORD 'pwd';
+D.
+
+CREATE LOGIN u1 pwd;
+22. Best practice after creating user is to:
+A. Drop user
+B. Grant minimum privileges
+C. Grant ALL privileges
+D. Ignore privileges
+
+23. Which command assigns privileges on database?
+A.
+
+GRANT ALL ON mydb TO user;
+B.
+
+GRANT ALL ON mydb.* TO 'user'@'localhost';
+C.
+
+ALLOW user ON mydb;  
+D.
+
+PERMIT mydb TO user;  
+24. Which statement is TRUE?
+A. DROP TABLE is reversible
+B. DELETE supports rollback (InnoDB)
+C. DROP DATABASE supports rollback
+D. TRUNCATE supports rollback
+
+25. Which deletes data fastest?
+A. DELETE
+B. DROP
+C. TRUNCATE
+D. UPDATE
+
+26. Which command removes table AND data?
+A. DELETE FROM table;
+B. DROP TABLE table;
+C. TRUNCATE table;
+D. REMOVE table;
+
+27. Which command modifies column datatype?
+A.
+
+ALTER TABLE emp MODIFY salary BIGINT;
+B.
+
+UPDATE emp salary BIGINT;  
+C.
+
+CHANGE salary BIGINT;  
+D.
+
+MODIFY emp salary;  
+28. Which failure is most dangerous in production?
+A. Syntax error
+B. Permission denied
+C. Accidental DROP
+D. Warning
+
+29. Which operation is auto-commit in MySQL?
+A. DELETE
+B. UPDATE
+C. DROP
+D. INSERT
+
+30. CCEE preferred safe practice is:
+A. DROP directly
+B. Backup before DROP
+C. Avoid users
+D. Grant all privileges
+
+✅ ANSWER KEY
+Basic:
+
+B | 2. B | 3. C | 4. B | 5. B | 6. B | 7. C | 8. B | 9. C | 10. B
+Intermediate:
+11. B | 12. B | 13. B | 14. C | 15. A | 16. C | 17. C | 18. C | 19. A | 20. A
+
+Advanced:
+21. B | 22. B | 23. B | 24. B | 25. C | 26. B | 27. A | 28. C | 29. C | 30. B
+
+🎯 CCEE EXAM HINT (VERY IMPORTANT)
+Expect comparison MCQs on
+DELETE vs TRUNCATE vs DROP,
+CREATE USER + GRANT, and
+ALTER vs UPDATE — these are guaranteed trap areas.
+
+👉 Send the next MySQL / Programming Concepts topic when ready 🚀
