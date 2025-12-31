@@ -1,0 +1,212 @@
+Perfect 👍 — this is pure CCEE gold.
+These three topics are frequently clubbed together in the exam, with logic + output-based MCQs.
+
+Below is a clean, exam-ready MCQ set:
+
+✅ 10 Basic + 10 Intermediate + 10 Advanced MCQs
+Covering:
+
+SELECT (specific columns)
+WHERE (filtering)
+ORDER BY (analytical sorting)
+Answer key is at the bottom.
+
+📘 MySQL: SELECT, WHERE & ORDER BY (CCEE-Oriented)
+🔹 BASIC LEVEL MCQs (10)
+1. Which keyword retrieves specific columns from a table?
+A. FETCH
+B. SELECT
+C. GET
+D. EXTRACT
+
+2. Which query retrieves only name and salary columns?
+A. SELECT * FROM emp;
+B. SELECT emp FROM name, salary;
+C. SELECT name, salary FROM emp;
+D. SELECT (name, salary) FROM emp;
+
+3. Which clause is used to filter rows?
+A. ORDER BY
+B. GROUP BY
+C. WHERE
+D. HAVING
+
+4. Which operator checks equality in MySQL?
+A. ==
+B. =
+C. ===
+D. :=
+
+5. Which query retrieves employees from department 10?
+A. SELECT * FROM emp dept=10;
+B. SELECT * FROM emp WHERE dept=10;
+C. SELECT dept FROM emp=10;
+D. SELECT * FROM emp dept==10;
+
+6. Which clause sorts the result set?
+A. SORT BY
+B. ORDER BY
+C. FILTER BY
+D. GROUP BY
+
+7. Default sorting order in MySQL is:
+A. DESC
+B. ASC
+C. RANDOM
+D. NONE
+
+8. Which keyword specifies descending order?
+A. DOWN
+B. DECR
+C. DESC
+D. LOWER
+
+9. Which symbol separates column names in SELECT?
+A. ;
+B. .
+C. ,
+D. :
+
+10. Which statement retrieves all records?
+A. SELECT ALL emp;
+B. SELECT emp;
+C. SELECT * FROM emp;
+D. GET * FROM emp;
+
+🔸 INTERMEDIATE LEVEL MCQs (10)
+11. Which query filters salary between 30,000 and 60,000?
+A. WHERE salary IN (30000,60000)
+B. WHERE salary BETWEEN 30000 AND 60000
+C. WHERE salary > 30000 TO 60000
+D. WHERE salary RANGE 30000,60000
+
+12. Which operator is used to match patterns?
+A. IN
+B. BETWEEN
+C. LIKE
+D. ANY
+
+13. Which condition retrieves names ending with ‘a’?
+A. LIKE 'a%'
+B. LIKE '%a'
+C. LIKE '_a'
+D. LIKE '%a%'
+
+14. Which clause is evaluated before ORDER BY?
+A. SELECT
+B. FROM
+C. WHERE
+D. HAVING
+
+15. Which query sorts salary from highest to lowest?
+A. ORDER BY salary
+B. ORDER salary DESC
+C. ORDER BY salary DESC
+D. SORT salary DESC
+
+16. Which query filters multiple conditions?
+A. WHERE salary > 50000 dept=10
+B. WHERE salary > 50000 OR dept=10
+C. WHERE salary > 50000 TO dept=10
+D. WHERE salary > 50000 dept:10
+
+17. Which keyword combines conditions?
+A. PLUS
+B. JOIN
+C. AND
+D. WITH
+
+18. ORDER BY can sort data by:
+A. Column name
+B. Column alias
+C. Column position
+D. All of the above
+
+19. Which condition checks for NULL?
+A. = NULL
+B. != NULL
+C. IS NULL
+D. LIKE NULL
+
+20. Which query returns sorted & filtered data?
+A. SELECT * FROM emp ORDER BY salary WHERE dept=10;
+B. SELECT * FROM emp WHERE dept=10 ORDER BY salary;
+C. SELECT * FROM emp ORDER salary WHERE dept=10;
+D. SELECT * FROM emp SORT BY salary;
+
+🔺 ADVANCED LEVEL MCQs (10)
+21. Logical execution order of SELECT query is:
+A. SELECT → FROM → WHERE → ORDER BY
+B. FROM → WHERE → SELECT → ORDER BY
+C. WHERE → FROM → SELECT → ORDER BY
+D. FROM → SELECT → WHERE → ORDER BY
+
+22. Which query avoids ambiguity?
+A. SELECT id FROM emp, dept;
+B. SELECT id FROM emp JOIN dept;
+C. SELECT emp.id FROM emp JOIN dept;
+D. SELECT id FROM emp;
+
+23. Which clause is best for analytical sorting?
+A. WHERE
+B. ORDER BY
+C. GROUP BY
+D. HAVING
+
+24. Which filter is applied LAST?
+A. WHERE
+B. FROM
+C. SELECT
+D. ORDER BY
+
+25. Which WHERE clause gives incorrect results?
+A. salary > 50000
+B. salary = NULL
+C. salary IS NULL
+D. salary BETWEEN 20000 AND 40000
+
+26. Which keyword filters multiple values?
+A. BETWEEN
+B. LIKE
+C. IN
+D. ALL
+
+27. Sorting strings in MySQL depends on:
+A. Storage engine
+B. Collation
+C. Index type
+D. Table size
+
+28. ORDER BY with column position means:
+A. ORDER BY column name
+B. ORDER BY alias
+C. ORDER BY column number in SELECT
+D. ORDER BY primary key
+
+29. Which condition is MOST error-prone in exams?
+A. LIKE
+B. BETWEEN
+C. IS NULL
+D. = NULL
+
+30. CCEE MOST COMMON TRAP is:
+A. SELECT syntax
+B. WHERE vs ORDER BY placement
+C. Data types
+D. Index usage
+
+✅ ANSWER KEY
+Basic:
+
+B | 2. C | 3. C | 4. B | 5. B | 6. B | 7. B | 8. C | 9. C | 10. C
+Intermediate:
+11. B | 12. C | 13. B | 14. C | 15. C | 16. B | 17. C | 18. D | 19. C | 20. B
+
+Advanced:
+21. B | 22. C | 23. B | 24. D | 25. B | 26. C | 27. B | 28. C | 29. D | 30. B
+
+🎯 FINAL CCEE REVISION TIP
+Memorize this one golden order:
+FROM → WHERE → SELECT → ORDER BY
+
+👉 Ready for GROUP BY & HAVING, Subqueries, or Indexes next? 🚀
