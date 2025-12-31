@@ -1,0 +1,249 @@
+Great 👍 — this is core Python logic + syntax, and very common in CCEE (expect small code-based MCQs).
+
+Below is a clean, exam-oriented MCQ set covering ALL the given topics together:
+
+✅ 10 Basic + 10 Intermediate + 10 Advanced MCQs
+Topics covered:
+
+Creating & printing dictionaries
+Using for / while loops
+Inserting & deleting items in dictionaries
+Answer key is at the bottom.
+
+📘 Python: Dictionary Creation, Loops & Insert/Delete Operations (CCEE-Oriented)
+🔹 BASIC LEVEL MCQs (10)
+1. Which syntax creates an empty dictionary?
+A. d = []
+B. d = ()
+C. d = {}
+D. d = <>
+
+2. Which statement prints a dictionary d?
+A. print[d]
+B. echo(d)
+C. print(d)
+D. display(d)
+
+3. Which creates a dictionary with one key-value pair?
+A. {1,2}
+B. {'a'=1}
+C. {'a':1}
+D. ('a':1)
+
+4. Which loop is best to iterate over dictionary keys?
+A. while
+B. for
+C. do-while
+D. repeat
+
+5. Which keyword is used to start a loop in Python?
+A. loop
+B. iterate
+C. for
+D. foreach
+
+6. Which method inserts a new key-value pair?
+A. add()
+B. insert()
+C. assignment (d[key]=value)
+D. push()
+
+7. Which deletes a key-value pair?
+A. remove()
+B. delete()
+C. pop()
+D. erase()
+
+8. Which loop runs at least once?
+A. for
+B. while
+C. do-while
+D. None in Python
+
+9. Which function gives number of items in dictionary?
+A. size()
+B. count()
+C. len()
+D. length()
+
+10. Dictionary keys must be:
+A. Mutable
+B. Immutable
+C. Lists
+D. Dictionaries
+
+🔸 INTERMEDIATE LEVEL MCQs (10)
+11. Output of:
+
+d = {'x':1,'y':2}
+print(d)
+A. Error
+B. {'x':1,'y':2}
+C. [('x',1),('y',2)]
+D. Keys only
+
+12. Which loop prints dictionary keys?
+A.
+
+for k in d:
+    print(k)
+B.
+
+for k in d.values():
+    print(k)
+C.
+
+for k in d.items():
+    print(k)
+D.
+
+while d:
+    print(d)
+13. Which prints both key and value?
+A.
+
+for k in d:
+    print(k)
+B.
+
+for k,v in d.items():
+    print(k,v)
+C.
+
+for v in d.values():
+    print(v)
+D.
+
+while d:
+    print(d)
+14. Which adds key 'age' with value 25?
+A. d.add('age',25)
+B. d.insert('age',25)
+C. d['age'] = 25
+D. d.append('age',25)
+
+15. Which safely deletes a key if exists?
+A. del d[key]
+B. d.pop(key)
+C. d.remove(key)
+D. d.delete(key)
+
+16. What happens if key does not exist in del d[key]?
+A. Ignored
+B. None returned
+C. KeyError
+D. New key created
+
+17. Which loop is condition-based?
+A. for
+B. while
+C. foreach
+D. repeat
+
+18. Output of:
+
+i = 1
+while i <= 3:
+    print(i)
+    i += 1
+A. 1 2 3
+B. 0 1 2
+C. Infinite loop
+D. Error
+
+19. Which statement is TRUE?
+A. Dictionary is indexed
+B. Dictionary maintains insertion order (Python 3.7+)
+C. Dictionary allows duplicate keys
+D. Keys can be lists
+
+20. Which deletes entire dictionary?
+A. d.clear()
+B. d = {}
+C. del d
+D. All of the above
+
+🔺 ADVANCED LEVEL MCQs (10)
+21. Output of:
+
+d = {}
+d['a'] = 1
+d['a'] = 2
+print(d)
+A. {'a':1}
+B. {'a':2}
+C. Error
+D. Duplicate keys
+
+22. Which avoids KeyError while deleting?
+A. del d[key]
+B. d.pop(key)
+C. d.pop(key, None)
+D. remove(d,key)
+
+23. Time complexity of dictionary insert/delete is:
+A. O(n)
+B. O(log n)
+C. O(1) average
+D. O(n²)
+
+24. Which loop is best when number of iterations is known?
+A. while
+B. for
+C. infinite
+D. recursive
+
+25. Output of:
+
+d = {'a':1,'b':2}
+for k in d:
+    print(k)
+A. Values printed
+B. Keys printed
+C. Key-value pairs
+D. Error
+
+26. Which deletes and returns value?
+A. del
+B. remove()
+C. pop()
+D. clear()
+
+27. Which causes infinite loop?
+A. Missing increment in while
+B. for loop
+C. break statement
+D. pass statement
+
+28. Which statement is INVALID?
+A. for k in d:
+B. for k,v in d.items():
+C. while d:
+D. foreach k in d:
+
+29. Which prints dictionary in sorted key order?
+A. print(d)
+B. for k in sorted(d): print(k)
+C. d.sort()
+D. sort(d)
+
+30. CCEE MOST COMMON TRAP is:
+A. Loop syntax
+B. Dict overwrite behavior
+C. del vs pop
+D. All of the above
+
+✅ ANSWER KEY
+Basic:
+
+C | 2. C | 3. C | 4. B | 5. C | 6. C | 7. C | 8. D | 9. C | 10. B
+Intermediate:
+11. B | 12. A | 13. B | 14. C | 15. B | 16. C | 17. B | 18. A | 19. B | 20. D
+
+Advanced:
+21. B | 22. C | 23. C | 24. B | 25. B | 26. C | 27. A | 28. D | 29. B | 30. D
+
+🎯 CCEE QUICK MEMORY POINTS
+Dictionary keys overwrite, never duplicate
+for → known range | while → condition-based
+del vs pop() → very frequent exam trap
