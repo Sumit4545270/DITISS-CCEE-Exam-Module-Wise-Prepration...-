@@ -1,0 +1,210 @@
+Excellent 👍 — this is one of the MOST IMPORTANT MySQL sections for CCEE.
+Expect output-based + logic-trap MCQs from these exact topics.
+
+I’ll cover ALL 4 topics together with a single structured MCQ set:
+
+✅ 10 Basic + 10 Intermediate + 10 Advanced MCQs
+Focused on:
+
+SELECT
+WHERE
+ORDER BY
+Basic JOINs (INNER / LEFT / RIGHT)
+Answer key is at the bottom (exam-ready).
+
+📘 MySQL: SELECT, WHERE, ORDER BY & JOINs (CCEE-Oriented)
+🔹 BASIC LEVEL MCQs (10)
+1. Which keyword is used to fetch data from a table?
+A. GET
+B. FETCH
+C. SELECT
+D. RETRIEVE
+
+2. Which statement selects all columns from table emp?
+A. SELECT emp;
+B. SELECT * FROM emp;
+C. SELECT ALL emp;
+D. FETCH * emp;
+
+3. Which clause filters rows in a SELECT query?
+A. GROUP BY
+B. ORDER BY
+C. WHERE
+D. HAVING
+
+4. Which operator checks equality in WHERE clause?
+A. ==
+B. :=
+C. =
+D. ===
+
+5. Which query fetches employees with salary > 50000?
+A. SELECT * FROM emp salary > 50000;
+B. SELECT * FROM emp WHERE salary > 50000;
+C. SELECT salary > 50000 FROM emp;
+D. SELECT emp WHERE salary > 50000;
+
+6. Which clause sorts the result set?
+A. SORT BY
+B. GROUP BY
+C. ORDER BY
+D. FILTER BY
+
+7. Default sorting order in ORDER BY is:
+A. DESC
+B. RANDOM
+C. ASC
+D. NONE
+
+8. Which keyword sorts data in descending order?
+A. DOWN
+B. DESC
+C. DECR
+D. LOW
+
+9. Which JOIN returns only matching rows?
+A. LEFT JOIN
+B. RIGHT JOIN
+C. FULL JOIN
+D. INNER JOIN
+
+10. Which clause combines rows from two tables?
+A. UNION
+B. JOIN
+C. MERGE
+D. LINK
+
+🔸 INTERMEDIATE LEVEL MCQs (10)
+11. Which query filters multiple conditions?
+A. WHERE salary > 50000, dept=10
+B. WHERE salary > 50000 AND dept=10
+C. WHERE salary > 50000 & dept=10
+D. WHERE salary > 50000 dept=10
+
+12. Which operator checks values within a range?
+A. IN
+B. BETWEEN
+C. LIKE
+D. ANY
+
+13. Which WHERE condition finds names starting with ‘A’?
+A. WHERE name = 'A%'
+B. WHERE name LIKE 'A%'
+C. WHERE name LIKE '%A'
+D. WHERE name IN ('A')
+
+14. Which clause is executed FIRST logically?
+A. SELECT
+B. ORDER BY
+C. WHERE
+D. FROM
+
+15. Which query sorts by salary descending?
+A. ORDER salary DESC
+B. ORDER BY salary DESC
+C. SORT salary DESC
+D. SORT BY salary
+
+16. Which JOIN returns all rows from left table?
+A. INNER JOIN
+B. RIGHT JOIN
+C. LEFT JOIN
+D. CROSS JOIN
+
+17. Which JOIN produces Cartesian product?
+A. INNER JOIN
+B. LEFT JOIN
+C. CROSS JOIN
+D. RIGHT JOIN
+
+18. How many columns can ORDER BY use?
+A. One only
+B. Two only
+C. Three only
+D. Multiple
+
+19. Which is a valid JOIN condition?
+A. emp.id == dept.id
+B. emp.id = dept.id
+C. emp.id := dept.id
+D. emp.id === dept.id
+
+20. Which JOIN keyword is optional in MySQL?
+A. INNER
+B. LEFT
+C. RIGHT
+D. FULL
+
+🔺 ADVANCED LEVEL MCQs (10)
+21. What is the correct execution order?
+A. SELECT → FROM → WHERE → ORDER BY
+B. FROM → WHERE → SELECT → ORDER BY
+C. WHERE → SELECT → FROM → ORDER BY
+D. FROM → SELECT → WHERE → ORDER BY
+
+22. Which query filters after JOIN?
+A. WHERE clause
+B. ON clause
+C. HAVING clause
+D. ORDER BY clause
+
+23. Difference between WHERE and ON in JOINs?
+A. Same usage
+B. ON filters join, WHERE filters result
+C. WHERE faster
+D. ON only for LEFT JOIN
+
+24. Which query avoids ambiguity when column names are same?
+A. SELECT id FROM emp, dept;
+B. SELECT id FROM emp JOIN dept;
+C. SELECT emp.id FROM emp JOIN dept;
+D. SELECT id FROM emp;
+
+25. Which JOIN keeps unmatched rows as NULL?
+A. INNER JOIN
+B. LEFT JOIN
+C. CROSS JOIN
+D. SELF JOIN
+
+26. Which WHERE condition filters NULL values?
+A. = NULL
+B. != NULL
+C. IS NULL
+D. LIKE NULL
+
+27. ORDER BY can sort by:
+A. Column name only
+B. Column index only
+C. Alias only
+D. All of the above
+
+28. Which JOIN is NOT supported directly in MySQL?
+A. INNER JOIN
+B. LEFT JOIN
+C. RIGHT JOIN
+D. FULL OUTER JOIN
+
+29. Which condition gives incorrect result in LEFT JOIN?
+A. Filtering in ON clause
+B. Filtering in WHERE clause
+C. Using aliases
+D. Using ORDER BY
+
+30. CCEE MOST COMMON TRAP is:
+A. SELECT syntax
+B. JOIN vs WHERE filtering
+C. ORDER BY syntax
+D. Column naming
+
+✅ ANSWER KEY
+Basic:
+
+C | 2. B | 3. C | 4. C | 5. B | 6. C | 7. C | 8. B | 9. D | 10. B
+Intermediate:
+11. B | 12. B | 13. B | 14. D | 15. B | 16. C | 17. C | 18. D | 19. B | 20. A
+
+Advanced:
+21. B | 22. B | 23. B | 24. C | 25. B | 26. C | 27. D | 28. D | 29. B | 30. B
+
+🎯 FINAL CCEE TIP (VERY IMPORTANT)
+Most wrong answers come from: your internal fear about exam (keep yourself calm in Exam)
