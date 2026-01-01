@@ -1,0 +1,242 @@
+Excellent 👍 — this block mixes Python fundamentals + data structures, and it’s very CCEE-friendly (especially tuple immutability, multiple assignment, set behavior).
+
+Below is a complete MCQ set covering ALL given topics together:
+
+✅ 10 Basic + 10 Intermediate + 10 Advanced MCQs
+Topics covered:
+
+Tuples (intro, properties)
+Declaring & referencing variables
+Multiple assignment
+Joining lists & splitting strings
+Sets (intro & behavior)
+Answer key is at the bottom.
+
+📘 Python: Tuples, Variables, Multiple Assignment, Lists & Sets (CCEE-Oriented)
+🔹 BASIC LEVEL MCQs (10)
+1. Which data type is immutable?
+A. List
+B. Dictionary
+C. Tuple
+D. Set
+
+2. How is a tuple defined?
+A. t = []
+B. t = {}
+C. t = ()
+D. t = <>
+
+3. Which declares a variable in Python?
+A. int x
+B. var x
+C. x = 10
+D. declare x
+
+4. Which is valid multiple assignment?
+A. a = b = c = 5
+B. a,b = 1
+C. a = 1,2
+D. a := 5
+
+5. How do you reference a variable?
+A. Using $x
+B. Using &x
+C. Using variable name
+D. Using ref(x)
+
+6. Which joins list elements into a string?
+A. join()
+B. split()
+C. merge()
+D. combine()
+
+7. Which splits a string into a list?
+A. join()
+B. split()
+C. break()
+D. cut()
+
+8. Which data type stores unique elements only?
+A. List
+B. Tuple
+C. Dictionary
+D. Set
+
+9. Which symbol is used to define a set?
+A. {}
+B. ()
+C. []
+D. <>
+
+10. Which statement about tuples is TRUE?
+A. Tuples are mutable
+B. Tuples allow item assignment
+C. Tuples are ordered
+D. Tuples use {}
+
+🔸 INTERMEDIATE LEVEL MCQs (10)
+11. Output of:
+
+t = (1,2,3)
+print(t[1])
+A. 1
+B. 2
+C. 3
+D. Error
+
+12. Which creates a single-element tuple?
+A. (5)
+B. [5]
+C. (5,)
+D. {5}
+
+13. Which swaps values of two variables?
+A.
+
+a,b = b,a
+B.
+
+a = b; b = a
+C.
+
+swap(a,b)
+D.
+
+a <-> b
+14. Output of:
+
+a,b,c = 1,2,3
+print(b)
+A. 1
+B. 2
+C. 3
+D. Error
+
+15. What happens if variable is referenced before assignment?
+A. None
+B. 0
+C. Error
+D. Auto assigned
+
+16. Output of:
+
+"-".join(['a','b','c'])
+A. abc
+B. a-b-c
+C. ['a','b','c']
+D. Error
+
+17. Output of:
+
+"a,b,c".split(",")
+A. 'a,b,c'
+B. ['a','b','c']
+C. ('a','b','c')
+D. Error
+
+18. Which creates an empty set?
+A. {}
+B. ()
+C. []
+D. set()
+
+19. Which operation is NOT allowed on tuple?
+A. Indexing
+B. Slicing
+C. Concatenation
+D. Item assignment
+
+20. Which removes duplicate values automatically?
+A. List
+B. Tuple
+C. Set
+D. Dictionary
+
+🔺 ADVANCED LEVEL MCQs (10)
+21. Output of:
+
+t = (1,2,3)
+t += (4,)
+print(t)
+A. (1,2,3)
+B. (4,)
+C. (1,2,3,4)
+D. Error
+
+22. Which causes an error?
+A. x,y = 1,2
+B. x,y = (1,2)
+C. x,y = 1
+D. x=y=5
+
+23. Output of:
+
+s = {1,2,2,3}
+print(s)
+A. {1,2,2,3}
+B. {1,2,3}
+C. Error
+D. Ordered set
+
+24. Time complexity of membership test in set is:
+A. O(n)
+B. O(log n)
+C. O(1) average
+D. O(n²)
+
+25. Which statement is TRUE?
+A. Sets are ordered
+B. Sets allow duplicates
+C. Sets are mutable
+D. Sets support indexing
+
+26. Output of:
+
+a = 5
+b = a
+a = 10
+print(b)
+A. 5
+B. 10
+C. None
+D. Error
+
+27. Which joins list of numbers?
+A. "".join([1,2])
+B. "".join(map(str,[1,2]))
+C. join([1,2])
+D. Error always
+
+28. Which operation creates a set from list?
+A. {list}
+B. set(list)
+C. list(set)
+D. convert(list)
+
+29. Which is unpacking?
+A. a = (1,2)
+B. a,b = (1,2)
+C. a = 1,2
+D. a += b
+
+30. CCEE MOST COMMON TRAP is:
+A. Single-element tuple
+B. Empty set syntax
+C. Multiple assignment mismatch
+D. All of the above
+
+✅ ANSWER KEY
+Basic:
+
+C | 2. C | 3. C | 4. A | 5. C | 6. A | 7. B | 8. D | 9. A | 10. C
+Intermediate:
+11. B | 12. C | 13. A | 14. B | 15. C | 16. B | 17. B | 18. D | 19. D | 20. C
+
+Advanced:
+21. C | 22. C | 23. B | 24. C | 25. C | 26. A | 27. B | 28. B | 29. B | 30. D
+
+🎯 CCEE QUICK MEMORY POINTS
+Tuple is immutable, but can be concatenated
+Single-element tuple needs a comma (x,)
+Empty set = set() not {}
+Multiple assignment mismatch → ValueError
