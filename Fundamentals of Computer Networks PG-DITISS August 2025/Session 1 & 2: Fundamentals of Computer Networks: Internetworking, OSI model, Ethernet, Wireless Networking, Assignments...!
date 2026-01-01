@@ -1,0 +1,251 @@
+Perfect 👍
+This is Session 1 & 2 – Fundamentals of Computer Networks, and these topics are very high-weight for CCEE (expect direct theory + MCQ traps + short answers).
+
+I’ll give you two parts:
+
+📘 PART A: MCQs (CCEE-Oriented)
+✅ 10 Basic + 10 Intermediate + 10 Advanced MCQs
+Topics covered:
+
+Internetworking
+OSI Model
+Ethernet
+Wireless Networking
+Answer key at the bottom.
+
+🔹 BASIC LEVEL MCQs (10)
+1. What is a computer network?
+A. Collection of computers sharing resources
+B. Single standalone computer
+C. Only internet connection
+D. Software system
+
+2. Internetworking refers to:
+A. Connecting computers in one room
+B. Connecting multiple networks together
+C. Connecting printers only
+D. Wireless communication
+
+3. How many layers are there in OSI model?
+A. 4
+B. 5
+C. 6
+D. 7
+
+4. Which layer is responsible for physical transmission?
+A. Data Link
+B. Network
+C. Physical
+D. Transport
+
+5. Ethernet is defined under which IEEE standard?
+A. 802.3
+B. 802.11
+C. 802.15
+D. 802.16
+
+6. Ethernet mainly uses which topology?
+A. Ring
+B. Bus
+C. Star
+D. Mesh
+
+7. Wireless networks use which medium?
+A. Copper cable
+B. Fiber optic
+C. Radio waves
+D. Coaxial cable
+
+8. Which device connects different networks?
+A. Switch
+B. Hub
+C. Router
+D. Repeater
+
+9. Which is an example of wireless technology?
+A. Ethernet
+B. Wi-Fi
+C. Token Ring
+D. FDDI
+
+10. OSI model was developed by:
+A. IEEE
+B. ISO
+C. ANSI
+D. ITU
+
+🔸 INTERMEDIATE LEVEL MCQs (10)
+11. Which OSI layer handles routing?
+A. Data Link
+B. Transport
+C. Network
+D. Session
+
+12. Ethernet MAC address length is:
+A. 16 bits
+B. 32 bits
+C. 48 bits
+D. 64 bits
+
+13. Which layer ensures error-free delivery?
+A. Physical
+B. Data Link
+C. Application
+D. Presentation
+
+14. Wireless LAN standard is:
+A. IEEE 802.3
+B. IEEE 802.11
+C. IEEE 802.5
+D. IEEE 802.16
+
+15. Which device works at Data Link layer?
+A. Router
+B. Switch
+C. Gateway
+D. Modem
+
+16. CSMA/CD is used in:
+A. Wireless LAN
+B. Ethernet
+C. Bluetooth
+D. Token Ring
+
+17. Which OSI layer handles encryption?
+A. Application
+B. Session
+C. Presentation
+D. Transport
+
+18. Which wireless network covers small area?
+A. WAN
+B. MAN
+C. LAN
+D. PAN
+
+19. Internetworking allows:
+A. Resource sharing
+B. Scalability
+C. Communication between networks
+D. All of the above
+
+20. Which is NOT an OSI layer?
+A. Transport
+B. Internet
+C. Session
+D. Presentation
+
+🔺 ADVANCED LEVEL MCQs (10)
+21. Correct OSI order (top to bottom):
+A. Application → Physical
+B. Physical → Application
+C. Network → Application
+D. Data Link → Session
+
+22. Which layer converts data into signals?
+A. Physical
+B. Data Link
+C. Network
+D. Transport
+
+23. Ethernet frame contains:
+A. IP address
+B. MAC address
+C. Port number
+D. URL
+
+24. Wireless security protocol is:
+A. FTP
+B. HTTP
+C. WPA2
+D. SMTP
+
+25. Which is TRUE about Ethernet?
+A. Uses radio waves
+B. Uses MAC addressing
+C. Uses encryption by default
+D. Wireless only
+
+26. Which OSI layer establishes, manages sessions?
+A. Transport
+B. Session
+C. Application
+D. Network
+
+27. Full form of CSMA/CD?
+A. Carrier Sense Multiple Access / Collision Detection
+B. Computer Signal Management
+C. Common System Media Access
+D. Control Signal Media Access
+
+28. Which wireless device extends network coverage?
+A. Router
+B. Access Point
+C. Switch
+D. Bridge
+
+29. Which cable gives highest bandwidth?
+A. UTP
+B. STP
+C. Coaxial
+D. Fiber optic
+
+30. CCEE MOST COMMON TRAP is:
+A. OSI layer order
+B. Ethernet vs Wi-Fi standards
+C. Device-layer mapping
+D. All of the above
+
+✅ ANSWER KEY (PART A)
+Basic:
+1.A | 2.B | 3.D | 4.C | 5.A | 6.C | 7.C | 8.C | 9.B | 10.B
+
+Intermediate:
+11.C | 12.C | 13.B | 14.B | 15.B | 16.B | 17.C | 18.D | 19.D | 20.B
+
+Advanced:
+21.A | 22.A | 23.B | 24.C | 25.B | 26.B | 27.A | 28.B | 29.D | 30.D
+
+📘 PART B: ASSIGNMENT ANSWERS (VERY IMPORTANT FOR CCEE)
+✅ 1) Difference between UTP & STP
+Feature	UTP	STP
+Full form	Unshielded Twisted Pair	Shielded Twisted Pair
+Shielding	No shielding	Shielded
+Interference	More EMI	Less EMI
+Cost	Cheaper	Costly
+Usage	LAN, Ethernet	Industrial networks
+✅ 2) Categories of Cables
+CAT3 – Telephone networks
+CAT5 – 100 Mbps
+CAT5e – 1 Gbps (Enhanced)
+CAT6 – 10 Gbps (short distance)
+CAT6a – High-speed LAN
+CAT7 – Shielded, high bandwidth
+✅ 3) Meaning of “e” in CAT5e
+➡ “e” stands for Enhanced
+
+Better crosstalk control
+Higher speed than CAT5
+Supports Gigabit Ethernet
+✅ 4) OSI Model (Mnemonic for Exam)
+All
+People
+Seem
+To
+Need
+Data
+Processing
+
+Layer	Function
+Application	User interface
+Presentation	Encryption, formatting
+Session	Session control
+Transport	End-to-end delivery
+Network	Routing
+Data Link	Error detection
+Physical	Bits transmission
+🎯 CCEE FINAL TIPS
+OSI layers order = guaranteed question
+UTP vs STP = 2–3 marks theory
+Ethernet = IEEE 802.3
+Wi-Fi = IEEE 802.11
