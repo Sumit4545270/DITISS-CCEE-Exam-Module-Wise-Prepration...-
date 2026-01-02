@@ -1,0 +1,252 @@
+Excellent 👍
+PKI – Session 10 is a standards + hands-on PKI deployment session and very likely to appear in CCEE, especially PKCS vs FIPS + XCA CA workflow.
+
+Below is a DITISS-aligned, CCEE-ready MCQ set + lab walkthrough.
+
+📘 Public Key Infrastructure – Session 10
+PKCS, FIPS 140-2 & XCA CA Lab
+(PG-DITISS August 2025)
+
+🟢 BASIC MCQs (10)
+1. PKCS stands for:
+A. Public Key Cryptography System
+B. Public Key Cryptography Standards
+C. Private Key Cryptography Standard
+D. Protected Key Crypto Suite
+
+2. PKCS standards are developed by:
+A. ISO
+B. NIST
+C. RSA Laboratories
+D. IEEE
+
+3. PKCS standards are related to:
+A. Symmetric encryption
+B. Asymmetric cryptography
+C. Network routing
+D. File systems
+
+4. FIPS stands for:
+A. Federal Internet Processing Standard
+B. Federal Information Processing Standard
+C. Fast Information Processing System
+D. Flexible Internet Protection Standard
+
+5. FIPS 140-2 specifies standards for:
+A. Hash algorithms
+B. Cryptographic modules
+C. Network protocols
+D. Certificates only
+
+6. Which organization publishes FIPS standards?
+A. ISO
+B. IEEE
+C. NIST
+D. RSA
+
+7. XCA is mainly used for:
+A. Encryption only
+B. Certificate & key management
+C. Network monitoring
+D. Intrusion detection
+
+8. A CA certificate is used to:
+A. Encrypt files
+B. Sign other certificates
+C. Compress data
+D. Generate hashes
+
+9. Browser warnings occur mainly due to:
+A. Weak encryption
+B. Self-signed certificates
+C. Expired password
+D. Firewall rules
+
+10. Importing a CA certificate into browser helps to:
+A. Encrypt traffic
+B. Remove trust warnings
+C. Increase speed
+D. Compress data
+
+🔸 INTERMEDIATE MCQs (10)
+11. Which PKCS standard defines RSA cryptography?
+A. PKCS#5
+B. PKCS#7
+C. PKCS#1
+D. PKCS#12
+
+12. PKCS#12 is used for:
+A. Key exchange
+B. Storing private key + certificate
+C. Hashing
+D. Digital signature only
+
+13. PKCS#7 is mainly used for:
+A. Certificate storage
+B. Signed and encrypted messages
+C. Key generation
+D. Browser trust
+
+14. FIPS 140-2 compliance is required mainly for:
+A. Academic projects
+B. Government & regulated systems
+C. Personal encryption
+D. Open-source tools
+
+15. FIPS 140-2 defines how many security levels?
+A. 2
+B. 3
+C. 4
+D. 5
+
+16. Higher FIPS level means:
+A. Faster encryption
+B. Stronger physical & logical security
+C. Larger key size only
+D. Better compression
+
+17. In XCA, the first step to issue certificates is to:
+A. Create CSR
+B. Create CA
+C. Create website
+D. Import browser
+
+18. Website certificates are usually issued to:
+A. IP address
+B. MAC address
+C. Domain name
+D. Port number
+
+19. Which certificate type is used for HTTPS?
+A. Client certificate
+B. Code signing certificate
+C. Server certificate
+D. Root certificate
+
+20. Importing CA certificate into browser establishes:
+A. Encryption
+B. Trust
+C. Authentication
+D. Hashing
+
+🔺 ADVANCED MCQs (10)
+21. Which PKCS standard defines password-based encryption?
+A. PKCS#1
+B. PKCS#5
+C. PKCS#7
+D. PKCS#12
+
+22. FIPS 140-2 Level 4 provides:
+A. Software security only
+B. Tamper-evident protection
+C. Tamper-resistant physical security
+D. No physical security
+
+23. Why self-signed certificates are not trusted by browsers?
+A. Weak hashing
+B. No trusted CA signature
+C. Short key length
+D. Expired validity
+
+24. CA hierarchy improves PKI by:
+A. Eliminating root CA
+B. Distributing trust & risk
+C. Faster encryption
+D. Removing certificates
+
+25. In XCA, issuing a website certificate requires:
+A. Public key only
+B. CSR from website
+C. Private key of CA only
+D. Hash only
+
+26. Importing CA certificate into browser does which action?
+A. Encrypts browser data
+B. Adds CA to trust store
+C. Revokes certificates
+D. Generates keys
+
+27. HTTPS trust is established when:
+A. Certificate is self-signed
+B. Browser trusts issuing CA
+C. Key size is large
+D. Hash is SHA-1
+
+28. Which PKCS standard is commonly used in email security (S/MIME)?
+A. PKCS#1
+B. PKCS#7
+C. PKCS#8
+D. PKCS#11
+
+29. FIPS 140-2 focuses mainly on:
+A. Algorithms only
+B. Key management only
+C. Cryptographic module security
+D. Certificate formats
+
+30. CCEE TRAP in Session 10 usually tests:
+A. PKCS number vs purpose
+B. FIPS 140-2 meaning
+C. CA vs self-signed logic
+D. All of the above
+
+✅ ANSWER KEY
+Basic:
+1.B | 2.C | 3.B | 4.B | 5.B | 6.C | 7.B | 8.B | 9.B | 10.B
+
+Intermediate:
+11.C | 12.B | 13.B | 14.B | 15.C | 16.B | 17.B | 18.C | 19.C | 20.B
+
+Advanced:
+21.B | 22.C | 23.B | 24.B | 25.B | 26.B | 27.B | 28.B | 29.C | 30.D
+
+🧪 LAB PART (VERY IMPORTANT – PRACTICAL + VIVA)
+🔹 LAB 1: Create CA using XCA
+Steps:
+Open XCA
+Create New Database
+Generate Private Key
+Create Root CA Certificate (self-signed)
+Set validity, key usage, CA flag
+✔ This CA will sign other certificates
+
+🔹 LAB 2: Issue Website Certificate
+Domain: https://www.ditiss.local
+Steps:
+
+Create Private Key for website
+Create CSR with CN = www.ditiss.local
+Use CA → Sign CSR
+Generate Server Certificate
+Export certificate + key
+🔹 LAB 3: Configure Website (HTTPS)
+Configure web server (Apache/Nginx)
+
+Load:
+
+Server certificate
+Private key
+CA certificate
+Result: HTTPS works but browser shows warning
+
+🔹 LAB 4: Remove Browser Warning
+Steps:
+
+Export CA certificate
+
+Import CA cert into:
+
+Browser Trust Store
+Reload https://www.ditiss.local
+
+✔ Warning removed
+✔ Trust established
+
+🎯 CCEE QUICK REVISION (SESSION 10)
+PKCS = RSA standards
+FIPS 140-2 = crypto module security
+Root CA signs server certificates
+Self-signed ≠ trusted
+Browser trusts CA, not website directly
+XCA = full PKI lifecycle tool
+🔥 YOU HAVE NOW COMPLETED ENTIRE PKI (SESSION 1–10) 🔥
