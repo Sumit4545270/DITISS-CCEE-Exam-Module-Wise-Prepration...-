@@ -1,0 +1,211 @@
+Excellent 👍
+PKI – Session 3 is one of the most important & high-scoring sessions for CCEE. Questions usually mix concepts + comparisons + protocol understanding.
+
+Below is a full CCEE-oriented MCQ set for Session 3.
+
+📘 Public Key Infrastructure – Session 3
+Cryptographic Fundamentals, Ciphers & Protocols
+(PG-DITISS August 2025 – CCEE Pattern)
+
+✅ 10 Basic + 10 Intermediate + 10 Advanced MCQs
+Answer key at the bottom.
+
+🔹 BASIC LEVEL MCQs (10)
+1. Cryptography is the science of:
+A. Networking
+B. Data compression
+C. Secure communication
+D. Data storage
+
+2. Main goal of cryptography is to ensure:
+A. Speed
+B. Security
+C. Redundancy
+D. Availability only
+
+3. A cipher is:
+A. A key
+B. An algorithm for encryption/decryption
+C. A protocol
+D. A password
+
+4. Which type of encryption uses same key for encryption and decryption?
+A. Asymmetric
+B. Symmetric
+C. Hybrid
+D. Hashing
+
+5. Which type of encryption uses two different keys?
+A. Symmetric
+B. Stream
+C. Block
+D. Asymmetric
+
+6. Which is an example of symmetric algorithm?
+A. RSA
+B. AES
+C. DSA
+D. ECC
+
+7. Which is an example of asymmetric algorithm?
+A. DES
+B. AES
+C. RSA
+D. Blowfish
+
+8. A cryptographic key is:
+A. Algorithm
+B. Secret value
+C. Plaintext
+D. Ciphertext
+
+9. Protocols are used to:
+A. Encrypt data only
+B. Define communication rules
+C. Store data
+D. Delete data
+
+10. Which protocol secures web communication?
+A. FTP
+B. HTTP
+C. HTTPS
+D. SMTP
+
+🔸 INTERMEDIATE LEVEL MCQs (10)
+11. Which cryptographic goal ensures sender identity?
+A. Confidentiality
+B. Integrity
+C. Authentication
+D. Availability
+
+12. Which cipher encrypts data in fixed-size blocks?
+A. Stream cipher
+B. Block cipher
+C. Hash function
+D. Asymmetric cipher
+
+13. AES is classified as:
+A. Asymmetric block cipher
+B. Symmetric block cipher
+C. Symmetric stream cipher
+D. Asymmetric stream cipher
+
+14. Which is a disadvantage of symmetric encryption?
+A. Slow processing
+B. Key distribution problem
+C. Large key size
+D. No confidentiality
+
+15. Which protocol was used before HTTPS for secure communication?
+A. SSL
+B. FTP
+C. Telnet
+D. SMTP
+
+16. Asymmetric encryption is mainly used for:
+A. Bulk data encryption
+B. Key exchange
+C. Compression
+D. Hashing
+
+17. Which key is shared publicly in asymmetric cryptography?
+A. Secret key
+B. Private key
+C. Public key
+D. Session key
+
+18. Which protocol provides secure email?
+A. HTTP
+B. SSL
+C. S/MIME
+D. FTP
+
+19. Key generation refers to:
+A. Creating ciphertext
+B. Creating encryption keys
+C. Encrypting files
+D. Sending keys
+
+20. Ciphering a message means:
+A. Deleting message
+B. Compressing message
+C. Encrypting message
+D. Signing message
+
+🔺 ADVANCED LEVEL MCQs (10)
+21. Which combination is correct?
+A. RSA → Symmetric
+B. AES → Asymmetric
+C. RSA → Asymmetric
+D. DES → Asymmetric
+
+22. Why is asymmetric encryption slower?
+A. Uses same key
+B. Uses mathematical complexity
+C. Uses small keys
+D. Uses hashing
+
+23. Which protocol uses both symmetric & asymmetric encryption?
+A. FTP
+B. HTTP
+C. TLS/SSL
+D. Telnet
+
+24. In HTTPS, asymmetric encryption is used for:
+A. Data transfer
+B. Key exchange
+C. Data compression
+D. Hashing
+
+25. Session keys are generally:
+A. Asymmetric
+B. Long-term keys
+C. Symmetric
+D. Public
+
+26. Which protocol replaced SSL?
+A. IPSec
+B. TLS
+C. SSH
+D. SFTP
+
+27. Which cryptographic primitive ensures integrity only?
+A. Encryption
+B. Hash function
+C. Digital signature
+D. Certificate
+
+28. Cipher strength depends mainly on:
+A. Algorithm name
+B. Key length
+C. File size
+D. Network speed
+
+29. Which attack targets weak cryptographic keys?
+A. DoS
+B. Brute force
+C. Sniffing
+D. Spoofing
+
+30. CCEE MOST COMMON TRAP in cryptography is:
+A. Symmetric vs Asymmetric confusion
+B. Protocol purpose confusion
+C. Key usage confusion
+D. All of the above
+
+✅ ANSWER KEY
+Basic:
+1.C | 2.B | 3.B | 4.B | 5.D | 6.B | 7.C | 8.B | 9.B | 10.C
+
+Intermediate:
+11.C | 12.B | 13.B | 14.B | 15.A | 16.B | 17.C | 18.C | 19.B | 20.C
+
+Advanced:
+21.C | 22.B | 23.C | 24.B | 25.C | 26.B | 27.B | 28.B | 29.B | 30.D
+
+🎯 CCEE QUICK MEMORY POINTS
+Symmetric = same key, fast (AES, DES)
+Asymmetric = public/private key, slow (RSA, ECC)
+Protocols (SSL/TLS) use BOTH
+Asymmetric → key exchange
+Symmetric → bulk data encryption
