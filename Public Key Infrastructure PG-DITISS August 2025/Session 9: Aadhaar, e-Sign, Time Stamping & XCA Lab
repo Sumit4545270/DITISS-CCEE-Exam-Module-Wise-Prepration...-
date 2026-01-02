@@ -1,0 +1,233 @@
+Perfect 👍
+PKI – Session 9 is a theory + lab integration session and very important for CCEE, especially Aadhaar e-Sign + Time Stamping + practical workflow questions.
+
+Below is a DITISS-aligned, CCEE-focused MCQ set + lab guidance.
+
+📘 Public Key Infrastructure – Session 9
+Aadhaar, e-Sign, Time Stamping & XCA Lab
+(PG-DITISS August 2025)
+
+🟢 BASIC MCQs (10)
+1. Aadhaar is issued by:
+A. RBI
+B. UIDAI
+C. MeitY
+D. CERT-In
+
+2. e-Sign is used for:
+A. File encryption
+B. Digital signing electronically
+C. Hashing data
+D. Password storage
+
+3. Aadhaar e-Sign is based on:
+A. Symmetric cryptography
+B. Asymmetric cryptography
+C. Hash only
+D. Compression
+
+4. e-Sign provides:
+A. Confidentiality
+B. Integrity and authentication
+C. Availability
+D. Compression
+
+5. Time stamping is used to:
+A. Encrypt documents
+B. Prove document existed at a certain time
+C. Generate keys
+D. Compress files
+
+6. Time Stamp Authority (TSA) provides:
+A. Encryption keys
+B. Hash values
+C. Trusted time
+D. Certificates
+
+7. Which law recognizes e-Sign in India?
+A. IT Act 2000
+B. IPC
+C. Companies Act
+D. RTI Act
+
+8. Digital signatures in e-Sign use:
+A. User’s password
+B. OTP + Aadhaar authentication
+C. Symmetric key
+D. Biometrics only
+
+9. XCA is used for:
+A. Network monitoring
+B. Certificate management
+C. Database design
+D. Virus scanning
+
+10. Digitally signing a document ensures:
+A. Confidentiality
+B. Integrity & non-repudiation
+C. Compression
+D. Backup
+
+🔸 INTERMEDIATE MCQs (10)
+11. Aadhaar e-Sign eliminates the need for:
+A. Internet
+B. Physical dongle/token
+C. Certificates
+D. Hashing
+
+12. e-Sign uses which key for signing?
+A. Public key
+B. Private key
+C. Symmetric key
+D. Session key
+
+13. Time stamping prevents which issue?
+A. Message tampering
+B. Backdating documents
+C. Key compromise
+D. DoS
+
+14. Time stamp token contains:
+A. Plaintext
+B. Encrypted document
+C. Hash + time
+D. Private key
+
+15. Which protocol is used for time stamping?
+A. FTP
+B. SMTP
+C. TSP
+D. SNMP
+
+16. XCA internally follows which PKI standard?
+A. SSL
+B. X.509
+C. AES
+D. SHA
+
+17. Which document types can be digitally signed?
+A. Word only
+B. PDF only
+C. Both Word and PDF
+D. Only text files
+
+18. If a signed document is modified:
+A. Signature remains valid
+B. Signature becomes invalid
+C. File gets encrypted
+D. Nothing happens
+
+19. Aadhaar e-Sign authentication can be done using:
+A. OTP
+B. Biometrics
+C. Both A and B
+D. Password only
+
+20. Time stamping adds which PKI service?
+A. Confidentiality
+B. Integrity
+C. Non-repudiation of time
+D. Encryption
+
+🔺 ADVANCED MCQs (10)
+21. e-Sign uses which infrastructure?
+A. Centralized database
+B. PKI infrastructure
+C. Blockchain
+D. Cloud storage
+
+22. Legal validity of e-Sign is equivalent to:
+A. Scanned signature
+B. Digital signature certificate (DSC)
+C. Password-based login
+D. Biometric ID
+
+23. Time stamping authority must be:
+A. Anonymous
+B. Trusted third party
+C. Client-side
+D. Offline system
+
+24. In XCA, a certificate must be created before:
+A. Hashing
+B. Digital signing
+C. Encryption
+D. Compression
+
+25. Which file component is signed in digital signing?
+A. Entire file encryption
+B. File hash
+C. File name
+D. Metadata only
+
+26. e-Sign reduces risk of:
+A. Identity spoofing
+B. Key leakage
+C. Network failure
+D. Storage overflow
+
+27. Time stamping combined with digital signature provides:
+A. Confidentiality
+B. Proof of integrity + signing time
+C. Faster encryption
+D. Larger key size
+
+28. Which is TRUE about Aadhaar e-Sign?
+A. User stores private key locally
+B. Private key is securely managed by ESP
+C. No authentication required
+D. Offline signing only
+
+29. XCA is mainly used in lab to understand:
+A. Network routing
+B. Certificate lifecycle
+C. Hash collisions
+D. Password cracking
+
+30. CCEE TRAP in Session 9 usually tests:
+A. e-Sign vs digital signature
+B. Time stamping purpose
+C. Lab tool understanding (XCA)
+D. All of the above
+
+✅ ANSWER KEY
+Basic:
+1.B | 2.B | 3.B | 4.B | 5.B | 6.C | 7.A | 8.B | 9.B | 10.B
+
+Intermediate:
+11.B | 12.B | 13.B | 14.C | 15.C | 16.B | 17.C | 18.B | 19.C | 20.C
+
+Advanced:
+21.B | 22.B | 23.B | 24.B | 25.B | 26.A | 27.B | 28.B | 29.B | 30.D
+
+🧪 LAB PART (VERY IMPORTANT FOR VIVA + CCEE)
+🔹 LAB 1: Create Digital Signature using XCA
+Steps:
+Open XCA
+Create New Database
+Generate Private Key
+Create Certificate (Self-signed or CA-signed)
+Export certificate (if required)
+🔹 LAB 2: Digitally Sign a Word Document
+Open Word → File → Info
+Select Protect Document
+Choose Add a Digital Signature
+Select certificate created in XCA
+Sign document
+✔ Any modification → signature invalid
+
+🔹 LAB 3: Digitally Sign a PDF Document
+Open PDF in Adobe Reader
+Tools → Certificates → Digitally Sign
+Select area → choose certificate
+Save signed PDF
+✔ Integrity + non-repudiation ensured
+
+🎯 CCEE QUICK REVISION (SESSION 9)
+Aadhaar e-Sign = legally valid
+Uses OTP/Biometrics
+No physical token required
+Time stamping = proof of time
+XCA = certificate management tool
+Document change → signature invalid
+🔥 YOU HAVE NOW COMPLETED ENTIRE PKI (SESSION 1–9) 🔥
