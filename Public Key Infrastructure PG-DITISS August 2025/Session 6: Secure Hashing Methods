@@ -1,0 +1,217 @@
+Excellent choice 👍
+PKI – Session 6 (Secure Hashing) is very scoring in CCEE because questions are usually direct, conceptual, and trap-based.
+
+Below is a DITISS–aligned, CCEE-ready MCQ set.
+
+📘 Public Key Infrastructure – Session 6
+Secure Hashing Methods (PG-DITISS August 2025)
+Topics Covered
+Secure Hashing Concepts
+SHA (Secure Hash Algorithm)
+HMAC
+🟢 BASIC MCQs (10)
+1. A hash function primarily provides:
+A. Confidentiality
+B. Integrity
+C. Authentication
+D. Non-repudiation
+
+2. Output of a hash function is called:
+A. Ciphertext
+B. Digest
+C. Key
+D. Plaintext
+
+3. SHA stands for:
+A. Secure Hash Algorithm
+B. Standard Hash Algorithm
+C. Simple Hash Algorithm
+D. Strong Hash Algorithm
+
+4. Which property ensures same input gives same hash?
+A. Avalanche effect
+B. Deterministic
+C. Collision resistance
+D. One-way
+
+5. Which is a hashing algorithm?
+A. AES
+B. DES
+C. SHA-256
+D. RSA
+
+6. Hash functions are:
+A. Reversible
+B. Two-way
+C. One-way
+D. Key-based
+
+7. SHA-1 produces a hash of:
+A. 64 bits
+B. 128 bits
+C. 160 bits
+D. 256 bits
+
+8. SHA-256 belongs to:
+A. SHA-0
+B. SHA-1 family
+C. SHA-2 family
+D. SHA-3 family
+
+9. HMAC uses:
+A. Only hash function
+B. Hash + secret key
+C. Public key
+D. Symmetric encryption only
+
+10. Hashing is mainly used to ensure:
+A. Confidentiality
+B. Integrity
+C. Availability
+D. Compression
+
+🔸 INTERMEDIATE MCQs (10)
+11. Which property prevents finding original message from hash?
+A. Determinism
+B. Pre-image resistance
+C. Collision resistance
+D. Diffusion
+
+12. Avalanche effect means:
+A. Small input change → large hash change
+B. Hash can be reversed
+C. Same hash for different input
+D. Encryption strength
+
+13. Which SHA version is considered insecure today?
+A. SHA-512
+B. SHA-384
+C. SHA-256
+D. SHA-1
+
+14. HMAC provides protection against:
+A. Replay attack
+B. Message tampering
+C. Brute force
+D. DoS
+
+15. Why HMAC is stronger than plain hash?
+A. Larger output
+B. Uses secret key
+C. Faster computation
+D. Public key usage
+
+16. Which is NOT a property of secure hash?
+A. Collision resistance
+B. Pre-image resistance
+C. Key exchange
+D. Deterministic output
+
+17. HMAC is commonly used in:
+A. Digital certificates
+B. Network protocols (TLS, IPsec)
+C. File compression
+D. Disk partitioning
+
+18. Which attack targets hash collisions?
+A. Brute force
+B. Birthday attack
+C. MITM
+D. Side-channel
+
+19. Hashing passwords is better than encrypting because:
+A. Faster
+B. Hash cannot be reversed
+C. Smaller size
+D. Uses public key
+
+20. SHA-2 family includes:
+A. SHA-1 only
+B. SHA-224, SHA-256, SHA-384, SHA-512
+C. SHA-3 only
+D. MD5
+
+🔺 ADVANCED MCQs (10)
+21. HMAC construction prevents which weakness of plain hash?
+A. Determinism
+B. Length-extension attack
+C. Collision
+D. Hash size limitation
+
+22. Which is true about SHA-3?
+A. Based on MD construction
+B. Based on Keccak
+C. Same as SHA-2
+D. Deprecated
+
+23. In HMAC, two keys (ipad & opad) are used to:
+A. Increase speed
+B. Prevent cryptographic attacks
+C. Encrypt data
+D. Reduce hash size
+
+24. Which attack exploits mathematical properties of hashes?
+A. Replay attack
+B. Birthday attack
+C. MITM
+D. Sniffing
+
+25. Which statement is correct?
+A. Hash ensures confidentiality
+B. Hash ensures integrity
+C. Hash ensures availability
+D. Hash ensures encryption
+
+26. Digital signatures use hash functions to:
+A. Encrypt message
+B. Reduce message size before signing
+C. Generate keys
+D. Authenticate network
+
+27. Which is MOST secure today?
+A. MD5
+B. SHA-1
+C. SHA-256
+D. CRC32
+
+28. HMAC uses which type of key?
+A. Public key
+B. Private key
+C. Symmetric secret key
+D. Session key only
+
+29. Which of the following is NOT a use of hashing?
+A. File integrity checking
+B. Password storage
+C. Key exchange
+D. Digital signatures
+
+30. CCEE TRAP in hashing questions usually tests:
+A. Hash vs encryption difference
+B. SHA family confusion
+C. HMAC purpose
+D. All of the above
+
+✅ ANSWER KEY
+Basic:
+1.B | 2.B | 3.A | 4.B | 5.C | 6.C | 7.C | 8.C | 9.B | 10.B
+
+Intermediate:
+11.B | 12.A | 13.D | 14.B | 15.B | 16.C | 17.B | 18.B | 19.B | 20.B
+
+Advanced:
+21.B | 22.B | 23.B | 24.B | 25.B | 26.B | 27.C | 28.C | 29.C | 30.D
+
+🎯 CCEE QUICK REVISION (SESSION 6)
+Hash = Integrity, not encryption
+SHA-1 deprecated
+SHA-256 preferred
+HMAC = Hash + Secret Key
+Birthday attack → collisions
+Digital Signature = Hash + Private Key
+If you want next, I can:
+
+✅ Give PKI Session 7 (Digital Signatures, Certificates, CA)
+✅ Create Full PKI Mock Test (60 MCQs)
+✅ Provide 1-page PKI last-day revision sheet
+Just say the word 👍
