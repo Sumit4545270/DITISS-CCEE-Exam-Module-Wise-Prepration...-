@@ -1,0 +1,213 @@
+Great 👍
+PKI – Session 7 (Digital Signatures & Digital Certificates) is one of the MOST IMPORTANT sessions for CCEE.
+Expect direct theory + tricky application MCQs.
+
+Below is a DITISS-aligned, exam-focused MCQ set.
+
+📘 Public Key Infrastructure – Session 7
+PKI Fundamentals
+Digital Signature & Digital Certificate
+(PG-DITISS August 2025)
+
+🟢 BASIC MCQs (10)
+1. A digital signature primarily provides:
+A. Confidentiality
+B. Integrity and authentication
+C. Availability
+D. Compression
+
+2. Digital signatures are created using:
+A. Sender’s public key
+B. Receiver’s public key
+C. Sender’s private key
+D. Receiver’s private key
+
+3. Digital signature verifies:
+A. Message confidentiality
+B. Message integrity
+C. Sender authentication
+D. Both B and C
+
+4. Which algorithm is commonly used for digital signatures?
+A. AES
+B. DES
+C. RSA
+D. RC4
+
+5. A digital certificate is issued by:
+A. Client
+B. Server
+C. Certificate Authority (CA)
+D. End user
+
+6. Digital certificates bind:
+A. Password to user
+B. IP address to user
+C. Public key to identity
+D. Private key to identity
+
+7. Which format is widely used for digital certificates?
+A. PEM
+B. DER
+C. X.509
+D. ASN.1
+
+8. A digital certificate contains:
+A. Public key
+B. Subject information
+C. CA signature
+D. All of the above
+
+9. Which of the following ensures non-repudiation?
+A. Hashing
+B. Encryption
+C. Digital signature
+D. HMAC
+
+10. PKI mainly deals with:
+A. Symmetric keys
+B. Asymmetric keys
+C. Hash only
+D. Compression
+
+🔸 INTERMEDIATE MCQs (10)
+11. Digital signature creation steps are:
+A. Encrypt message → hash
+B. Hash message → encrypt hash with private key
+C. Encrypt message with public key
+D. Hash with public key
+
+12. Digital signature verification uses:
+A. Sender’s private key
+B. Receiver’s private key
+C. Sender’s public key
+D. Receiver’s public key
+
+13. What happens if message is modified after signing?
+A. Signature remains valid
+B. Signature verification fails
+C. Message decrypts
+D. Nothing happens
+
+14. Which is NOT provided by digital signatures?
+A. Authentication
+B. Integrity
+C. Non-repudiation
+D. Confidentiality
+
+15. A self-signed certificate is signed by:
+A. Root CA
+B. Intermediate CA
+C. Same entity
+D. Government
+
+16. Certificate Revocation List (CRL) contains:
+A. Valid certificates
+B. Expired certificates
+C. Revoked certificates
+D. Root certificates
+
+17. Which protocol uses digital certificates extensively?
+A. FTP
+B. HTTP
+C. HTTPS
+D. SMTP
+
+18. Which component manages digital certificates?
+A. Firewall
+B. IDS
+C. Certificate Authority
+D. Proxy
+
+19. Public key in certificate is used for:
+A. Encryption only
+B. Decryption only
+C. Signature verification
+D. Key generation
+
+20. Which field in certificate identifies owner?
+A. Serial number
+B. Subject
+C. Issuer
+D. Version
+
+🔺 ADVANCED MCQs (10)
+21. Which ensures trust in PKI?
+A. Symmetric key
+B. CA hierarchy
+C. Hash function
+D. Firewall
+
+22. If a private key is compromised, what must be done?
+A. Change public key
+B. Revoke certificate
+C. Re-encrypt data
+D. Ignore
+
+23. Chain of trust means:
+A. Multiple encryptions
+B. Trust path from root CA to end entity
+C. Hash chaining
+D. Network routing
+
+24. Which attack targets fake certificates?
+A. Brute force
+B. Spoofing
+C. Phishing
+D. MITM
+
+25. Which is true about X.509 certificates?
+A. Used only in emails
+B. Defines certificate structure
+C. Encryption algorithm
+D. Hash algorithm
+
+26. Digital signature uses which two cryptographic techniques?
+A. Encryption + compression
+B. Hashing + asymmetric encryption
+C. Hashing + symmetric encryption
+D. Compression + encryption
+
+27. OCSP is used to:
+A. Issue certificates
+B. Verify encryption
+C. Check certificate revocation status
+D. Generate keys
+
+28. Which certificate is at the top of trust chain?
+A. End-entity certificate
+B. Intermediate certificate
+C. Root certificate
+D. Client certificate
+
+29. Digital certificates help prevent:
+A. Data loss
+B. Identity spoofing
+C. Data compression
+D. Hardware failure
+
+30. CCEE TRAP in PKI fundamentals usually tests:
+A. Signature vs encryption
+B. Public vs private key usage
+C. Certificate fields & CA role
+D. All of the above
+
+✅ ANSWER KEY
+Basic:
+1.B | 2.C | 3.D | 4.C | 5.C | 6.C | 7.C | 8.D | 9.C | 10.B
+
+Intermediate:
+11.B | 12.C | 13.B | 14.D | 15.C | 16.C | 17.C | 18.C | 19.C | 20.B
+
+Advanced:
+21.B | 22.B | 23.B | 24.D | 25.B | 26.B | 27.C | 28.C | 29.B | 30.D
+
+🎯 CCEE QUICK REVISION (SESSION 7)
+Digital Signature = Hash + Private Key
+Verification = Public Key
+Certificate binds identity ↔ public key
+CA establishes trust
+CRL / OCSP → certificate revocation
+X.509 = certificate standard
+🔥 FINAL NOTE FOR CCEE
+If you master Sessions 4–7 of PKI, you can easily score 80–90% in PKI questions.
