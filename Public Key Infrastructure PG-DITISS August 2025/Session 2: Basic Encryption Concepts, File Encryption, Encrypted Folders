@@ -1,0 +1,232 @@
+Great 👍
+**PKI – Session 2 (Basic Encryption, File Encryption, Encrypted Folders)** is **very exam-friendly for CCEE** — expect **definitions + command-based + concept-mapping MCQs**.
+
+Below is a **complete CCEE-oriented MCQ set**.
+
+---
+
+# 📘 Public Key Infrastructure – Session 2
+
+### Basic Encryption Concepts, File Encryption, Encrypted Folders
+
+*(PG-DITISS August 2025 – CCEE Pattern)*
+
+✅ **10 Basic + 10 Intermediate + 10 Advanced MCQs**
+Answer key at the **bottom**.
+
+---
+
+## 🔹 BASIC LEVEL MCQs (10)
+
+**1.** Encryption is the process of:
+A. Copying data
+B. Converting plaintext into ciphertext
+C. Compressing data
+D. Deleting data
+
+**2.** Plaintext refers to:
+A. Encrypted data
+B. Original readable data
+C. Compressed data
+D. Backup data
+
+**3.** Ciphertext is:
+A. Readable message
+B. Encrypted message
+C. Decrypted data
+D. Key
+
+**4.** Which element is REQUIRED for encryption?
+A. Algorithm
+B. Key
+C. Plaintext
+D. All of the above
+
+**5.** Encryption mainly ensures:
+A. Availability
+B. Integrity
+C. Confidentiality
+D. Authentication
+
+**6.** File encryption protects:
+A. Network traffic
+B. Stored files
+C. User passwords only
+D. Hardware
+
+**7.** Which OS provides built-in file encryption?
+A. DOS
+B. Windows
+C. All modern OS
+D. None
+
+**8.** Encrypted folder means:
+A. Folder hidden
+B. Folder compressed
+C. Folder contents encrypted
+D. Folder deleted
+
+**9.** `cipher` command in Windows is used to:
+A. Compress files
+B. Encrypt/decrypt files and folders
+C. Delete files
+D. Backup files
+
+**10.** Which is a graphical way to encrypt a folder in Windows?
+A. Command Prompt
+B. Properties → Advanced → Encrypt
+C. Registry Editor
+D. Task Manager
+
+---
+
+## 🔸 INTERMEDIATE LEVEL MCQs (10)
+
+**11.** Encryption without key is:
+A. Strong
+B. Weak
+C. Impossible
+D. Optional
+
+**12.** Which encryption protects data at rest?
+A. Network encryption
+B. File encryption
+C. SSL
+D. TLS
+
+**13.** Which Windows feature uses EFS?
+A. NTFS
+B. FAT32
+C. exFAT
+D. ReFS only
+
+**14.** `cipher /e` command does what?
+A. Decrypts files
+B. Encrypts files
+C. Deletes files
+D. Compresses files
+
+**15.** Which command decrypts encrypted files?
+A. `cipher /d`
+B. `cipher /e`
+C. `cipher /c`
+D. `cipher /x`
+
+**16.** Which key is used in file encryption by default in Windows EFS?
+A. Public key only
+B. Private key only
+C. Symmetric key protected by user certificate
+D. No key
+
+**17.** What happens if encryption certificate is lost?
+A. File remains accessible
+B. File becomes unreadable
+C. File auto-decrypts
+D. File is deleted
+
+**18.** Which folder encryption applies encryption to sub-files?
+A. No folder supports this
+B. Only file-level
+C. Folder-level encryption
+D. Compression
+
+**19.** Which is TRUE about EFS?
+A. Works on FAT32
+B. Works only on NTFS
+C. Encrypts entire disk
+D. Requires internet
+
+**20.** Which encryption scope protects entire drive?
+A. File encryption
+B. Folder encryption
+C. Disk encryption (BitLocker)
+D. Compression
+
+---
+
+## 🔺 ADVANCED LEVEL MCQs (10)
+
+**21.** File encryption mainly protects against:
+A. Network sniffing
+B. Unauthorized file access
+C. DoS attack
+D. Spoofing
+
+**22.** Encryption folders are BEST used when:
+A. Files change frequently
+B. Files are temporary
+C. Multiple sensitive files exist
+D. No security needed
+
+**23.** `cipher /w` command is used to:
+A. Encrypt files
+B. Decrypt files
+C. Overwrite deleted data
+D. Backup encryption key
+
+**24.** Which is NOT true about file encryption?
+A. Protects data at rest
+B. Needs key management
+C. Protects during transmission
+D. Depends on OS support
+
+**25.** Which attack is mitigated by file encryption?
+A. Insider theft
+B. Data theft from stolen disk
+C. DoS
+D. Replay attack
+
+**26.** Which encryption approach allows transparency to user?
+A. Manual file encryption
+B. Folder-based encryption
+C. Application-level encryption
+D. Network encryption
+
+**27.** Loss of private key affects:
+A. Encryption only
+B. Decryption only
+C. Both
+D. None
+
+**28.** Which command displays encryption status?
+A. `cipher /e`
+B. `cipher /d`
+C. `cipher /c`
+D. `cipher /s`
+
+**29.** Which is a limitation of file-level encryption?
+A. Complex setup
+B. No protection for backups
+C. High bandwidth usage
+D. Requires internet
+
+**30.** CCEE MOST COMMON TRAP in encryption is:
+A. Plaintext vs Ciphertext
+B. File vs Disk encryption
+C. `cipher /e` vs `cipher /d`
+D. All of the above
+
+---
+
+## ✅ ANSWER KEY
+
+**Basic:**
+1.B | 2.B | 3.B | 4.D | 5.C | 6.B | 7.C | 8.C | 9.B | 10.B
+
+**Intermediate:**
+11.C | 12.B | 13.A | 14.B | 15.A | 16.C | 17.B | 18.C | 19.B | 20.C
+
+**Advanced:**
+21.B | 22.C | 23.C | 24.C | 25.B | 26.B | 27.B | 28.C | 29.B | 30.D
+
+---
+
+## 🎯 CCEE QUICK MEMORY POINTS
+
+* **Encryption = Plaintext → Ciphertext**
+* **File/Folder Encryption = Data at Rest**
+* **Windows EFS → NTFS only**
+* **cipher /e → encrypt | /d → decrypt**
+* **Disk Encryption ≠ File Encryption**
+
+---
