@@ -1,0 +1,258 @@
+Perfect 👍
+PKI – Session 5 is a high-impact + lab-heavy session for PG-DITISS CCEE.
+Questions usually mix theory (Diffie-Hellman, attacks, issues) with tool-based understanding (Cryptool).
+
+Below is a CCEE-oriented, exam-ready package:
+
+📘 Public Key Infrastructure – Session 5
+Diffie-Hellman, Attacks, Cryptographic Issues + Cryptool Lab
+(PG-DITISS August 2025)
+
+🟢 PART A: MCQs (CCEE Pattern)
+✅ 10 Basic + 10 Intermediate + 10 Advanced MCQs
+Answer key at the bottom.
+
+🔹 BASIC LEVEL MCQs (10)
+1. Diffie-Hellman is used for:
+A. Data encryption
+B. Key exchange
+C. Hashing
+D. Digital signatures
+
+2. Diffie-Hellman allows two parties to:
+A. Encrypt files
+B. Share secret key over insecure channel
+C. Authenticate users
+D. Compress data
+
+3. Which type of algorithm is Diffie-Hellman?
+A. Symmetric
+B. Asymmetric
+C. Hash
+D. Stream cipher
+
+4. Caesar cipher is a:
+A. Modern cipher
+B. Public key cipher
+C. Substitution cipher
+D. Transposition cipher
+
+5. Vernam cipher is also known as:
+A. One-Time Pad
+B. Caesar cipher
+C. DES
+D. RSA
+
+6. RC4 is a:
+A. Block cipher
+B. Hash algorithm
+C. Stream cipher
+D. Asymmetric cipher
+
+7. Triple DES is also known as:
+A. DES3
+B. AES
+C. RC5
+D. Blowfish
+
+8. XOR encryption is based on:
+A. Addition
+B. Subtraction
+C. Logical XOR operation
+D. Multiplication
+
+9. Cryptool is used for:
+A. Network simulation
+B. Cryptographic learning & analysis
+C. Database encryption only
+D. Virus scanning
+
+10. Which algorithm is asymmetric?
+A. AES
+B. DES
+C. RSA
+D. RC4
+
+🔸 INTERMEDIATE LEVEL MCQs (10)
+11. Diffie-Hellman does NOT provide:
+A. Key exchange
+B. Confidentiality of key
+C. Authentication
+D. Secure key agreement
+
+12. Man-in-the-Middle attack is possible in Diffie-Hellman because:
+A. Weak encryption
+B. No authentication
+C. Short key length
+D. Slow algorithm
+
+13. Which cipher uses substitution technique?
+A. Caesar
+B. XOR
+C. DES
+D. AES
+
+14. Vernam cipher security depends on:
+A. Algorithm complexity
+B. Key length equals message length
+C. Public key
+D. Hashing
+
+15. Which attack tries all possible keys?
+A. Replay attack
+B. Brute force attack
+C. Spoofing
+D. Sniffing
+
+16. Triple DES improves security by:
+A. Using larger blocks
+B. Encrypting data three times
+C. Using public keys
+D. Using hashing
+
+17. Which algorithm is vulnerable due to short key size?
+A. AES
+B. RSA-2048
+C. DES
+D. ECC
+
+18. Cryptool allows visualization of:
+A. Network packets
+B. Cryptographic processes
+C. OS kernel
+D. File systems
+
+19. Which attack exploits poor key management?
+A. Brute force
+B. Side-channel
+C. Key compromise
+D. DoS
+
+20. Which is a cryptographic issue?
+A. Weak keys
+B. Poor randomness
+C. Implementation flaws
+D. All of the above
+
+🔺 ADVANCED LEVEL MCQs (10)
+21. Diffie-Hellman is vulnerable to:
+A. Brute force
+B. Man-in-the-Middle
+C. Replay attack
+D. DoS
+
+22. Which mathematical problem is used in Diffie-Hellman?
+A. Integer factorization
+B. Discrete logarithm
+C. Elliptic curve only
+D. Hash collision
+
+23. Which cipher provides perfect secrecy?
+A. DES
+B. AES
+C. Vernam
+D. Caesar
+
+24. Which attack observes power/timing behavior?
+A. Brute force
+B. Side-channel attack
+C. Replay attack
+D. Phishing
+
+25. Weak random number generation mainly affects:
+A. Hashing
+B. Key generation
+C. Encryption speed
+D. Storage
+
+26. Which combination is correct?
+A. RC4 → Block cipher
+B. AES → Stream cipher
+C. DES → Symmetric
+D. RSA → Symmetric
+
+27. Why Triple DES is slower than AES?
+A. Larger block size
+B. Multiple encryption rounds
+C. Asymmetric keys
+D. Hashing
+
+28. Which attack targets reused keys?
+A. Known plaintext
+B. Key reuse attack
+C. DoS
+D. Traffic analysis
+
+29. In Cryptool, RSA encryption uses:
+A. Same key
+B. Public & private key pair
+C. Hash only
+D. Symmetric key
+
+30. CCEE MOST COMMON TRAP in Session 5 is:
+A. Diffie-Hellman purpose
+B. Attack vs algorithm mapping
+C. Symmetric vs asymmetric confusion
+D. All of the above
+
+✅ ANSWER KEY (PART A)
+Basic:
+1.B | 2.B | 3.B | 4.C | 5.A | 6.C | 7.A | 8.C | 9.B | 10.C
+
+Intermediate:
+11.C | 12.B | 13.A | 14.B | 15.B | 16.B | 17.C | 18.B | 19.C | 20.D
+
+Advanced:
+21.B | 22.B | 23.C | 24.B | 25.B | 26.C | 27.B | 28.B | 29.B | 30.D
+
+🧪 PART B: LAB ASSIGNMENT NOTES (VERY IMPORTANT)
+🔹 Using Cryptool
+1️⃣ Symmetric Encryption (Cryptool)
+Algorithms practiced:
+
+Caesar Cipher
+Vernam (One-Time Pad)
+DES
+RC4
+AES
+XOR
+Substitution
+Triple DES
+👉 Steps (generic):
+
+Select algorithm
+Enter plaintext
+Provide key
+Encrypt → Ciphertext
+Decrypt → Original plaintext
+2️⃣ Asymmetric Encryption (Cryptool)
+Algorithms:
+
+RSA
+ECC
+👉 Steps:
+
+Generate key pair
+Encrypt using public key
+Decrypt using private key
+🎯 CCEE QUICK REVISION POINTS
+Diffie-Hellman = Key Exchange (not encryption)
+No authentication → MITM possible
+Vernam (OTP) = Perfect secrecy
+DES weak due to 56-bit key
+Triple DES = slower but stronger than DES
+Cryptool = concept visualization tool
+🔥 FINAL PKI EXAM STRATEGY
+If you master:
+
+Diffie-Hellman + attacks
+Symmetric vs Asymmetric mapping
+Lab algorithm purpose
+👉 You’ll score very high in PKI.
+
+Would you like next:
+
+✅ PKI Session 6 (Digital Signatures & Certificates)
+✅ Full PKI Revision MCQs (50–60 questions)
+✅ Last-minute CCEE PKI cheat sheet
+Just tell me 👍
