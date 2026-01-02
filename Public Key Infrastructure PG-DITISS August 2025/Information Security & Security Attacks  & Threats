@@ -1,0 +1,211 @@
+Great choice 👍 — PKI + Information Security + Attacks & Threats is a core scoring area in PG-DITISS CCEE.
+Expect definitions, classifications, and attack mapping questions.
+
+Below is a CCEE-oriented MCQ set for Session 1.
+
+📘 Public Key Infrastructure – Session 1
+Information Security & Security Attacks / Threats
+(PG-DITISS August 2025 – CCEE Pattern)
+
+✅ 10 Basic + 10 Intermediate + 10 Advanced MCQs
+Answer key at the bottom.
+
+🔹 BASIC LEVEL MCQs (10)
+1. Information Security primarily ensures:
+A. Speed of data
+B. Confidentiality, Integrity, Availability
+C. Data compression
+D. Data redundancy
+
+2. Which is a core principle of Information Security?
+A. Authentication
+B. Authorization
+C. Confidentiality
+D. Accounting
+
+3. Confidentiality means:
+A. Data is accurate
+B. Data is available always
+C. Data is accessible only to authorized users
+D. Data is backed up
+
+4. Integrity ensures that data is:
+A. Hidden
+B. Encrypted
+C. Not modified without authorization
+D. Always accessible
+
+5. Availability ensures:
+A. Data secrecy
+B. Data correctness
+C. Data access when needed
+D. Data encryption
+
+6. A security attack is:
+A. System failure
+B. Any action compromising security
+C. Hardware malfunction
+D. Power outage
+
+7. Which is a passive attack?
+A. Data modification
+B. Denial of Service
+C. Eavesdropping
+D. Spoofing
+
+8. Which is an active attack?
+A. Traffic analysis
+B. Eavesdropping
+C. Masquerading
+D. Monitoring
+
+9. Malware includes:
+A. Firewall
+B. Antivirus
+C. Virus
+D. Encryption
+
+10. Which attack floods system with requests?
+A. Phishing
+B. Spoofing
+C. DoS
+D. Sniffing
+
+🔸 INTERMEDIATE LEVEL MCQs (10)
+11. Which CIA principle is violated by DoS attack?
+A. Confidentiality
+B. Integrity
+C. Availability
+D. Authentication
+
+12. Which attack modifies transmitted data?
+A. Replay attack
+B. Modification attack
+C. Traffic analysis
+D. Eavesdropping
+
+13. Masquerading attack involves:
+A. Monitoring traffic
+B. Pretending to be another user
+C. Blocking services
+D. Destroying data
+
+14. Phishing is best described as:
+A. Network attack
+B. Social engineering attack
+C. Physical attack
+D. Cryptographic attack
+
+15. Which threat exploits human behavior?
+A. Brute force
+B. Phishing
+C. Sniffing
+D. DoS
+
+16. Which attack records and reuses valid data?
+A. Replay attack
+B. Trojan horse
+C. Worm
+D. Spyware
+
+17. Which security service verifies user identity?
+A. Authorization
+B. Authentication
+C. Integrity
+D. Availability
+
+18. Trojan horse differs from virus because it:
+A. Replicates automatically
+B. Requires host program
+C. Appears legitimate
+D. Attacks hardware
+
+19. Which is NOT malware?
+A. Worm
+B. Virus
+C. Firewall
+D. Trojan
+
+20. Passive attacks mainly affect:
+A. Integrity
+B. Availability
+C. Confidentiality
+D. Authentication
+
+🔺 ADVANCED LEVEL MCQs (10)
+21. Traffic analysis is dangerous because:
+A. It modifies data
+B. It blocks services
+C. It reveals communication patterns
+D. It destroys systems
+
+22. Which combination is correct?
+A. Passive → Detection difficult
+B. Active → No data modification
+C. Passive → Preventable easily
+D. Active → No impact
+
+23. Which attack targets system resources?
+A. Spoofing
+B. DoS
+C. Eavesdropping
+D. Phishing
+
+24. Integrity attacks include:
+A. Traffic analysis
+B. Modification
+C. Eavesdropping
+D. Sniffing
+
+25. Which security goal is MOST affected by replay attack?
+A. Confidentiality
+B. Integrity
+C. Availability
+D. Authentication
+
+26. Which is an example of logical threat?
+A. Fire
+B. Flood
+C. Virus
+D. Earthquake
+
+27. Zero-day attack means:
+A. No attack
+B. Attack on outdated system
+C. Attack exploiting unknown vulnerability
+D. Attack during system shutdown
+
+28. Which attack uses fake identity and credentials?
+A. Sniffing
+B. Spoofing
+C. DoS
+D. Worm
+
+29. Which security mechanism protects against modification?
+A. Encryption
+B. Hashing
+C. Firewall
+D. Backup
+
+30. CCEE MOST COMMON TRAP in security is:
+A. CIA definitions
+B. Passive vs Active attacks
+C. Mapping attack to security goal
+D. All of the above
+
+✅ ANSWER KEY
+Basic:
+1.B | 2.C | 3.C | 4.C | 5.C | 6.B | 7.C | 8.C | 9.C | 10.C
+
+Intermediate:
+11.C | 12.B | 13.B | 14.B | 15.B | 16.A | 17.B | 18.C | 19.C | 20.C
+
+Advanced:
+21.C | 22.A | 23.B | 24.B | 25.D | 26.C | 27.C | 28.B | 29.B | 30.D
+
+🎯 CCEE QUICK MEMORY POINTS
+CIA Triad = Confidentiality, Integrity, Availability
+Passive → observe (hard to detect)
+Active → modify / disrupt
+DoS → Availability
+Phishing → Social Engineering
