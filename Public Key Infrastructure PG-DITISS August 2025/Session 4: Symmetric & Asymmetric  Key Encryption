@@ -1,0 +1,210 @@
+Below are MCQs prepared strictly from a CDAC PG-DITISS (August 2025) CCEE exam perspective for:
+
+Public Key Infrastructure – Session 4
+Symmetric Key Encryption
+DES
+AES
+RC5
+Asymmetric Key Encryption
+RSA
+ECC
+🟢 Basic MCQs (10)
+Q1. Which type of encryption uses the same key for encryption and decryption?
+A. Asymmetric
+B. Symmetric
+C. Hashing
+D. Digital Signature
+
+Q2. DES uses a key size of:
+A. 128 bits
+B. 64 bits
+C. 56 bits
+D. 32 bits
+
+Q3. AES is a replacement for which algorithm?
+A. RSA
+B. DES
+C. RC5
+D. ECC
+
+Q4. AES supports which key sizes?
+A. 56 bits only
+B. 64 bits only
+C. 128, 192, 256 bits
+D. 512 bits
+
+Q5. Which algorithm is a block cipher?
+A. DES
+B. AES
+C. RC5
+D. All of the above
+
+Q6. RSA is based on which mathematical problem?
+A. Discrete Logarithm
+B. Integer Factorization
+C. Hash Collision
+D. Prime Testing
+
+Q7. Which algorithm is commonly used in digital certificates?
+A. DES
+B. AES
+C. RSA
+D. RC5
+
+Q8. ECC provides security based on:
+A. Prime numbers
+B. Elliptic curves
+C. Hash values
+D. Random numbers
+
+Q9. Which encryption type is faster?
+A. Asymmetric
+B. Symmetric
+C. Hybrid
+D. None
+
+Q10. Which key is shared publicly in RSA?
+A. Private key
+B. Session key
+C. Public key
+D. Master key
+
+🟡 Intermediate MCQs (10)
+Q11. How many rounds are used in DES?
+A. 8
+B. 10
+C. 16
+D. 32
+
+Q12. AES operates on blocks of size:
+A. 64 bits
+B. 128 bits
+C. 192 bits
+D. 256 bits
+
+Q13. RC5 is known for its:
+A. Fixed rounds
+B. Variable block size and rounds
+C. Fixed key length
+D. Hardware dependency
+
+Q14. Which is a major disadvantage of symmetric key encryption?
+A. Slow speed
+B. Key distribution problem
+C. Large key size
+D. Complex computation
+
+Q15. RSA encryption uses which key to encrypt data?
+A. Sender’s private key
+B. Receiver’s private key
+C. Receiver’s public key
+D. Sender’s public key
+
+Q16. ECC achieves same security as RSA with:
+A. Larger keys
+B. Same key size
+C. Smaller keys
+D. Fixed keys
+
+Q17. AES is standardized by:
+A. ISO
+B. IEEE
+C. NIST
+D. IETF
+
+Q18. Which algorithm is most suitable for mobile devices?
+A. RSA
+B. DES
+C. ECC
+D. Triple DES
+
+Q19. Which of the following is NOT a symmetric algorithm?
+A. AES
+B. DES
+C. RC5
+D. RSA
+
+Q20. Hybrid encryption uses:
+A. Only symmetric encryption
+B. Only asymmetric encryption
+C. Both symmetric and asymmetric
+D. Only hashing
+
+🔴 Advanced MCQs (10)
+Q21. DES is considered insecure mainly due to:
+A. Weak S-boxes
+B. Short key length
+C. Slow performance
+D. Large block size
+
+Q22. AES round operations include all EXCEPT:
+A. SubBytes
+B. ShiftRows
+C. MixColumns
+D. XOR Compression
+
+Q23. RC5 uses which operations extensively?
+A. XOR, rotation, addition
+B. Multiplication only
+C. Hashing
+D. Modulo division
+
+Q24. RSA key generation requires:
+A. One prime number
+B. Two large prime numbers
+C. One elliptic curve
+D. Random seed only
+
+Q25. Which attack is most effective against RSA with small key sizes?
+A. Brute force
+B. Factorization attack
+C. Replay attack
+D. Man-in-the-middle
+
+Q26. ECC security relies on:
+A. Elliptic Curve Discrete Logarithm Problem
+B. Prime factorization
+C. Collision resistance
+D. XOR complexity
+
+Q27. Compared to RSA, ECC provides:
+A. Less security
+B. Same security with larger keys
+C. Same security with smaller keys
+D. No encryption
+
+Q28. Which is NOT an application of symmetric encryption?
+A. Disk encryption
+B. VPN tunnels
+C. SSL key exchange
+D. Database encryption
+
+Q29. In PKI, RSA is mainly used for:
+A. Bulk data encryption
+B. Key exchange and signatures
+C. Hashing data
+D. Compression
+
+Q30. AES with 256-bit key is primarily vulnerable to:
+A. Known plaintext attack
+B. Brute force (theoretical)
+C. Birthday attack
+D. Dictionary attack
+
+✅ Answer Key
+Basic:
+1-B, 2-C, 3-B, 4-C, 5-D, 6-B, 7-C, 8-B, 9-B, 10-C
+
+Intermediate:
+11-C, 12-B, 13-B, 14-B, 15-C, 16-C, 17-C, 18-C, 19-D, 20-C
+
+Advanced:
+21-B, 22-D, 23-A, 24-B, 25-B, 26-A, 27-C, 28-C, 29-B, 30-B
+
+If you want, I can also:
+
+🔹 Convert these into CCE-style mock test
+🔹 Add scenario-based questions
+🔹 Provide last-minute exam notes
+🔹 Continue with PKI Session 5 or revision MCQs
+Just tell me 👍
