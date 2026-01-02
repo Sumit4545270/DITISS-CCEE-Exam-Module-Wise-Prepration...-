@@ -1,0 +1,217 @@
+Excellent 👍
+PKI – Session 8 is core PKI theory and very frequently asked in CCEE.
+Most questions come from CA role, trust models, certificate lifecycle, CRL vs OCSP, and certificate types.
+
+Below is a DITISS-aligned, CCEE-focused MCQ set.
+
+📘 Public Key Infrastructure – Session 8
+CA, Trust Models, Certificate Lifecycle
+(PG-DITISS August 2025)
+
+🟢 BASIC MCQs (10)
+1. CA stands for:
+A. Cryptographic Authority
+B. Certificate Authority
+C. Central Authority
+D. Certified Authority
+
+2. The main role of a Certificate Authority is to:
+A. Encrypt data
+B. Generate hashes
+C. Issue digital certificates
+D. Store passwords
+
+3. A digital certificate is issued after:
+A. Key encryption
+B. Identity verification
+C. Hash generation
+D. Data compression
+
+4. Which entity signs a digital certificate?
+A. User
+B. Server
+C. Certificate Authority
+D. Browser
+
+5. Trust in PKI is based on:
+A. Symmetric keys
+B. Root certificate
+C. Hash value
+D. Firewall rules
+
+6. Certificate Revocation means:
+A. Certificate expiry
+B. Temporary suspension
+C. Invalidating a certificate before expiry
+D. Renewing certificate
+
+7. CRL stands for:
+A. Certificate Renewal List
+B. Certificate Revocation List
+C. Certified Root List
+D. Cryptographic Revocation Log
+
+8. OCSP is a:
+A. Protocol
+B. Algorithm
+C. Hash function
+D. Encryption method
+
+9. Root CA certificate is usually:
+A. Issued by Intermediate CA
+B. Self-signed
+C. Expired
+D. Revoked
+
+10. Which certificate is issued to end users or servers?
+A. Root certificate
+B. Intermediate certificate
+C. End-entity certificate
+D. Cross certificate
+
+🔸 INTERMEDIATE MCQs (10)
+11. Trust model where one root CA is trusted by all entities is:
+A. Web of Trust
+B. Hierarchical trust
+C. Mesh trust
+D. Bridge trust
+
+12. In a hierarchical trust model:
+A. No root CA exists
+B. Multiple independent roots
+C. Root CA is at the top
+D. All CAs are equal
+
+13. Which trust model is used in PGP?
+A. Hierarchical
+B. Bridge
+C. Web of Trust
+D. Centralized
+
+14. Certificate issuance process starts with:
+A. Certificate signing
+B. CSR creation
+C. Certificate installation
+D. Revocation
+
+15. CSR stands for:
+A. Certificate Security Request
+B. Certificate Signing Request
+C. Certified Server Request
+D. Cryptographic Signing Record
+
+16. Which information is included in a CSR?
+A. Private key
+B. Public key
+C. Symmetric key
+D. Hash only
+
+17. Which method checks certificate status in real time?
+A. CRL
+B. OCSP
+C. CSR
+D. CA hierarchy
+
+18. CRL drawback is:
+A. High computation
+B. Large size & delay
+C. No security
+D. Key exposure
+
+19. OCSP response is provided by:
+A. Client
+B. Server
+C. OCSP Responder
+D. Firewall
+
+20. Which certificate is used to sign other certificates?
+A. End-entity
+B. Client certificate
+C. CA certificate
+D. Email certificate
+
+🔺 ADVANCED MCQs (10)
+21. Bridge trust model is mainly used to:
+A. Replace root CA
+B. Connect multiple PKI hierarchies
+C. Encrypt data faster
+D. Reduce certificate size
+
+22. If a root CA is compromised, impact is:
+A. Only one certificate affected
+B. Only intermediate CA affected
+C. Entire PKI trust collapses
+D. No impact
+
+23. Certificate lifecycle includes all EXCEPT:
+A. Issuance
+B. Validation
+C. Revocation
+D. Encryption
+
+24. OCSP stapling improves:
+A. Encryption strength
+B. Certificate issuance
+C. Performance & privacy
+D. Key size
+
+25. Which certificate class is used for SSL/TLS websites?
+A. Code signing certificate
+B. Email certificate
+C. Server certificate
+D. Root certificate
+
+26. Extended Validation (EV) certificates provide:
+A. Stronger encryption
+B. Higher trust level
+C. Larger key size
+D. Faster connection
+
+27. Which certificate type is used to sign software?
+A. Client certificate
+B. Server certificate
+C. Code signing certificate
+D. Root certificate
+
+28. Cross-certification helps in:
+A. Certificate revocation
+B. Trust between different CAs
+C. Faster hashing
+D. Key generation
+
+29. Which component maintains CRL?
+A. Client
+B. Server
+C. Certificate Authority
+D. Browser
+
+30. CCEE TRAP in Session 8 usually tests:
+A. CRL vs OCSP difference
+B. Trust model identification
+C. Certificate type usage
+D. All of the above
+
+✅ ANSWER KEY
+Basic:
+1.B | 2.C | 3.B | 4.C | 5.B | 6.C | 7.B | 8.A | 9.B | 10.C
+
+Intermediate:
+11.B | 12.C | 13.C | 14.B | 15.B | 16.B | 17.B | 18.B | 19.C | 20.C
+
+Advanced:
+21.B | 22.C | 23.D | 24.C | 25.C | 26.B | 27.C | 28.B | 29.C | 30.D
+
+🎯 CCEE QUICK REVISION (SESSION 8)
+CA = issues & manages certificates
+Root CA = self-signed
+CSR contains public key
+CRL = offline, OCSP = real-time
+Hierarchical trust = most common
+EV certificates = higher validation
+🔥 YOU ARE NOW DONE WITH COMPLETE PKI SYLLABUS 🔥
+Next, I can help you with:
+
+✅ Full PKI Mock Test (70–80 MCQs)
+✅ PKI Last-Day One-Page Notes
+✅ CCEE Combined Mock (PKI + Network + Python + MySQL)
+Just tell me what you want next 👍
