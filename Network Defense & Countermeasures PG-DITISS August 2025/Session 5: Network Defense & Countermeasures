@@ -1,0 +1,204 @@
+Excellent 👍
+Session 5 is a classic CCEE favorite because it mixes concepts + architecture + real deployments (UTM, Reverse Proxy, Load Balancing, Server Farming).
+Below are 30 CDAC-aligned MCQs (10 Basic + 10 Intermediate + 10 Advanced) mapped to Session 5 theory + Lab 8.
+
+Network Defense & Countermeasures – Session 5
+BASIC MCQs (1–10)
+1. ClearOS and pfSense are best classified as:
+A. Hardware firewalls
+B. Linux-based software firewalls
+C. IDS systems
+D. Antivirus platforms
+
+2. A software firewall primarily runs on:
+A. Network switch
+B. Dedicated ASIC
+C. General-purpose operating system
+D. Router firmware only
+
+3. A reverse proxy primarily sits:
+A. Behind the client
+B. Between client and server
+C. Inside LAN only
+D. After database
+
+4. Which software is commonly used as a reverse proxy?
+A. Apache
+B. Nginx
+C. Squid
+D. Both B and C
+
+5. A reverse proxy hides:
+A. Client IP
+B. Internal server details
+C. Network bandwidth
+D. DNS server
+
+6. UTM stands for:
+A. Unified Traffic Management
+B. Universal Threat Monitor
+C. Unified Threat Management
+D. User Traffic Module
+
+7. Which feature is typically part of a UTM device?
+A. Load balancing only
+B. IDS/IPS, Firewall, Antivirus
+C. Proxy server only
+D. Routing only
+
+8. Server Load Balancing helps to:
+A. Increase disk space
+B. Distribute traffic across servers
+C. Encrypt traffic
+D. Replace firewall
+
+9. Server farming refers to:
+A. Database clustering
+B. Multiple servers acting as one service
+C. Single powerful server
+D. Backup strategy
+
+10. Which layer load balancing does Nginx commonly support?
+A. Layer 2 only
+B. Layer 3 only
+C. Layer 4 & Layer 7
+D. Layer 1
+
+INTERMEDIATE MCQs (11–20)
+11. pfSense differs from traditional iptables mainly because it:
+A. Uses Windows kernel
+B. Provides GUI-based firewall management
+C. Cannot do NAT
+D. Is cloud-only
+
+12. Reverse proxy improves security by:
+A. Blocking all traffic
+B. Exposing internal servers
+C. Acting as an intermediary
+D. Disabling direct connections
+
+13. Squid is traditionally used as:
+A. Packet filter
+B. Forward proxy
+C. Reverse proxy
+D. IDS
+
+14. In reverse proxy configuration, URL regex is mainly used to:
+A. Encrypt URLs
+B. Match and route requests
+C. Block DNS
+D. Improve bandwidth
+
+15. Which load-balancing algorithm distributes requests sequentially?
+A. Least connections
+B. Hash-based
+C. Round Robin
+D. Random
+
+16. UTM devices reduce complexity because they:
+A. Replace all security tools
+B. Integrate multiple security functions
+C. Increase manual configuration
+D. Eliminate risks
+
+17. Server farming primarily improves:
+A. Confidentiality
+B. Availability and scalability
+C. Integrity
+D. Authentication
+
+18. Which failure does load balancing directly mitigate?
+A. Data breach
+B. Single point of failure
+C. Malware infection
+D. Password cracking
+
+19. Reverse proxy caching mainly helps to:
+A. Improve performance
+B. Encrypt traffic
+C. Block attacks
+D. Replace IDS
+
+20. ClearOS is best suited for:
+A. Endpoint security
+B. Enterprise gateway security
+C. Packet sniffing
+D. Vulnerability scanning
+
+ADVANCED MCQs (21–30)
+21. From a security perspective, reverse proxy helps mitigate:
+A. SQL injection
+B. Direct server exposure
+C. Insider attacks
+D. Password reuse
+
+22. Nginx load balancing at Layer 7 allows decisions based on:
+A. MAC address
+B. IP address only
+C. HTTP headers and URLs
+D. Physical interface
+
+23. In a UTM deployment, which drawback is MOST significant?
+A. Lack of GUI
+B. Single point of failure
+C. No firewall support
+D. No IDS
+
+24. Regex-based routing in reverse proxy is MOST useful when:
+A. Serving static files
+B. Hosting multiple applications on same domain
+C. Encrypting sessions
+D. Blocking IPs
+
+25. Server farming combined with load balancing mainly addresses:
+A. Confidentiality risks
+B. Performance bottlenecks
+C. User authentication
+D. Malware detection
+
+26. Squid used as reverse proxy differs from Nginx mainly in:
+A. Kernel dependency
+B. Caching capabilities
+C. Port filtering
+D. NAT support
+
+27. Which deployment BEST improves both security and scalability?
+A. Single server with firewall
+B. Reverse proxy + server farm
+C. UTM only
+D. IDS only
+
+28. If reverse proxy fails, the MOST immediate impact is:
+A. Data corruption
+B. Service unavailability
+C. Loss of integrity
+D. Malware spread
+
+29. From CDAC CCEE perspective, UTM should be viewed as:
+A. Replacement for all security layers
+B. Part of defense-in-depth
+C. Obsolete technology
+D. Network performance tool
+
+30. Which statement BEST aligns with CDAC exam philosophy?
+A. Load balancers replace firewalls
+B. Reverse proxy increases attack surface
+C. Security and availability must coexist
+D. UTM eliminates risk
+
+ANSWER KEY
+Basic:
+1-B, 2-C, 3-B, 4-D, 5-B, 6-C, 7-B, 8-B, 9-B, 10-C
+
+Intermediate:
+11-B, 12-C, 13-B, 14-B, 15-C, 16-B, 17-B, 18-B, 19-A, 20-B
+
+Advanced:
+21-B, 22-C, 23-B, 24-B, 25-B, 26-B, 27-B, 28-B, 29-B, 30-C
+
+🔥 Very High-Probability CCEE Focus (Session 5)
+✔ pfSense vs iptables
+✔ Reverse proxy vs forward proxy
+✔ Regex-based URL routing
+✔ Load balancing algorithms
+✔ UTM = Defense-in-Depth component, not silver bullet
