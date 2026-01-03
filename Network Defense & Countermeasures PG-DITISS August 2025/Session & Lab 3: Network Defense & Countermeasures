@@ -1,0 +1,203 @@
+Great 👍
+Below is Session 3 – FULL CDAC CCEE–oriented MCQ set for PG-DITISS (August 2025).
+Difficulty, wording, and scenarios are aligned with how CDAC actually frames firewall & iptables questions.
+
+Network Defense & Countermeasures – Session 3
+BASIC MCQs (1–10)
+1. Packet filtering firewalls make decisions based on:
+A. Application content
+B. User identity
+C. IP address, port, and protocol
+D. Payload inspection
+
+2. Packet filtering firewalls primarily operate at which OSI layers?
+A. Physical and Data Link
+B. Network and Transport
+C. Session and Presentation
+D. Application only
+
+3. A screened host firewall typically consists of:
+A. Only a packet filter
+B. Packet filter + bastion host
+C. IDS + IPS
+D. Proxy server only
+
+4. The main role of a bastion host is to:
+A. Improve network speed
+B. Act as a hardened system exposed to the internet
+C. Store sensitive data
+D. Replace internal servers
+
+5. Stateful inspection firewall differs from packet filtering by:
+A. Blocking all traffic
+B. Tracking connection state
+C. Working only at application layer
+D. Using proxy architecture
+
+6. Which firewall keeps track of TCP session states like SYN, ACK, FIN?
+A. Packet filter
+B. Proxy firewall
+C. Stateful firewall
+D. Application firewall
+
+7. Next Generation Firewalls (NGFW) mainly extend capabilities by adding:
+A. NAT only
+B. App-level control and visibility
+C. Routing protocols
+D. Packet sniffing
+
+8. iptables is best described as:
+A. IDS tool
+B. Application proxy
+C. Linux kernel-based firewall framework
+D. Antivirus software
+
+9. Which iptables chain handles traffic destined for the local system?
+A. FORWARD
+B. POSTROUTING
+C. INPUT
+D. OUTPUT
+
+10. The default policy in iptables defines:
+A. Order of rule execution
+B. Action when no rule matches
+C. Packet logging level
+D. Table priority
+
+INTERMEDIATE MCQs (11–20)
+11. A major limitation of packet filtering firewalls is that they:
+A. Consume excessive CPU
+B. Cannot track session state
+C. Cannot block IP addresses
+D. Work only on TCP
+
+12. In a screened host firewall architecture, where is the bastion host placed?
+A. Internal LAN
+B. DMZ or behind packet filter
+C. WAN only
+D. Core switch
+
+13. Which firewall type provides better protection against IP spoofing?
+A. Packet filter
+B. Stateful inspection firewall
+C. Static firewall
+D. Hub
+
+14. NextGen firewalls can block traffic based on:
+A. Only port numbers
+B. Only IP addresses
+C. Application identity (e.g., Facebook, BitTorrent)
+D. MAC address only
+
+15. Which iptables table is used for basic packet filtering?
+A. nat
+B. mangle
+C. filter
+D. raw
+
+16. Which chain is evaluated for packets passing through the system (not destined locally)?
+A. INPUT
+B. OUTPUT
+C. FORWARD
+D. PREROUTING
+
+17. If no iptables rule matches and default policy is DROP, the packet will be:
+A. Logged and forwarded
+B. Accepted
+C. Dropped
+D. Redirected
+
+18. Stateful firewall inspection mainly improves security by:
+A. Encrypting packets
+B. Tracking connection context
+C. Filtering based on payload
+D. Acting as proxy
+
+19. Which NGFW feature helps control SaaS application misuse?
+A. NAT
+B. App Control
+C. Static routing
+D. Port forwarding
+
+20. iptables processes rules in which order?
+A. Random order
+B. Bottom to top
+C. Top to bottom
+D. Based on packet size
+
+ADVANCED MCQs (21–30)
+21. In iptables, which action immediately stops rule processing in a chain?
+A. LOG
+B. DROP
+C. ACCEPT
+D. RETURN
+
+22. A packet enters a Linux firewall and is destined for another network. Which chain is MOST relevant?
+A. INPUT
+B. OUTPUT
+C. FORWARD
+D. POSTROUTING
+
+23. Screened host firewall architecture improves security mainly by:
+A. Eliminating internal routing
+B. Adding layered defense
+C. Removing need for firewall rules
+D. Increasing bandwidth
+
+24. NGFW application awareness is particularly effective against:
+A. IP spoofing
+B. Port-hopping applications
+C. ARP poisoning
+D. MAC flooding
+
+25. Which scenario best demonstrates stateful inspection?
+A. Blocking packets by port number
+B. Allowing return traffic for established connections
+C. Filtering based on URL
+D. Blocking malformed packets only
+
+26. In iptables, incorrect rule ordering can result in:
+A. Kernel crash
+B. Security bypass
+C. Packet corruption
+D. CPU overheating
+
+27. Which table is processed FIRST by iptables?
+A. filter
+B. nat
+C. raw
+D. mangle
+
+28. NGFW differs from traditional firewalls because it:
+A. Operates only at layer 3
+B. Combines firewall, IPS, and app control
+C. Eliminates need for DMZ
+D. Works without rules
+
+29. A default ACCEPT policy with poor rule design is risky because it:
+A. Drops valid traffic
+B. Allows unintended traffic
+C. Breaks routing
+D. Disables logging
+
+30. From CDAC CCEE viewpoint, iptables is BEST described as:
+A. GUI-based firewall only
+B. User-space packet analyzer
+C. Rule-based packet filtering framework
+D. IDS replacement
+
+ANSWER KEY
+Basic:
+1-C, 2-B, 3-B, 4-B, 5-B, 6-C, 7-B, 8-C, 9-C, 10-B
+
+Intermediate:
+11-B, 12-B, 13-B, 14-C, 15-C, 16-C, 17-C, 18-B, 19-B, 20-C
+
+Advanced:
+21-D, 22-C, 23-B, 24-B, 25-B, 26-B, 27-C, 28-B, 29-B, 30-C
+
+🔥 High-Yield CDAC Exam Focus (Session 3)
+Packet Filtering 🆚 Stateful Inspection
+Screened Host = Packet Filter + Bastion Host
+iptables tables → chains → rules → order matters
+NGFW = Layer-7 visibility + App Control
