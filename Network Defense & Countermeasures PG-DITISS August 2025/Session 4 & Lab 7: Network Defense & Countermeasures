@@ -1,0 +1,205 @@
+Great 👍
+Session 4 is very important for CCEE because CDAC loves Wireshark display filters, packet-analysis logic, and iptables real-world use cases (Port Forwarding + Fail2ban).
+
+Below are 30 MCQs (10 Basic + 10 Intermediate + 10 Advanced), tightly mapped to Session 4 theory + Lab 7, with exam-style traps.
+
+Network Defense & Countermeasures – Session 4
+BASIC MCQs (1–10)
+1. Wireshark is primarily used for:
+A. Vulnerability scanning
+B. Packet capturing and analysis
+C. Firewall configuration
+D. Intrusion prevention
+
+2. Wireshark captures packets using which underlying library on Linux?
+A. libnet
+B. libpcap
+C. tcpdump
+D. netstat
+
+3. Which Wireshark filter is used to display only TCP packets?
+A. tcp==true
+B. proto tcp
+C. tcp
+D. filter tcp
+
+4. Display filters in Wireshark are applied:
+A. Before packet capture
+B. After packet capture
+C. During packet transmission
+D. At kernel level
+
+5. Which protocol is most commonly analyzed for web traffic in Wireshark?
+A. FTP
+B. SMTP
+C. HTTP/HTTPS
+D. SNMP
+
+6. Which Wireshark column shows packet arrival time?
+A. Length
+B. Protocol
+C. Time
+D. Info
+
+7. A packet capture (.pcap) file stores:
+A. Firewall rules
+B. Packet headers and payloads
+C. System logs only
+D. Encrypted traffic only
+
+8. Which tool can also capture packets from CLI similar to Wireshark?
+A. Nessus
+B. tcpdump
+C. OpenVAS
+D. iptables
+
+9. Port forwarding in iptables is mainly implemented using which table?
+A. filter
+B. mangle
+C. nat
+D. raw
+
+10. Fail2ban is mainly used to:
+A. Forward packets
+B. Detect malware
+C. Block brute-force attacks
+D. Capture packets
+
+INTERMEDIATE MCQs (11–20)
+11. Which Wireshark display filter shows packets from a specific IP?
+A. ip=192.168.1.1
+B. ip.addr == 192.168.1.1
+C. src.ip = 192.168.1.1
+D. addr.ip == 192.168.1.1
+
+12. Capture filters in Wireshark are based on:
+A. Wireshark syntax
+B. tcpdump/libpcap syntax
+C. iptables syntax
+D. BPF notations only
+
+13. Which filter displays only DNS queries?
+A. dns
+B. udp.port == 53
+C. Both A and B
+D. tcp.port == 53
+
+14. While examining packet captures, repeated SYN packets without ACK indicate:
+A. Normal traffic
+B. Port scan or SYN flood
+C. DNS query
+D. HTTPS handshake
+
+15. Which iptables chain is used for destination NAT (port forwarding)?
+A. INPUT
+B. OUTPUT
+C. PREROUTING
+D. POSTROUTING
+
+16. In Wireshark, which field helps identify failed TCP connections?
+A. TTL
+B. TCP Flags
+C. Window Size
+D. MAC address
+
+17. Fail2ban primarily relies on:
+A. Packet inspection
+B. Log file analysis
+C. IDS signatures
+D. Antivirus definitions
+
+18. Which Wireshark filter shows only failed TCP connection attempts?
+A. tcp.flags.syn == 1
+B. tcp.flags.reset == 1
+C. tcp.flags.syn == 1 && tcp.flags.ack == 0
+D. tcp.flags.fin == 1
+
+19. Real-world packet analysis is mainly useful for:
+A. Increasing bandwidth
+B. Detecting anomalies and attacks
+C. Installing firewall rules
+D. Updating antivirus
+
+20. Which protocol is commonly abused in brute-force login attempts observed via Wireshark?
+A. ICMP
+B. SSH
+C. ARP
+D. SNMP
+
+ADVANCED MCQs (21–30)
+21. Which Wireshark filter is MOST suitable to detect SSH brute-force attempts?
+A. tcp.port == 22
+B. ip.addr == server_ip
+C. tcp.flags.syn == 1
+D. tcp.analysis.retransmission
+
+22. During packet analysis, excessive RST packets usually indicate:
+A. Normal termination
+B. Network congestion
+C. Scanning or failed connections
+D. Encryption failure
+
+23. Port forwarding using iptables exposes risk mainly because:
+A. It increases bandwidth
+B. It exposes internal services externally
+C. It blocks internal traffic
+D. It disables NAT
+
+24. Fail2ban improves security by acting as a:
+A. Proxy firewall
+B. IDS only
+C. Log-based intrusion prevention tool
+D. Packet sniffer
+
+25. In Wireshark, “Follow TCP Stream” is used to:
+A. Capture packets
+B. Reconstruct session data
+C. Apply capture filters
+D. Generate firewall rules
+
+26. A sudden spike in DNS queries from a single host may indicate:
+A. Normal browsing
+B. DNS amplification attack
+C. Brute-force attack
+D. ARP poisoning
+
+27. Which iptables rule is CRITICAL when using Fail2ban?
+A. ACCEPT all traffic
+B. Allow loopback traffic
+C. Enable DROP/REJECT dynamically
+D. Disable NAT
+
+28. From CCEE perspective, Wireshark is best classified as:
+A. Preventive security tool
+B. Detective security tool
+C. Corrective security tool
+D. Deterrent control
+
+29. Which Wireshark statistic helps identify top talkers?
+A. IO Graphs
+B. Conversations
+C. Protocol Hierarchy
+D. Endpoints
+
+30. Which statement best aligns with CDAC exam philosophy?
+A. Wireshark prevents attacks
+B. Packet capture replaces firewall
+C. Analysis tools support incident response
+D. Fail2ban eliminates need for IDS
+
+ANSWER KEY
+Basic:
+1-B, 2-B, 3-C, 4-B, 5-C, 6-C, 7-B, 8-B, 9-C, 10-C
+
+Intermediate:
+11-B, 12-B, 13-C, 14-B, 15-C, 16-B, 17-B, 18-C, 19-B, 20-B
+
+Advanced:
+21-A, 22-C, 23-B, 24-C, 25-B, 26-B, 27-C, 28-B, 29-D, 30-C
+
+🔥 Very High Probability CCEE Areas (Session 4)
+✔ Wireshark display vs capture filters
+✔ TCP Flags (SYN, ACK, RST)
+✔ Port Forwarding (PREROUTING + NAT)
+✔ Fail2ban workflow (Logs → iptables → Block)
+✔ Wireshark as Detective control
