@@ -1,0 +1,208 @@
+Excellent 🔥
+Session 3 is one of the MOST IMPORTANT + SCORING sessions for CCEE, especially for iptables, firewall internals, and scenario-based MCQs.
+Below are 30 CDAC-aligned MCQs (10 Basic + 10 Intermediate + 10 Advanced) crafted exactly from Session 3 theory + Labs (3–6).
+
+Network Defense & Countermeasures – Session 3
+BASIC MCQs (1–10)
+1. Packet filtering firewalls primarily inspect:
+A. Application data
+B. Packet headers
+C. Encrypted payload
+D. User credentials
+
+2. Which OSI layers are mainly involved in packet filtering?
+A. Application only
+B. Presentation & Session
+C. Network & Transport
+D. Physical & Data Link
+
+3. A Screened Host Firewall architecture consists of:
+A. Single packet filter
+B. Bastion host behind packet-filtering router
+C. Two proxy servers
+D. IDS and IPS
+
+4. Stateful Inspection Firewall maintains information about:
+A. Packet size
+B. User identity
+C. Active connections
+D. MAC addresses
+
+5. Which firewall type is more secure than simple packet filtering?
+A. Stateless firewall
+B. Packet-filtering firewall
+C. Stateful inspection firewall
+D. Hub
+
+6. Next-Generation Firewalls (NGFW) differ mainly because they:
+A. Are faster
+B. Only filter packets
+C. Provide application-level control
+D. Replace routers
+
+7. iptables is a user-space utility for managing:
+A. TCP/IP stack
+B. netfilter framework
+C. Network drivers
+D. VPN tunnels
+
+8. Which chain handles incoming packets destined for the local system?
+A. FORWARD
+B. OUTPUT
+C. INPUT
+D. PREROUTING
+
+9. The default policy of an iptables chain defines:
+A. First rule executed
+B. Action if no rule matches
+C. Logging behavior
+D. NAT behavior
+
+10. Which iptables target allows packet traversal?
+A. DROP
+B. REJECT
+C. ACCEPT
+D. LOG
+
+INTERMEDIATE MCQs (11–20)
+11. A major limitation of packet-filtering firewalls is that they:
+A. Are slow
+B. Cannot track session state
+C. Cannot block IP addresses
+D. Are complex
+
+12. Screened host firewall improves security by:
+A. Removing packet filters
+B. Adding a bastion host
+C. Disabling routing
+D. Using encryption
+
+13. Which table in iptables is used by default for filtering traffic?
+A. nat
+B. mangle
+C. filter
+D. raw
+
+14. Which chain is responsible for packets generated locally?
+A. INPUT
+B. OUTPUT
+C. FORWARD
+D. POSTROUTING
+
+15. Stateful Packet Inspection (SPI) firewall prevents attacks by:
+A. Blocking all traffic
+B. Tracking connection states
+C. Inspecting application payload
+D. Using proxy services
+
+16. Which iptables target silently discards packets?
+A. ACCEPT
+B. REJECT
+C. DROP
+D. RETURN
+
+17. Xtables-addons extend iptables functionality mainly by:
+A. Replacing netfilter
+B. Adding new matches and targets
+C. Improving kernel speed
+D. Removing rules
+
+18. GeoIP blocking in iptables works by:
+A. Blocking MAC addresses
+B. Blocking country-based IP ranges
+C. Blocking ports
+D. Blocking protocols
+
+19. Which command verifies current iptables rules?
+A. iptables -A
+B. iptables -F
+C. iptables -L
+D. iptables -X
+
+20. IPv6 firewall rules in Linux are managed using:
+A. iptables
+B. nftables
+C. ip6tables
+D. netstat
+
+ADVANCED MCQs (21–30)
+21. In iptables rule processing, packets are evaluated:
+A. Randomly
+B. From last rule to first
+C. Sequentially top to bottom
+D. Based on priority value
+
+22. If INPUT chain default policy is DROP, and no rule matches, packet is:
+A. Accepted
+B. Logged only
+C. Dropped
+D. Forwarded
+
+23. Stateful firewall blocks spoofed packets mainly by checking:
+A. TTL value
+B. MAC address
+C. Connection state
+D. Packet size
+
+24. Which iptables module enables stateful inspection?
+A. ip_conntrack
+B. ip_filter
+C. ip_nat
+D. ip_route
+
+25. In SPI firewall configuration, which connection state allows return traffic?
+A. NEW
+B. INVALID
+C. ESTABLISHED, RELATED
+D. DROP
+
+26. Internet sharing using iptables primarily requires:
+A. DNS rules
+B. NAT and FORWARD rules
+C. INPUT rules only
+D. Proxy firewall
+
+27. Automating iptables using bash scripts is preferred because:
+A. It reduces kernel load
+B. Ensures rule persistence and consistency
+C. Improves encryption
+D. Eliminates firewalls
+
+28. Advanced iptables setups require loading modules mainly to:
+A. Improve GUI
+B. Enable additional matches/targets
+C. Increase bandwidth
+D. Disable routing
+
+29. Which target immediately stops rule traversal in a chain?
+A. LOG
+B. ACCEPT
+C. DROP
+D. Both B and C
+
+30. From CCEE perspective, which statement is MOST accurate?
+A. iptables is obsolete
+B. Packet filtering is enough for modern threats
+C. Stateful firewalls improve security without full proxy overhead
+D. NGFW replaces need for iptables
+
+ANSWER KEY
+Basic:
+1-B, 2-C, 3-B, 4-C, 5-C, 6-C, 7-B, 8-C, 9-B, 10-C
+
+Intermediate:
+11-B, 12-B, 13-C, 14-B, 15-B, 16-C, 17-B, 18-B, 19-C, 20-C
+
+Advanced:
+21-C, 22-C, 23-C, 24-A, 25-C, 26-B, 27-B, 28-B, 29-D, 30-C
+
+🔥 High-Probability CCEE Focus Areas (Session 3)
+✔ Order of iptables rule processing
+✔ INPUT / OUTPUT / FORWARD differences
+✔ Stateful vs Packet filtering
+✔ DROP vs REJECT
+✔ GeoIP blocking concept
+✔ NAT + forwarding for internet sharing
+
+👉 Send Session 4 topic next
+We are now entering IDS / IPS / Attacks / Monitoring, where CDAC sets hard MCQs.
