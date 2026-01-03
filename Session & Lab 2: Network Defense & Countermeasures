@@ -1,0 +1,202 @@
+Excellent 👍
+Below is Session 2 MCQs crafted strictly from CDAC PG-DITISS CCEE perspective, with increasing difficulty, lab alignment, and exam traps to push you toward a 90%+ score.
+
+Network Defense & Countermeasures – Session 2
+BASIC MCQs (1–10)
+1. Risk management in Information Security primarily involves:
+A. Eliminating all threats
+B. Identifying, assessing, and controlling risks
+C. Installing firewalls only
+D. Monitoring network traffic
+
+2. Exposure in security terminology refers to:
+A. Presence of attackers
+B. Potential loss due to a threat
+C. Actual exploitation
+D. Security policy violation
+
+3. Which of the following is an example of a countermeasure?
+A. Vulnerability
+B. Threat actor
+C. Firewall
+D. Exploit code
+
+4. A firewall is mainly used to:
+A. Encrypt data
+B. Authenticate users
+C. Control network traffic based on rules
+D. Scan vulnerabilities
+
+5. Which firewall component examines source/destination IP and port numbers?
+A. Application layer gateway
+B. Packet-filtering firewall
+C. Proxy firewall
+D. IDS
+
+6. DMZ stands for:
+A. Distributed Management Zone
+B. Data Monitoring Zone
+C. Demilitarized Zone
+D. Dynamic Management Zone
+
+7. The primary purpose of a DMZ is to:
+A. Improve internet speed
+B. Protect internal network from external users
+C. Eliminate firewall rules
+D. Replace IDS
+
+8. Which system is commonly placed inside a DMZ?
+A. Database server
+B. Internal file server
+C. Public web server
+D. Domain controller
+
+9. Packet-filtering firewalls mainly operate at which OSI layer?
+A. Physical
+B. Data Link
+C. Network & Transport
+D. Application
+
+10. pfSense is best described as:
+A. Commercial IDS
+B. Linux-based router
+C. Open-source firewall and routing platform
+D. Antivirus software
+
+INTERMEDIATE MCQs (11–20)
+11. According to the NIST Cybersecurity Framework, which function involves risk identification?
+A. Protect
+B. Detect
+C. Identify
+D. Respond
+
+12. Risk exposure is typically calculated as:
+A. Threat × Vulnerability
+B. Asset value × Impact
+C. Likelihood × Impact
+D. Vulnerability × Countermeasure
+
+13. Which firewall type creates a full connection on behalf of the client?
+A. Packet filter
+B. Stateful firewall
+C. Proxy firewall
+D. Circuit-level gateway
+
+14. One major advantage of proxy firewalls over packet filters is:
+A. Higher speed
+B. Lower latency
+C. Application-level inspection
+D. Simpler configuration
+
+15. In pfSense, which interface is usually connected to the internet?
+A. LAN
+B. OPT
+C. DMZ
+D. WAN
+
+16. A DMZ with three-legged firewall architecture has:
+A. One interface
+B. Two interfaces
+C. Three interfaces
+D. Multiple firewalls only
+
+17. Which attack is a DMZ specifically designed to limit?
+A. Insider threat
+B. Malware execution
+C. Direct access to internal network
+D. Password reuse
+
+18. iptables is mainly used to implement:
+A. Proxy firewall
+B. Packet-filtering firewall
+C. IDS
+D. VPN
+
+19. Squid is commonly used as:
+A. Packet sniffer
+B. Web proxy firewall
+C. Vulnerability scanner
+D. Load balancer
+
+20. Which firewall method inspects packet state information?
+A. Stateless firewall
+B. Packet filter
+C. Stateful inspection firewall
+D. Proxy firewall
+
+ADVANCED MCQs (21–30)
+21. An organization hosting a public web server should place it in a DMZ primarily to:
+A. Improve website speed
+B. Reduce firewall rules
+C. Isolate compromise from internal network
+D. Eliminate attacks
+
+22. In NIST framework-based risk analysis, which step follows risk identification?
+A. Risk elimination
+B. Risk prioritization and treatment
+C. Risk ignoring
+D. Risk transfer only
+
+23. Packet-filtering firewalls are vulnerable to which limitation?
+A. Cannot inspect headers
+B. Lack application-layer awareness
+C. High resource consumption
+D. Cannot block IP addresses
+
+24. A proxy firewall provides stronger security mainly because it:
+A. Uses faster routing
+B. Hides internal IP addresses
+C. Performs deep packet inspection at application layer
+D. Requires fewer rules
+
+25. In pfSense DMZ configuration, which rule is MOST critical?
+A. Allow all traffic from DMZ to LAN
+B. Block DMZ to LAN by default
+C. Allow LAN to WAN only
+D. Disable NAT
+
+26. If an attacker compromises a DMZ web server, what is the expected security outcome?
+A. Full LAN compromise
+B. No impact at all
+C. Limited access due to isolation
+D. Automatic firewall shutdown
+
+27. Which metric best helps prioritize firewall rules in risk-based design?
+A. Bandwidth usage
+B. Asset criticality
+C. Network latency
+D. Packet size
+
+28. Stateful firewalls improve security by:
+A. Blocking all inbound traffic
+B. Tracking session state
+C. Acting as proxy servers
+D. Encrypting packets
+
+29. Comparing iptables and Squid, which statement is correct?
+A. Both operate at network layer
+B. iptables is application-layer only
+C. Squid provides application-level proxying
+D. Squid replaces firewall rules
+
+30. From CDAC exam perspective, which statement is MOST accurate?
+A. Firewalls eliminate risk completely
+B. DMZ replaces need for firewall
+C. Firewalls are one of multiple countermeasures
+D. Proxy firewalls are obsolete
+
+ANSWER KEY
+Basic:
+1-B, 2-B, 3-C, 4-C, 5-B, 6-C, 7-B, 8-C, 9-C, 10-C
+
+Intermediate:
+11-C, 12-C, 13-C, 14-C, 15-D, 16-C, 17-C, 18-B, 19-B, 20-C
+
+Advanced:
+21-C, 22-B, 23-B, 24-C, 25-B, 26-C, 27-B, 28-B, 29-C, 30-C
+
+🔑 Exam Tip (Important)
+CDAC frequently tests conceptual differences:
+Packet Filtering 🆚 Stateful 🆚 Proxy
+LAN 🆚 DMZ 🆚 WAN
+Risk 🆚 Exposure 🆚 Threat
