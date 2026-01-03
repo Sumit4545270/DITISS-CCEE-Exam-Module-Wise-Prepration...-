@@ -1,0 +1,228 @@
+Got it 👍
+I’ll continue in the same exam-oriented pattern (CDAC–PG-DITISS / CCEE style) and carefully cross-checked for conceptual and factual correctness.
+
+Below are Session 14 & 15 MCQs, structured exactly as required:
+
+PG-DITISS (August 2025) – Session 14 & 15
+Topics Covered
+IT Act (India)
+LDAP / Active Directory
+Introduction to Blockchain
+Email Security (Digital Signing & Encryption – Conceptual)
+🔹 BASIC LEVEL MCQs (10)
+Q1. The Indian IT Act was enacted in which year?
+A. 1998
+B. 2000
+C. 2002
+D. 2005
+
+Q2. Which section of the IT Act deals with electronic records?
+A. Section 2
+B. Section 4
+C. Section 10
+D. Section 43
+
+Q3. LDAP stands for:
+A. Lightweight Directory Access Protocol
+B. Local Directory Access Process
+C. Logical Data Access Protocol
+D. Lightweight Data Authentication Protocol
+
+Q4. Active Directory is a service provided by:
+A. Linux
+B. Oracle
+C. Microsoft
+D. IBM
+
+Q5. Blockchain is primarily a:
+A. Centralized database
+B. Distributed ledger
+C. Relational database
+D. File system
+
+Q6. Which feature ensures immutability in blockchain?
+A. Indexing
+B. Hashing
+C. Sorting
+D. Compression
+
+Q7. Which protocol is commonly used by LDAP?
+A. HTTP
+B. FTP
+C. TCP/IP
+D. SMTP
+
+Q8. Digital signatures are mainly used for:
+A. Confidentiality
+B. Availability
+C. Authentication & Integrity
+D. Compression
+
+Q9. Which algorithm is commonly used in blockchain hashing?
+A. MD5
+B. SHA-256
+C. DES
+D. RC4
+
+Q10. Which entity manages users and resources in a Windows domain?
+A. File Server
+B. Domain Controller
+C. Web Server
+D. Proxy Server
+
+🔹 INTERMEDIATE LEVEL MCQs (10)
+Q11. Which section of IT Act deals with unauthorized access and damage?
+A. Section 4
+B. Section 43
+C. Section 66
+D. Section 72
+
+Q12. LDAP directory structure is based on:
+A. Flat file system
+B. Tree structure
+C. Graph structure
+D. Table structure
+
+Q13. Active Directory uses which database internally?
+A. MySQL
+B. Oracle
+C. NTDS.dit
+D. MongoDB
+
+Q14. Which port is used by LDAP by default?
+A. 21
+B. 25
+C. 389
+D. 443
+
+Q15. What is a “block” in blockchain?
+A. A transaction
+B. A smart contract
+C. A group of transactions
+D. A user identity
+
+Q16. Which consensus algorithm is used by Bitcoin?
+A. Proof of Stake
+B. Proof of Authority
+C. Proof of Work
+D. Delegated Proof
+
+Q17. Digital certificate for email security is based on:
+A. Symmetric encryption
+B. Asymmetric encryption
+C. Hashing only
+D. Compression
+
+Q18. Which Active Directory object represents a user?
+A. OU
+B. Group Policy
+C. User Object
+D. Site
+
+Q19. Which feature of blockchain prevents double spending?
+A. Mining
+B. Decentralization
+C. Consensus mechanism
+D. Encryption
+
+Q20. LDAP authentication is typically used for:
+A. Email routing
+B. Centralized user authentication
+C. File encryption
+D. Network routing
+
+🔹 ADVANCED LEVEL MCQs (10)
+Q21. Section 66 of IT Act is related to:
+A. Data protection
+B. Cyber terrorism
+C. Computer-related offences
+D. Privacy violation
+
+Q22. Active Directory replication mainly depends on:
+A. DNS only
+B. Kerberos only
+C. Multi-master replication
+D. Client-server replication
+
+Q23. Distinguished Name (DN) in LDAP uniquely identifies:
+A. A domain
+B. A server
+C. An entry in directory
+D. A group policy
+
+Q24. Blockchain ensures trust mainly through:
+A. Central authority
+B. Third-party auditors
+C. Cryptography & consensus
+D. Manual verification
+
+Q25. Which component stores policies in Active Directory?
+A. NTFS
+B. Group Policy Objects (GPO)
+C. Kerberos
+D. FSMO
+
+Q26. Hash pointer in blockchain is used to:
+A. Encrypt block
+B. Link blocks securely
+C. Authenticate users
+D. Compress data
+
+Q27. Digitally signing an email ensures:
+A. Confidentiality only
+B. Integrity and non-repudiation
+C. Availability
+D. Compression
+
+Q28. Which blockchain property prevents data tampering?
+A. Centralization
+B. Hash chaining
+C. Authorization
+D. Encryption only
+
+Q29. Which service resolves LDAP domain names in Active Directory?
+A. DHCP
+B. DNS
+C. WINS
+D. SMTP
+
+Q30. Smart contracts primarily run on:
+A. Central server
+B. Virtual machines
+C. Blockchain platforms
+D. Client browsers
+
+✅ ANSWER KEY (Verified & Cross-Checked)
+Basic
+B
+B
+A
+C
+B
+B
+C
+C
+B
+B
+Intermediate
+B
+B
+C
+C
+C
+C
+B
+C
+C
+B
+Advanced
+C
+C
+C
+C
+B
+B
+B
+B
+B
+C
