@@ -1,0 +1,205 @@
+Great 👍
+Session 8 (Hybrid VPN + IPSec + Tunnel concepts) is a classic CCEE trap-heavy area, especially mode differences, split tunneling risks, and RRAS-based VPNs.
+
+Below are 30 CDAC-aligned MCQs (10 Basic + 10 Intermediate + 10 Advanced) covering Session 8 + Lab 13, exactly from PG-DITISS August 2025 perspective.
+
+Network Defense & Countermeasures – Session 8
+BASIC MCQs (1–10)
+1. A Hybrid VPN is best described as:
+A. VPN using only public networks
+B. Combination of Trusted VPN and Secure VPN
+C. VPN without encryption
+D. Mobile-only VPN
+
+2. IPSec primarily operates at which OSI layer?
+A. Application
+B. Transport
+C. Network
+D. Data Link
+
+3. IPSec ensures security mainly by using:
+A. FTP and HTTP
+B. AH and ESP protocols
+C. SSL and TLS
+D. GRE only
+
+4. Tunnel mode in IPSec protects:
+A. Payload only
+B. Header only
+C. Entire IP packet
+D. Application data only
+
+5. Transport mode in IPSec protects:
+A. Entire IP packet
+B. Payload only
+C. IP header only
+D. Routing table
+
+6. Which VPN type is BEST suited for site-to-site connectivity?
+A. Transport mode IPSec
+B. Tunnel mode IPSec
+C. PPTP
+D. SSL VPN
+
+7. Split tunneling means:
+A. Blocking all traffic
+B. Sending VPN traffic and internet traffic separately
+C. Encrypting all traffic
+D. Using two VPN servers
+
+8. Full tunnel VPN ensures:
+A. Only corporate traffic is encrypted
+B. All traffic passes through VPN
+C. Faster internet
+D. No encryption
+
+9. IPv6 VPN support in IPSec exists because:
+A. IPv6 has no security
+B. IPSec is mandatory in IPv6 standard
+C. IPv6 cannot use SSL
+D. IPv6 uses GRE
+
+10. RRAS in Windows Server is used for:
+A. IDS
+B. Firewall
+C. VPN and routing
+D. Antivirus
+
+INTERMEDIATE MCQs (11–20)
+11. Which IPSec component provides confidentiality?
+A. AH
+B. ESP
+C. IKE
+D. ISAKMP
+
+12. IPSec Authentication Header (AH) provides:
+A. Encryption only
+B. Integrity and authentication
+C. Confidentiality
+D. NAT traversal
+
+13. IPSec ESP provides:
+A. Authentication only
+B. Integrity only
+C. Confidentiality, integrity, authentication
+D. Routing
+
+14. Tunnel mode is preferred over transport mode mainly because:
+A. It is faster
+B. It hides internal IP addressing
+C. It uses less CPU
+D. It disables NAT
+
+15. Split tunneling introduces which security risk?
+A. Reduced bandwidth
+B. Increased latency
+C. Data leakage
+D. Encryption overhead
+
+16. PPTP is considered insecure mainly because it:
+A. Uses AES
+B. Has weak encryption and authentication
+C. Is slow
+D. Is complex
+
+17. L2TP VPN is usually combined with IPSec because:
+A. L2TP has encryption
+B. IPSec adds security to L2TP
+C. IPSec needs L2TP
+D. L2TP improves speed
+
+18. In Windows RRAS, which authentication method is most secure?
+A. PAP
+B. CHAP
+C. MS-CHAPv2
+D. EAP-TLS
+
+19. IPv6 VPN configuration challenges arise mainly due to:
+A. No encryption support
+B. Addressing complexity
+C. NAT usage
+D. Lack of protocols
+
+20. Which VPN setup is MOST suitable for remote employees?
+A. Tunnel mode site-to-site
+B. Transport mode IPSec
+C. Remote access VPN
+D. Hybrid VPN only
+
+ADVANCED MCQs (21–30)
+21. From security perspective, full tunnel VPN is preferred because it:
+A. Saves bandwidth
+B. Prevents split tunneling attacks
+C. Disables firewall
+D. Improves speed
+
+22. IPSec NAT traversal (NAT-T) is required because:
+A. AH breaks with NAT
+B. ESP cannot work over UDP
+C. NAT modifies IP headers
+D. NAT blocks SSL
+
+23. Hybrid VPN architecture is MOST useful when:
+A. Only private networks exist
+B. Mixing MPLS and internet-based VPNs
+C. No encryption is needed
+D. Only mobile devices connect
+
+24. RRAS-based VPN security depends heavily on:
+A. CPU speed
+B. Proper authentication and policies
+C. GUI design
+D. Routing metrics
+
+25. In IPSec tunnel mode, packet flow is best described as:
+A. Original packet encrypted inside new IP packet
+B. Only payload encrypted
+C. Header sent in clear
+D. No encapsulation
+
+26. Which VPN misconfiguration MOST often leads to data leaks?
+A. Weak encryption
+B. Split tunneling enabled unnecessarily
+C. Tunnel mode usage
+D. IPv6 support
+
+27. IPv6 IPSec integration improves security mainly by:
+A. Making IPSec optional
+B. Native protocol-level security support
+C. Removing authentication
+D. Replacing firewalls
+
+28. L2TP/IPSec VPN provides better security than PPTP because it:
+A. Uses GRE
+B. Uses stronger encryption and authentication
+C. Is faster
+D. Uses less CPU
+
+29. From CDAC exam perspective, which statement is MOST correct?
+A. Split tunneling is always insecure
+B. IPSec transport mode is obsolete
+C. VPN modes depend on use case
+D. PPTP is secure enough
+
+30. Which statement BEST aligns with CDAC philosophy?
+A. VPN guarantees complete security
+B. Hybrid VPN reduces cost and risk
+C. IPSec eliminates all threats
+D. Full tunnel VPN is unnecessary
+
+ANSWER KEY
+Basic:
+1-B, 2-C, 3-B, 4-C, 5-B, 6-B, 7-B, 8-B, 9-B, 10-C
+
+Intermediate:
+11-B, 12-B, 13-C, 14-B, 15-C, 16-B, 17-B, 18-D, 19-B, 20-C
+
+Advanced:
+21-B, 22-C, 23-B, 24-B, 25-A, 26-B, 27-B, 28-B, 29-C, 30-B
+
+🔥 Very High-Probability CCEE Focus (Session 8)
+✔ Tunnel vs Transport mode
+✔ Split tunnel vs Full tunnel
+✔ PPTP vs L2TP/IPSec
+✔ RRAS authentication (EAP-TLS 🔥)
+✔ Hybrid VPN real-world use cases
