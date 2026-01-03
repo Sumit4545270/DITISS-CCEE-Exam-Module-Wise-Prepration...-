@@ -1,0 +1,206 @@
+Excellent 🔥
+Sessions 6 & 7 (VPN + pfSense + UTM) are high-weight, high-trap areas in CCEE, especially protocol differences, VPN types, authentication methods, and deployment scenarios.
+
+Below are 30 exam-oriented MCQs (10 Basic + 10 Intermediate + 10 Advanced) covering Sessions 6 & 7 + Labs 9–12, aligned to CDAC PG-DITISS August 2025.
+
+Network Defense & Countermeasures – Sessions 6 & 7
+BASIC MCQs (1–10)
+1. A VPN primarily provides:
+A. Faster internet
+B. Secure communication over untrusted networks
+C. Load balancing
+D. Intrusion detection
+
+2. Which VPN characteristic ensures data confidentiality?
+A. Tunneling
+B. Authentication
+C. Encryption
+D. Integrity
+
+3. VPN tunneling means:
+A. Blocking packets
+B. Encapsulating one protocol inside another
+C. NAT translation
+D. Port forwarding
+
+4. Which protocol is commonly used by OpenVPN?
+A. IPSec only
+B. SSL/TLS
+C. PPTP
+D. L2TP only
+
+5. A Trusted VPN relies mainly on:
+A. Encryption
+B. Public internet
+C. Dedicated private network
+D. Certificates only
+
+6. A Secure VPN differs from Trusted VPN because it:
+A. Uses private links
+B. Uses encryption over public networks
+C. Has no authentication
+D. Is slower always
+
+7. Which VPN type connects two entire networks?
+A. Remote Access VPN
+B. Host-to-Host VPN
+C. Site-to-Site VPN
+D. Client VPN
+
+8. Certificate-based authentication primarily provides:
+A. Password storage
+B. Strong identity verification
+C. Faster speed
+D. IP filtering
+
+9. OpenVPN can operate over which transport protocols?
+A. ICMP only
+B. TCP and UDP
+C. UDP only
+D. TCP only
+
+10. pfSense is based on which OS family?
+A. Linux
+B. Windows
+C. BSD
+D. Solaris
+
+INTERMEDIATE MCQs (11–20)
+11. Which VPN protocol is considered weakest and deprecated?
+A. IPSec
+B. OpenVPN
+C. PPTP
+D. L2TP/IPSec
+
+12. VPN integrity is mainly ensured using:
+A. Hashing
+B. Encryption
+C. Tunneling
+D. NAT
+
+13. Mobile VPNs are designed mainly to handle:
+A. High bandwidth
+B. Changing IP addresses
+C. Static routing
+D. Wired networks only
+
+14. In OpenVPN, certificates are primarily used for:
+A. NAT traversal
+B. Mutual authentication
+C. Load balancing
+D. Compression
+
+15. Site-to-site VPN is BEST suited for:
+A. Individual users
+B. Branch office connectivity
+C. Mobile devices
+D. Web browsing
+
+16. pfSense simplifies VPN deployment mainly by:
+A. Removing encryption
+B. GUI-based configuration
+C. Disabling routing
+D. Using cloud services
+
+17. UTM VPN configuration integrates VPN with:
+A. IDS only
+B. Firewall and access control
+C. Antivirus only
+D. Proxy only
+
+18. Which component is mandatory before configuring OpenVPN in pfSense?
+A. IDS rules
+B. Certificate Authority
+C. Load balancer
+D. DNS server
+
+19. Password-based VPN authentication is considered weaker because:
+A. It is slower
+B. Passwords can be guessed or reused
+C. It uses encryption
+D. It needs certificates
+
+20. Which VPN function prevents data interception?
+A. Authentication
+B. Encryption
+C. Compression
+D. Routing
+
+ADVANCED MCQs (21–30)
+21. From a security standpoint, IPSec vs OpenVPN comparison shows OpenVPN is preferred because:
+A. Uses proprietary protocols
+B. Works easily through NAT and firewalls
+C. Has no encryption
+D. Uses hardware acceleration only
+
+22. A Trusted VPN is less secure than Secure VPN mainly because:
+A. Uses certificates
+B. Relies on provider trust instead of encryption
+C. Is slower
+D. Uses SSL
+
+23. Combining certificate + password authentication provides:
+A. Redundancy only
+B. Multi-factor authentication
+C. Faster connection
+D. NAT traversal
+
+24. In pfSense OpenVPN, client-specific overrides are used to:
+A. Change firewall rules globally
+B. Assign per-client settings
+C. Disable encryption
+D. Load balance VPN
+
+25. UTM VPN reduces risk mainly by:
+A. Centralizing security controls
+B. Eliminating internet
+C. Replacing firewall
+D. Removing authentication
+
+26. Mobile VPN failures often occur due to:
+A. High CPU usage
+B. IP address changes during roaming
+C. Encryption strength
+D. Firewall rules
+
+27. From CCEE perspective, which VPN design BEST follows defense-in-depth?
+A. VPN only
+B. VPN + Firewall + UTM
+C. VPN without authentication
+D. Trusted VPN only
+
+28. pfSense installation requires special care mainly because:
+A. It is Windows-based
+B. Wrong interface assignment can break connectivity
+C. It lacks firewall features
+D. It disables routing
+
+29. UTM access control integrated with VPN allows:
+A. Unrestricted access
+B. Policy-based access for VPN users
+C. VPN without firewall
+D. Faster encryption
+
+30. Which statement BEST matches CDAC exam philosophy?
+A. VPN eliminates all network threats
+B. Trusted VPN is always secure
+C. VPN is a security control, not a guarantee
+D. Certificates are optional
+
+ANSWER KEY
+Basic:
+1-B, 2-C, 3-B, 4-B, 5-C, 6-B, 7-C, 8-B, 9-B, 10-C
+
+Intermediate:
+11-C, 12-A, 13-B, 14-B, 15-B, 16-B, 17-B, 18-B, 19-B, 20-B
+
+Advanced:
+21-B, 22-B, 23-B, 24-B, 25-A, 26-B, 27-B, 28-B, 29-B, 30-C
+
+🔥 Very High-Probability CCEE Focus (Sessions 6 & 7)
+✔ Secure VPN vs Trusted VPN
+✔ OpenVPN vs IPSec
+✔ Certificate vs Password authentication
+✔ Site-to-Site vs Remote Access
+✔ pfSense + UTM integration
+✔ VPN as part of layered security
