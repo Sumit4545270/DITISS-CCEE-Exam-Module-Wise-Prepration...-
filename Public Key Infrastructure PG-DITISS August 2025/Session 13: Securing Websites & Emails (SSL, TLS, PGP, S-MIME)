@@ -1,0 +1,212 @@
+Perfect 👍
+PKI – Sessions 11 & 12 are very important for modern security questions in CCEE.
+Expect conceptual + comparison-based + real-world scenario MCQs (SSO, OAuth, FIDO, Zero Trust are hot topics).
+
+Below is a DITISS-aligned, CCEE-ready MCQ set covering both sessions together.
+
+📘 Public Key Infrastructure – Sessions 11 & 12
+Authentication, SSO, OAuth, FIDO & Zero Trust
+(PG-DITISS August 2025)
+
+🟢 BASIC MCQs (10)
+1. Authentication is the process of:
+A. Granting access rights
+B. Verifying identity
+C. Encrypting data
+D. Logging activity
+
+2. Which is an example of single-factor authentication?
+A. Password only
+B. Password + OTP
+C. Smart card + PIN
+D. Biometrics + OTP
+
+3. Multi-factor authentication (MFA) uses:
+A. One factor only
+B. Two or more authentication factors
+C. Encryption algorithms
+D. Hashing
+
+4. Which is NOT an authentication factor?
+A. Something you know
+B. Something you have
+C. Something you are
+D. Something you encrypt
+
+5. Single Sign-On (SSO) allows users to:
+A. Use multiple passwords
+B. Login once and access multiple systems
+C. Encrypt all sessions
+D. Avoid authentication
+
+6. OAuth is mainly used for:
+A. Authentication only
+B. Authorization
+C. Encryption
+D. Hashing
+
+7. OpenID is used for:
+A. Authorization
+B. Authentication
+C. Encryption
+D. Digital signatures
+
+8. Graphical passwords use:
+A. Numbers only
+B. Images or visual patterns
+C. Tokens
+D. Certificates
+
+9. FIDO stands for:
+A. Fast Identity Online
+B. Federal Identity Organization
+C. Flexible ID Option
+D. Future Identity Object
+
+10. Zero Trust architecture assumes:
+A. Internal network is trusted
+B. External network is trusted
+C. No implicit trust
+D. Trust once, use forever
+
+🔸 INTERMEDIATE MCQs (10)
+11. Which is an example of two-factor authentication?
+A. Password + password
+B. Password + OTP
+C. Username + email
+D. PIN + PIN
+
+12. MFA improves security by:
+A. Increasing password length
+B. Reducing dependency on single factor
+C. Encrypting databases
+D. Using symmetric keys
+
+13. SSO improves usability but may increase risk because:
+A. More encryption
+B. Single point of failure
+C. Slow authentication
+D. Larger key size
+
+14. OAuth allows users to:
+A. Share passwords with apps
+B. Grant limited access without sharing password
+C. Encrypt third-party apps
+D. Create certificates
+
+15. OAuth token represents:
+A. User password
+B. Proof of authorization
+C. Encryption key
+D. Hash value
+
+16. OpenID Connect is built on top of:
+A. SSL
+B. OAuth 2.0
+C. FTP
+D. Kerberos
+
+17. Graphical passwords mainly improve resistance against:
+A. Brute force
+B. Shoulder surfing
+C. Phishing
+D. Network sniffing
+
+18. FIDO authentication eliminates the need for:
+A. Internet
+B. Passwords
+C. Cryptography
+D. Devices
+
+19. Which is an example of FIDO authenticator?
+A. Password file
+B. Hardware security key
+C. CAPTCHA
+D. Firewall
+
+20. Zero Trust requires authentication:
+A. Once per session
+B. Only at login
+C. Continuously
+D. Only externally
+
+🔺 ADVANCED MCQs (10)
+21. Which MFA factor is biometrics?
+A. Password
+B. Smart card
+C. Fingerprint
+D. OTP
+
+22. OAuth is best described as:
+A. Authentication protocol
+B. Authorization framework
+C. Encryption algorithm
+D. Hashing method
+
+23. Risk of graphical passwords includes:
+A. Keylogging
+B. Guessing via image hotspots
+C. Hash collision
+D. MITM
+
+24. FIDO uses which cryptographic approach?
+A. Symmetric encryption
+B. Password hashing
+C. Public key cryptography
+D. Plaintext keys
+
+25. FIDO improves security by preventing:
+A. Replay attacks
+B. Password phishing
+C. Hash collisions
+D. Brute force encryption
+
+26. Zero Trust follows which principle?
+A. Trust but verify
+B. Verify but trust
+C. Never trust, always verify
+D. Encrypt and trust
+
+27. Authentication protocols are mainly responsible for:
+A. Data encryption
+B. Identity verification
+C. Network routing
+D. File storage
+
+28. Which protocol is commonly used for centralized authentication?
+A. FTP
+B. LDAP
+C. SMTP
+D. SNMP
+
+29. Zero Trust architecture focuses on:
+A. Network perimeter
+B. User identity & device trust
+C. Only firewalls
+D. VPN only
+
+30. CCEE TRAP in Sessions 11–12 usually tests:
+A. OAuth vs OpenID confusion
+B. MFA factor classification
+C. Zero Trust philosophy
+D. All of the above
+
+✅ ANSWER KEY
+Basic:
+1.B | 2.A | 3.B | 4.D | 5.B | 6.B | 7.B | 8.B | 9.A | 10.C
+
+Intermediate:
+11.B | 12.B | 13.B | 14.B | 15.B | 16.B | 17.B | 18.B | 19.B | 20.C
+
+Advanced:
+21.C | 22.B | 23.B | 24.C | 25.B | 26.C | 27.B | 28.B | 29.B | 30.D
+
+🎯 CCEE QUICK REVISION (SESSIONS 11 & 12)
+Authentication = identity verification
+MFA = something you know + have + are
+SSO = convenience + single point of failure
+OAuth = authorization, not authentication
+OpenID = authentication
+FIDO = passwordless, public-key based
+Zero Trust = never trust, always verify
+🔥 CONGRATULATIONS — YOU HAVE NOW COMPLETED THE FULL PKI SYLLABUS (SESSIONS 1–12) 🔥
