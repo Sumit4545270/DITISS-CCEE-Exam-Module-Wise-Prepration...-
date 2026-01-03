@@ -1,0 +1,206 @@
+Excellent 🔥
+IDS / IPS + Attacks + Honeypots + tcpdump is a VERY HIGH-WEIGHT CCEE section. CDAC loves conceptual confusion (IDS vs IPS), attack mapping, security events, and lab-based tools (Honeynet, UAC, tcpdump).
+
+Below are 30 CDAC-aligned MCQs (10 Basic + 10 Intermediate + 10 Advanced) strictly from Session (IDS/IPS) + Lab 14, tuned for PG-DITISS August 2025 CCEE.
+
+Network Defense & Countermeasures – IDS / IPS (Session 9)
+BASIC MCQs (1–10)
+1. IDS stands for:
+A. Internet Detection System
+B. Intrusion Detection System
+C. Internal Defense System
+D. Integrated Detection Service
+
+2. IPS differs from IDS mainly because IPS:
+A. Detects attacks
+B. Logs events
+C. Actively blocks malicious traffic
+D. Captures packets
+
+3. IDS is primarily classified as a:
+A. Preventive control
+B. Detective control
+C. Corrective control
+D. Deterrent control
+
+4. Which of the following is an example of a security event?
+A. System boot
+B. User login
+C. Detected port scan
+D. File read
+
+5. Which attack targets availability?
+A. Phishing
+B. SQL Injection
+C. DoS
+D. Password reuse
+
+6. Host-based IDS (HIDS) monitors:
+A. Network traffic only
+B. System logs and host activity
+C. Firewall rules
+D. Router traffic
+
+7. Network-based IDS (NIDS) is usually deployed:
+A. On each host
+B. On network segments
+C. Inside applications
+D. On database server only
+
+8. Honeypots are primarily used to:
+A. Block attacks
+B. Detect and study attackers
+C. Replace firewall
+D. Improve performance
+
+9. tcpdump is best described as a:
+A. Vulnerability scanner
+B. Packet capture tool
+C. Firewall
+D. IDS
+
+10. Which command checks tcpdump version?
+A. tcpdump -l
+B. tcpdump --help
+C. tcpdump -v
+D. tcpdump -V
+
+INTERMEDIATE MCQs (11–20)
+11. A false positive in IDS means:
+A. Attack not detected
+B. Normal activity flagged as attack
+C. Attack blocked
+D. System failure
+
+12. Signature-based IDS detects attacks by:
+A. Learning normal behavior
+B. Matching known attack patterns
+C. Blocking all traffic
+D. Using encryption
+
+13. Anomaly-based IDS is useful because it can detect:
+A. Only known attacks
+B. Zero-day attacks
+C. Only malware
+D. Firewall misconfigurations
+
+14. Which attack is BEST detected using IDS?
+A. Insider data theft
+B. Network port scanning
+C. Physical theft
+D. Hardware failure
+
+15. Security events become security incidents when they:
+A. Are logged
+B. Cause actual damage or violation
+C. Are detected by IDS
+D. Trigger alerts
+
+16. Vulnerability due to poor system architecture is called:
+A. Design vulnerability
+B. Implementation vulnerability
+C. Configuration vulnerability
+D. Zero-day
+
+17. C-DAC Distributed Honeynet System is mainly used to:
+A. Block attackers
+B. Deceive and analyze attackers
+C. Scan vulnerabilities
+D. Encrypt traffic
+
+18. Dynamic honeypots differ from static honeypots because they:
+A. Are offline
+B. Adapt behavior based on attacks
+C. Use antivirus
+D. Are less secure
+
+19. UAC (URL Analyzer and Classifier) helps mainly in:
+A. Traffic routing
+B. URL reputation and classification
+C. Packet filtering
+D. NAT
+
+20. tcpdump captures packets using which library?
+A. libnet
+B. libpcap
+C. netstat
+D. syslog
+
+ADVANCED MCQs (21–30)
+21. IPS deployment inline can introduce which risk?
+A. Reduced visibility
+B. Network latency or false blocking
+C. No detection
+D. Data leakage
+
+22. Which IDS placement provides BEST network visibility?
+A. Behind firewall
+B. Inline like IPS
+C. Network choke point
+D. On endpoint only
+
+23. Anomaly-based IDS false positives occur mainly due to:
+A. Weak signatures
+B. Changing network behavior
+C. Encryption
+D. Poor hardware
+
+24. IDS evasion techniques include:
+A. Encryption and fragmentation
+B. Load balancing
+C. NAT
+D. VLAN tagging
+
+25. Honeypots should NEVER be:
+A. Isolated
+B. Monitored
+C. Placed in production LAN
+D. Logged
+
+26. tcpdump is often preferred over Wireshark on servers because it:
+A. Has GUI
+B. Is lightweight and CLI-based
+C. Blocks traffic
+D. Acts as IDS
+
+27. Mapping vulnerability → attack → event → incident is important for:
+A. Performance tuning
+B. Incident response
+C. Load balancing
+D. Encryption
+
+28. Which scenario BEST represents IPS functionality?
+A. Alert on malware
+B. Log suspicious traffic
+C. Drop malicious packets in real time
+D. Capture packets
+
+29. From CCEE perspective, IDS and IPS together provide:
+A. Complete security
+B. Detection and prevention layers
+C. Encryption
+D. Authentication
+
+30. Which statement BEST aligns with CDAC philosophy?
+A. IDS eliminates attacks
+B. IPS replaces firewall
+C. Security monitoring is continuous
+D. Honeypots block hackers
+
+ANSWER KEY
+Basic:
+1-B, 2-C, 3-B, 4-C, 5-C, 6-B, 7-B, 8-B, 9-B, 10-D
+
+Intermediate:
+11-B, 12-B, 13-B, 14-B, 15-B, 16-A, 17-B, 18-B, 19-B, 20-B
+
+Advanced:
+21-B, 22-C, 23-B, 24-A, 25-C, 26-B, 27-B, 28-C, 29-B, 30-C
+
+🔥 EXTREMELY HIGH-PROBABILITY CCEE AREAS
+✔ IDS vs IPS (Detective 🆚 Preventive)
+✔ Signature vs Anomaly IDS
+✔ False Positive / False Negative
+✔ Honeypot purpose & isolation
+✔ tcpdump basics (-i, -n, -w, -r)
+✔ Vulnerability → Event → Incident mapping
