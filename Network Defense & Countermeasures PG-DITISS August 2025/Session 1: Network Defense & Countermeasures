@@ -1,0 +1,203 @@
+Perfect 👍
+Below are 30 exam-oriented MCQs (10 Basic + 10 Intermediate + 10 Advanced) strictly aligned to CDAC – PG-DITISS (August 2025), Module Network Defense & Countermeasures, Session 1.
+
+Difficulty, wording, and distractors are designed from a CCEE exam perspective to help you target 90%+ score.
+
+Session 1 – Network Defense & Countermeasures
+BASIC MCQs (1–10)
+1. Information Security primarily aims to protect which three core principles?
+A. Authentication, Authorization, Accounting
+B. Confidentiality, Integrity, Availability
+C. Privacy, Performance, Scalability
+D. Encryption, Hashing, Digital Signature
+
+2. Which of the following best defines Information Security?
+A. Protecting hardware from physical damage
+B. Protecting information from unauthorized access, use, disclosure, disruption, modification, or destruction
+C. Protecting networks only from hackers
+D. Protecting software using antivirus
+
+3. Why is Information Security important for organizations?
+A. To reduce hardware cost
+B. To improve employee productivity
+C. To protect business assets and maintain trust
+D. To increase internet speed
+
+4. Which factor directly contributes to financial losses due to poor security?
+A. Network latency
+B. Data breaches and downtime
+C. CPU utilization
+D. Software updates
+
+5. From a security perspective, increasing internet users globally mainly results in:
+A. Reduced attack surface
+B. Increased vulnerability exposure
+C. Lower cybercrime
+D. Elimination of malware
+
+6. A vulnerability is best described as:
+A. A potential attacker
+B. A weakness that can be exploited
+C. An actual attack
+D. A security policy
+
+7. Which of the following is an example of a threat?
+A. Unpatched operating system
+B. SQL Injection attack
+C. Weak password policy
+D. Open port
+
+8. Risk in Information Security is a function of:
+A. Vulnerability × Threat
+B. Threat × Asset value
+C. Vulnerability × Threat × Impact
+D. Impact × Likelihood only
+
+9. QoS (Quality of Service) in networking mainly focuses on:
+A. Encrypting data
+B. Improving application performance
+C. Managing traffic to meet service requirements
+D. Preventing malware attacks
+
+10. Which QoS parameter represents the variation in packet delay?
+A. Latency
+B. Throughput
+C. Jitter
+D. Bandwidth
+
+INTERMEDIATE MCQs (11–20)
+11. Which security principle is violated when unauthorized modification of data occurs?
+A. Confidentiality
+B. Integrity
+C. Availability
+D. Non-repudiation
+
+12. The money factor in Information Security mainly refers to:
+A. Cost of internet services
+B. Cost of hardware procurement
+C. Financial impact of breaches and security controls
+D. Employee salary costs
+
+13. According to OWASP statistics, which category frequently ranks highest in web vulnerabilities?
+A. Security Misconfiguration
+B. Broken Access Control
+C. Injection Flaws
+D. Cryptographic Failures
+
+14. Which of the following best represents risk management?
+A. Eliminating all vulnerabilities
+B. Ignoring low-impact threats
+C. Identifying, assessing, and mitigating risks
+D. Deploying antivirus only
+
+15. OpenVAS is primarily used for:
+A. Packet sniffing
+B. Vulnerability assessment
+C. Traffic shaping
+D. Firewall configuration
+
+16. Which vulnerability type is most likely exploited by ransomware?
+A. Physical vulnerability
+B. Human vulnerability
+C. Software vulnerability
+D. Environmental vulnerability
+
+17. From a security viewpoint, high internet penetration leads to:
+A. Reduced malware spread
+B. Larger attack surface
+C. Lower phishing attempts
+D. Better confidentiality
+
+18. Which QoS metric indicates the maximum data rate of a network path?
+A. Latency
+B. Jitter
+C. Bandwidth
+D. Packet loss
+
+19. Wireshark is best categorized as a:
+A. Intrusion Detection System
+B. Vulnerability scanner
+C. Packet analyzer
+D. Firewall
+
+20. Which scenario represents availability compromise?
+A. Data theft
+B. Website defacement
+C. Denial of Service attack
+D. Password cracking
+
+ADVANCED MCQs (21–30)
+21. An organization with valuable customer data but weak access controls faces high risk because:
+A. Threat probability is low
+B. Vulnerability and asset value are high
+C. Impact is negligible
+D. Only internal users exist
+
+22. If vulnerability exists but no threat is present, the risk is:
+A. Maximum
+B. Moderate
+C. Zero or negligible
+D. Unacceptable
+
+23. OWASP Top 10 is most useful for:
+A. Network performance tuning
+B. Secure software development guidance
+C. Hardware hardening
+D. Antivirus selection
+
+24. Which attack most directly exploits poor QoS handling?
+A. SQL Injection
+B. Buffer Overflow
+C. DDoS
+D. Cross-Site Scripting
+
+25. During a vulnerability scan, OpenVAS reporting high CVSS score indicates:
+A. Low risk vulnerability
+B. False positive
+C. High severity vulnerability
+D. Network congestion
+
+26. In risk calculation, impact is best defined as:
+A. Frequency of attacks
+B. Potential damage caused by exploitation
+C. Number of vulnerabilities
+D. Number of attackers
+
+27. Which Wireshark metric is most relevant to evaluate VoIP quality?
+A. Packet size
+B. Jitter
+C. MAC address
+D. TTL value
+
+28. From a business perspective, why is preventive security often preferred over reactive security?
+A. Easier to implement
+B. Lower long-term cost
+C. Requires less expertise
+D. Eliminates all threats
+
+29. A misconfigured firewall rule allowing unnecessary inbound traffic represents:
+A. Threat
+B. Risk
+C. Vulnerability
+D. Impact
+
+30. Which statement best reflects CDAC’s security philosophy?
+A. Security is a one-time setup
+B. Security is purely technical
+C. Security is a continuous risk management process
+D. Security eliminates all attacks
+
+ANSWER KEY
+Basic:
+1-B, 2-B, 3-C, 4-B, 5-B, 6-B, 7-B, 8-C, 9-C, 10-C
+
+Intermediate:
+11-B, 12-C, 13-C, 14-C, 15-B, 16-C, 17-B, 18-C, 19-C, 20-C
+
+Advanced:
+21-B, 22-C, 23-B, 24-C, 25-C, 26-B, 27-B, 28-B, 29-C, 30-C
+
+🔥 How we’ll continue
+Next session → same structure (30 MCQs)
+I’ll increase trap-based & scenario MCQs gradually (exactly like CCEE)
+Before exam → full-length mock MCQ sets
