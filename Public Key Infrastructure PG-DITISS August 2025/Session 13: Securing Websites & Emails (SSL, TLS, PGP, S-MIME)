@@ -1,212 +1,254 @@
-Perfect 👍
-PKI – Sessions 11 & 12 are very important for modern security questions in CCEE.
-Expect conceptual + comparison-based + real-world scenario MCQs (SSO, OAuth, FIDO, Zero Trust are hot topics).
+Excellent 👍
+PKI – Session 13 is a high-weight + lab-oriented session.
+CCEE questions usually test SSL vs TLS, PGP vs S/MIME, certificate chain logic, and OpenSSL CA workflow.
 
-Below is a DITISS-aligned, CCEE-ready MCQ set covering both sessions together.
+Below is a DITISS-aligned, CCEE-ready MCQ set + step-by-step lab guidance.
 
-📘 Public Key Infrastructure – Sessions 11 & 12
-Authentication, SSO, OAuth, FIDO & Zero Trust
+📘 Public Key Infrastructure – Session 13
+Securing Websites & Emails (SSL, TLS, PGP, S/MIME)
 (PG-DITISS August 2025)
 
 🟢 BASIC MCQs (10)
-1. Authentication is the process of:
-A. Granting access rights
-B. Verifying identity
-C. Encrypting data
-D. Logging activity
+1. SSL stands for:
+A. Secure Socket Layer
+B. Safe System Login
+C. Secure Shell Layer
+D. Simple Security Layer
 
-2. Which is an example of single-factor authentication?
-A. Password only
-B. Password + OTP
-C. Smart card + PIN
-D. Biometrics + OTP
+2. TLS is the successor of:
+A. SSH
+B. IPSec
+C. SSL
+D. PGP
 
-3. Multi-factor authentication (MFA) uses:
-A. One factor only
-B. Two or more authentication factors
-C. Encryption algorithms
-D. Hashing
-
-4. Which is NOT an authentication factor?
-A. Something you know
-B. Something you have
-C. Something you are
-D. Something you encrypt
-
-5. Single Sign-On (SSO) allows users to:
-A. Use multiple passwords
-B. Login once and access multiple systems
-C. Encrypt all sessions
-D. Avoid authentication
-
-6. OAuth is mainly used for:
-A. Authentication only
-B. Authorization
-C. Encryption
-D. Hashing
-
-7. OpenID is used for:
-A. Authorization
-B. Authentication
-C. Encryption
-D. Digital signatures
-
-8. Graphical passwords use:
-A. Numbers only
-B. Images or visual patterns
-C. Tokens
-D. Certificates
-
-9. FIDO stands for:
-A. Fast Identity Online
-B. Federal Identity Organization
-C. Flexible ID Option
-D. Future Identity Object
-
-10. Zero Trust architecture assumes:
-A. Internal network is trusted
-B. External network is trusted
-C. No implicit trust
-D. Trust once, use forever
-
-🔸 INTERMEDIATE MCQs (10)
-11. Which is an example of two-factor authentication?
-A. Password + password
-B. Password + OTP
-C. Username + email
-D. PIN + PIN
-
-12. MFA improves security by:
-A. Increasing password length
-B. Reducing dependency on single factor
-C. Encrypting databases
-D. Using symmetric keys
-
-13. SSO improves usability but may increase risk because:
-A. More encryption
-B. Single point of failure
-C. Slow authentication
-D. Larger key size
-
-14. OAuth allows users to:
-A. Share passwords with apps
-B. Grant limited access without sharing password
-C. Encrypt third-party apps
-D. Create certificates
-
-15. OAuth token represents:
-A. User password
-B. Proof of authorization
-C. Encryption key
-D. Hash value
-
-16. OpenID Connect is built on top of:
-A. SSL
-B. OAuth 2.0
-C. FTP
-D. Kerberos
-
-17. Graphical passwords mainly improve resistance against:
-A. Brute force
-B. Shoulder surfing
-C. Phishing
-D. Network sniffing
-
-18. FIDO authentication eliminates the need for:
-A. Internet
-B. Passwords
-C. Cryptography
-D. Devices
-
-19. Which is an example of FIDO authenticator?
-A. Password file
-B. Hardware security key
-C. CAPTCHA
-D. Firewall
-
-20. Zero Trust requires authentication:
-A. Once per session
-B. Only at login
-C. Continuously
-D. Only externally
-
-🔺 ADVANCED MCQs (10)
-21. Which MFA factor is biometrics?
-A. Password
-B. Smart card
-C. Fingerprint
-D. OTP
-
-22. OAuth is best described as:
-A. Authentication protocol
-B. Authorization framework
-C. Encryption algorithm
-D. Hashing method
-
-23. Risk of graphical passwords includes:
-A. Keylogging
-B. Guessing via image hotspots
-C. Hash collision
-D. MITM
-
-24. FIDO uses which cryptographic approach?
-A. Symmetric encryption
-B. Password hashing
-C. Public key cryptography
-D. Plaintext keys
-
-25. FIDO improves security by preventing:
-A. Replay attacks
-B. Password phishing
-C. Hash collisions
-D. Brute force encryption
-
-26. Zero Trust follows which principle?
-A. Trust but verify
-B. Verify but trust
-C. Never trust, always verify
-D. Encrypt and trust
-
-27. Authentication protocols are mainly responsible for:
-A. Data encryption
-B. Identity verification
-C. Network routing
-D. File storage
-
-28. Which protocol is commonly used for centralized authentication?
+3. HTTPS uses which protocol for security?
 A. FTP
-B. LDAP
+B. SSL/TLS
 C. SMTP
 D. SNMP
 
-29. Zero Trust architecture focuses on:
-A. Network perimeter
-B. User identity & device trust
-C. Only firewalls
-D. VPN only
+4. Main purpose of SSL/TLS is to provide:
+A. Compression
+B. Confidentiality, Integrity, Authentication
+C. Hashing only
+D. File storage
 
-30. CCEE TRAP in Sessions 11–12 usually tests:
-A. OAuth vs OpenID confusion
-B. MFA factor classification
-C. Zero Trust philosophy
+5. PGP is mainly used for securing:
+A. Websites
+B. Databases
+C. Emails
+D. VPN
+
+6. S/MIME stands for:
+A. Secure Mail Internet Extension
+B. Secure/Multipurpose Internet Mail Extensions
+C. Safe Mail Internet Extension
+D. Simple Mail Encryption
+
+7. SSL/TLS works at which layer?
+A. Network layer
+B. Transport/Application layer
+C. Physical layer
+D. Data link layer
+
+8. PGP uses which trust model?
+A. Hierarchical
+B. Centralized
+C. Web of Trust
+D. Bridge
+
+9. S/MIME is based on:
+A. Symmetric cryptography only
+B. PKI & certificates
+C. Hash only
+D. Passwords
+
+10. OpenSSL is used for:
+A. Web hosting
+B. Cryptographic operations & certificates
+C. Network monitoring
+D. Email client
+
+🔸 INTERMEDIATE MCQs (10)
+11. TLS provides security between:
+A. Two email servers only
+B. Client and server
+C. Two databases
+D. Two routers
+
+12. Which is true about TLS?
+A. Less secure than SSL
+B. More secure than SSL
+C. Same as SSL
+D. Deprecated
+
+13. SSL/TLS handshake is used to:
+A. Encrypt files
+B. Establish secure session keys
+C. Generate hashes
+D. Authenticate DNS
+
+14. Which algorithm is used in SSL/TLS for key exchange?
+A. AES
+B. RSA / Diffie-Hellman
+C. MD5
+D. CRC
+
+15. PGP ensures which email security services?
+A. Confidentiality
+B. Authentication
+C. Integrity
+D. All of the above
+
+16. Difference between PGP and S/MIME is:
+A. Encryption strength
+B. Trust model
+C. Hashing algorithm
+D. Compression
+
+17. S/MIME requires:
+A. No certificates
+B. Digital certificates from CA
+C. Password file
+D. Firewall
+
+18. A self-signed certificate means:
+A. Signed by trusted CA
+B. Signed by itself
+C. Expired certificate
+D. Revoked certificate
+
+19. Hierarchical trust model uses:
+A. No CA
+B. Root CA → Sub CA → End entity
+C. Peer trust
+D. Web trust
+
+20. Which protocol secures email transport?
+A. HTTP
+B. SMTP over TLS
+C. FTP
+D. SNMP
+
+🔺 ADVANCED MCQs (10)
+21. SSL/TLS primarily protects against:
+A. SQL Injection
+B. Eavesdropping & MITM
+C. Malware
+D. DoS
+
+22. In SSL/TLS, server authentication is done using:
+A. Password
+B. Server certificate
+C. OTP
+D. MAC address
+
+23. PGP key management is decentralized because of:
+A. Root CA
+B. Web of Trust
+C. Bridge CA
+D. OCSP
+
+24. S/MIME is commonly used in:
+A. Enterprise email systems
+B. Social media
+C. File sharing
+D. DNS
+
+25. Which OpenSSL file stores CA private key?
+A. cert.pem
+B. key.pem
+C. csr.pem
+D. crl.pem
+
+26. Why Sub-CA is used instead of Root CA directly?
+A. Faster encryption
+B. Better security & risk separation
+C. Smaller certificates
+D. Easier hashing
+
+27. Browser trusts https://www.pgditiss.local when:
+A. Certificate is self-signed
+B. Root CA is trusted
+C. Key length is large
+D. TLS version is new
+
+28. Certificate chain verification follows:
+A. Leaf → Root
+B. Root → Leaf
+C. Random order
+D. Reverse encryption
+
+29. OpenSSL CA infrastructure uses which standard?
+A. AES
+B. RSA
+C. X.509
+D. SHA
+
+30. CCEE TRAP in Session 13 usually tests:
+A. SSL vs TLS confusion
+B. PGP vs S/MIME comparison
+C. CA hierarchy logic
 D. All of the above
 
 ✅ ANSWER KEY
 Basic:
-1.B | 2.A | 3.B | 4.D | 5.B | 6.B | 7.B | 8.B | 9.A | 10.C
+1.A | 2.C | 3.B | 4.B | 5.C | 6.B | 7.B | 8.C | 9.B | 10.B
 
 Intermediate:
-11.B | 12.B | 13.B | 14.B | 15.B | 16.B | 17.B | 18.B | 19.B | 20.C
+11.B | 12.B | 13.B | 14.B | 15.D | 16.B | 17.B | 18.B | 19.B | 20.B
 
 Advanced:
-21.C | 22.B | 23.B | 24.C | 25.B | 26.C | 27.B | 28.B | 29.B | 30.D
+21.B | 22.B | 23.B | 24.A | 25.B | 26.B | 27.B | 28.A | 29.C | 30.D
 
-🎯 CCEE QUICK REVISION (SESSIONS 11 & 12)
-Authentication = identity verification
-MFA = something you know + have + are
-SSO = convenience + single point of failure
-OAuth = authorization, not authentication
-OpenID = authentication
-FIDO = passwordless, public-key based
-Zero Trust = never trust, always verify
-🔥 CONGRATULATIONS — YOU HAVE NOW COMPLETED THE FULL PKI SYLLABUS (SESSIONS 1–12) 🔥
+🧪 LAB PART (VERY IMPORTANT – PRACTICAL + VIVA)
+🔹 LAB 1: Create Self-Signed Certificate using OpenSSL
+openssl genrsa -out server.key 2048
+openssl req -new -key server.key -out server.csr
+openssl x509 -req -days 365 -in server.csr -signkey server.key -out server.crt
+🔹 LAB 2: Setup Hierarchical PKI using OpenSSL
+🟠 Root CA (rtca.pgditiss.local – Debian)
+Generate Root CA private key
+Create Root CA certificate (self-signed)
+🟠 Sub CA (sbca.pgditiss.local – Debian)
+Generate Sub CA key
+Create CSR
+Root CA signs Sub CA certificate
+🔹 LAB 3: Issue Website Certificate
+Domain: www.pgditiss.local
+
+Steps:
+
+Generate website key
+Create CSR (CN = www.pgditiss.local)
+Sub CA signs CSR
+Certificate issued by Sub CA
+🔹 LAB 4: Configure HTTPS on Apache
+Install Apache
+
+Configure:
+
+Server certificate
+Private key
+CA chain file
+Access:
+👉 https://www.pgditiss.local
+
+🔹 LAB 5: DNS / Name Resolution
+Configure /etc/hosts or DNS entry
+Map:
+www.pgditiss.local → Server IP
+🎯 CCEE QUICK REVISION (SESSION 13)
+SSL → deprecated, TLS → secure
+HTTPS = HTTP + TLS
+PGP = Web of Trust
+S/MIME = PKI + CA
+Root CA signs Sub CA
+Browser trusts Root, not website directly
+🔥 YOU HAVE NOW COMPLETED PKI SESSION 13 SUCCESSFULLY 🔥
+
+Next best options:
+✅ Full PKI Mega Mock (Sessions 1–13)
+✅ Only Lab-Based Viva Questions (OpenSSL + XCA)
+✅ Final CCEE Combined Mock (PKI + Network + Python + MySQL)
+Just tell me what you want next 🚀
