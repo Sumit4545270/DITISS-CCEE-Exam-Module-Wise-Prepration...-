@@ -1,0 +1,205 @@
+Excellent 👍
+Session 15 (Snort Testing + IDS Architecture + IDS Evasion + Nagios) is a classic CDAC CCEE trap section because it mixes IDS internals + evasion techniques + monitoring tools (Nagios). Expect conceptual + lab-scenario MCQs here.
+
+Below are 30 high-quality MCQs (10 Basic + 10 Intermediate + 10 Advanced) strictly aligned with Session 15 + Lab 20, crafted for PG-DITISS August 2025 CCEE with a 90%+ score target.
+
+Network Defense & Countermeasures – Session 15
+BASIC MCQs (1–10)
+1. Snort is primarily used as a:
+A. Firewall
+B. IDS/IPS
+C. Proxy server
+D. Load balancer
+
+2. Snort can be installed and tested on:
+A. Linux only
+B. Windows only
+C. Both Windows and Linux
+D. Cloud only
+
+3. IDS architecture mainly consists of:
+A. Sensors, manager, database
+B. Router, switch, firewall
+C. VPN, proxy, NAT
+D. Client and server
+
+4. IDS sensors are responsible for:
+A. Blocking attacks
+B. Monitoring and detecting activity
+C. Encrypting packets
+D. Load balancing
+
+5. Bypassing an IDS means:
+A. Disabling IDS
+B. Evading detection mechanisms
+C. Blocking traffic
+D. Updating signatures
+
+6. Which tool is used for infrastructure monitoring?
+A. Snort
+B. Suricata
+C. Nagios
+D. Wireshark
+
+7. Nagios is mainly classified as a:
+A. IDS
+B. SIEM
+C. Network and system monitoring tool
+D. Firewall
+
+8. Nagios sensors (agents) are installed on:
+A. Router only
+B. Monitored hosts
+C. Firewall only
+D. IDS manager
+
+9. A simulated attack is useful to:
+A. Damage system
+B. Test IDS effectiveness
+C. Replace firewall
+D. Improve bandwidth
+
+10. Monitoring RAM and disk usage helps to detect:
+A. Encryption
+B. Resource exhaustion
+C. Phishing
+D. Spoofing
+
+INTERMEDIATE MCQs (11–20)
+11. Snort testing is usually done by:
+A. Updating OS
+B. Generating attack traffic
+C. Restarting system
+D. Changing IP
+
+12. IDS architecture separates detection and management to:
+A. Increase latency
+B. Improve scalability
+C. Reduce security
+D. Block traffic
+
+13. A common IDS evasion technique is:
+A. Encryption
+B. Packet fragmentation
+C. NAT
+D. VLAN tagging
+
+14. IDS evasion works mainly by exploiting:
+A. Hardware failure
+B. Detection logic limitations
+C. VPN tunnels
+D. Firewalls
+
+15. Nagios checks are used to:
+A. Block attacks
+B. Monitor service health
+C. Encrypt logs
+D. Capture packets
+
+16. Nagios alerting via email is useful for:
+A. Log storage
+B. Real-time notifications
+C. Traffic blocking
+D. Packet filtering
+
+17. A down service alert in Nagios indicates:
+A. Normal operation
+B. Service unavailability
+C. IDS alert
+D. Firewall block
+
+18. Snort running in IDS mode will:
+A. Block packets
+B. Generate alerts
+C. Encrypt traffic
+D. Route packets
+
+19. IDS architecture benefits from distributed sensors because:
+A. Reduced visibility
+B. Broader coverage
+C. Increased cost
+D. Single point failure
+
+20. Nagios NRPE/agents allow monitoring of:
+A. Remote host resources
+B. Network packets
+C. Firewall rules
+D. IDS signatures
+
+ADVANCED MCQs (21–30)
+21. Packet fragmentation can bypass IDS when:
+A. IDS cannot reassemble packets properly
+B. Firewall blocks traffic
+C. VPN is used
+D. Logs are encrypted
+
+22. Encrypted traffic challenges IDS because:
+A. IDS cannot see payload
+B. IDS cannot see headers
+C. Traffic is blocked
+D. IDS crashes
+
+23. Signature-based IDS is MOST vulnerable to:
+A. Known attacks
+B. Zero-day attacks
+C. High bandwidth
+D. Hardware failure
+
+24. IDS architecture must ensure sensor synchronization to:
+A. Reduce alerts
+B. Maintain accurate detection
+C. Encrypt data
+D. Load balance
+
+25. Nagios complements IDS by providing:
+A. Intrusion prevention
+B. Availability and performance monitoring
+C. Log correlation
+D. Malware detection
+
+26. Excessive alerts from Snort may indicate:
+A. False positives
+B. Hardware failure
+C. Encryption
+D. VPN issue
+
+27. Testing IDS on both Windows and Linux ensures:
+A. Uniform hardware
+B. Cross-platform detection reliability
+C. Reduced cost
+D. Faster bandwidth
+
+28. IDS evasion techniques emphasize the need for:
+A. Single-layer security
+B. Defense in depth
+C. VPN only
+D. Antivirus only
+
+29. Nagios detecting disk full condition helps prevent:
+A. DDoS
+B. Service outages
+C. Phishing
+D. Spoofing
+
+30. From CCEE perspective, combining IDS + Nagios enables:
+A. Complete prevention
+B. Security detection + availability monitoring
+C. Encryption
+D. Authentication
+
+ANSWER KEY
+Basic:
+1-B, 2-C, 3-A, 4-B, 5-B, 6-C, 7-C, 8-B, 9-B, 10-B
+
+Intermediate:
+11-B, 12-B, 13-B, 14-B, 15-B, 16-B, 17-B, 18-B, 19-B, 20-A
+
+Advanced:
+21-A, 22-A, 23-B, 24-B, 25-B, 26-A, 27-B, 28-B, 29-B, 30-B
+
+🔥 VERY HIGH-PROBABILITY CCEE QUESTIONS
+✔ IDS architecture components
+✔ Snort testing via simulated attacks
+✔ IDS evasion techniques (fragmentation, encryption)
+✔ Nagios vs IDS (availability vs security)
+✔ Email alerting & resource monitoring
