@@ -1,0 +1,206 @@
+Excellent 👍
+Session 14 (Log Analyzer + SIEM) is a VERY HIGH-YIELD CCEE topic because CDAC loves log vs event vs incident, SIEM correlation, and Snort + Syslog + BASE integration questions.
+
+Below are 30 CDAC-aligned MCQs (10 Basic + 10 Intermediate + 10 Advanced) strictly based on Session 14 + Lab 19, crafted to push you toward a 90%+ CCEE score.
+
+Network Defense & Countermeasures – Session 14 (Log Analyzer & SIEM)
+BASIC MCQs (1–10)
+1. A log is BEST described as:
+A. Encrypted data
+B. Record of system or network activity
+C. Attack signature
+D. Firewall rule
+
+2. Log analyzers are mainly used to:
+A. Block traffic
+B. Monitor and analyze logs
+C. Encrypt data
+D. Route packets
+
+3. SIEM stands for:
+A. Secure Incident Event Manager
+B. Security Information and Event Management
+C. System Information Event Monitor
+D. Security Intrusion Event Monitor
+
+4. Which of the following is an example of a log source?
+A. Router
+B. Firewall
+C. IDS
+D. All of the above
+
+5. SIEM mainly helps in:
+A. Traffic routing
+B. Centralized security monitoring
+C. Malware removal
+D. Load balancing
+
+6. Syslog is primarily used for:
+A. Packet capture
+B. Log forwarding
+C. Encryption
+D. Authentication
+
+7. SIEM correlation means:
+A. Storing logs
+B. Linking multiple events to identify attacks
+C. Blocking traffic
+D. Compressing logs
+
+8. Event triggering in SIEM happens when:
+A. Log is stored
+B. Correlation rules are matched
+C. Traffic is blocked
+D. System boots
+
+9. Snort logs are usually generated when:
+A. Firewall blocks traffic
+B. IDS rule is matched
+C. VPN connects
+D. System updates
+
+10. BASE is mainly used for:
+A. Packet capture
+B. Log visualization and analysis
+C. Encryption
+D. Firewall management
+
+INTERMEDIATE MCQs (11–20)
+11. SIEM differs from log analyzer because SIEM provides:
+A. Only storage
+B. Correlation and alerting
+C. Packet filtering
+D. NAT
+
+12. Which component forwards logs to SIEM?
+A. IDS Manager
+B. Log forwarder / Syslog agent
+C. Firewall rule
+D. Switch
+
+13. A security event becomes an incident when it:
+A. Is logged
+B. Violates security policy
+C. Is correlated and confirmed
+D. Is forwarded
+
+14. Log normalization in SIEM helps to:
+A. Encrypt logs
+B. Convert logs into common format
+C. Delete logs
+D. Block traffic
+
+15. Which Snort mode generates logs for SIEM?
+A. Sniffer mode
+B. Packet logger mode
+C. IDS mode
+D. Firewall mode
+
+16. Writing Snort rules involves defining:
+A. Interfaces
+B. Conditions and actions
+C. Encryption keys
+D. VLANs
+
+17. Which protocol is MOST commonly used for log forwarding?
+A. FTP
+B. Syslog (UDP/TCP 514)
+C. HTTP
+D. SNMP
+
+18. SIEM correlation rules are designed to detect:
+A. Single events
+B. Attack patterns across multiple logs
+C. Encryption failures
+D. Hardware faults
+
+19. BASE acts as a frontend for:
+A. Syslog
+B. Snort alerts
+C. Firewall rules
+D. VPN logs
+
+20. Real-time alerting is a key advantage of:
+A. Manual log review
+B. SIEM
+C. Packet capture
+D. Antivirus
+
+ADVANCED MCQs (21–30)
+21. SIEM reduces false positives mainly through:
+A. Encryption
+B. Correlation of multiple events
+C. Packet blocking
+D. Rate limiting
+
+22. A failed login followed by a successful login from same IP may indicate:
+A. Normal activity
+B. Brute-force attack
+C. Malware infection
+D. DoS attack
+
+23. SIEM event triggering is based on:
+A. Raw packet data
+B. Predefined correlation rules
+C. Firewall rules only
+D. Antivirus signatures
+
+24. Centralized logging is critical for:
+A. Performance tuning
+B. Forensics and compliance
+C. Load balancing
+D. Encryption
+
+25. Syslog over TCP is preferred over UDP because it:
+A. Is faster
+B. Ensures reliable delivery
+C. Encrypts logs
+D. Uses less bandwidth
+
+26. Snort rule “alert tcp any any → any 80” indicates:
+A. Block HTTP traffic
+B. Alert on TCP traffic to port 80
+C. Encrypt HTTP traffic
+D. Forward HTTP logs
+
+27. SIEM storage must be protected because logs:
+A. Increase bandwidth
+B. Contain forensic evidence
+C. Reduce performance
+D. Encrypt traffic
+
+28. BASE + Snort integration helps analysts to:
+A. Block attacks
+B. Visualize and analyze alerts
+C. Encrypt packets
+D. Configure VPN
+
+29. Correlating IDS + Firewall + OS logs improves:
+A. Network speed
+B. Incident detection accuracy
+C. Encryption strength
+D. Hardware utilization
+
+30. From CCEE perspective, SIEM’s PRIMARY goal is:
+A. Prevent all attacks
+B. Detect, correlate, and respond to incidents
+C. Replace IDS
+D. Replace firewall
+
+ANSWER KEY
+Basic:
+1-B, 2-B, 3-B, 4-D, 5-B, 6-B, 7-B, 8-B, 9-B, 10-B
+
+Intermediate:
+11-B, 12-B, 13-C, 14-B, 15-C, 16-B, 17-B, 18-B, 19-B, 20-B
+
+Advanced:
+21-B, 22-B, 23-B, 24-B, 25-B, 26-B, 27-B, 28-B, 29-B, 30-B
+
+🔥 CCEE EXAMINER’S FAVORITES
+✔ Log vs Event vs Incident
+✔ Log Analyzer vs SIEM
+✔ Syslog & log forwarding
+✔ SIEM correlation & triggering
+✔ Snort rule basics
+✔ BASE role in analysis
