@@ -1,0 +1,207 @@
+Excellent 👍
+Session 12 & 13 is a classic CDAC favorite because it blends architecture + IDS internals + DoS/DDoS + labs (Snort, OSSEC, Wireshark, iptables, LOIC). Expect scenario-based MCQs here.
+
+Below are 30 CCEE-grade MCQs (10 Basic + 10 Intermediate + 10 Advanced) strictly aligned with Session 12 & 13 + Lab 17 & 18, designed for 90%+ scoring.
+
+Network Defense & Countermeasures – Session 12 & 13
+BASIC MCQs (1–10)
+1. A sudden spike in network traffic is a common symptom of:
+A. Phishing
+B. DoS attack
+C. Malware infection
+D. Insider attack
+
+2. IDS sensors are mainly responsible for:
+A. Blocking traffic
+B. Collecting and analyzing data
+C. Encrypting packets
+D. Load balancing
+
+3. Network-based IDS sensors monitor:
+A. System logs
+B. File integrity
+C. Network traffic
+D. User activity
+
+4. Host-based IDS sensors monitor:
+A. Switch traffic
+B. Router logs
+C. System events and logs
+D. Firewall rules
+
+5. A three-tier architecture typically consists of:
+A. Client, Server, Database
+B. Presentation, Application, Database
+C. Network, Host, Application
+D. User, IDS, Firewall
+
+6. Denial of Service attacks mainly affect:
+A. Confidentiality
+B. Integrity
+C. Availability
+D. Authentication
+
+7. DDoS differs from DoS because it uses:
+A. One attacker
+B. Multiple distributed sources
+C. Encryption
+D. VPN
+
+8. IDS agents primarily run on:
+A. Network devices
+B. End hosts
+C. Routers only
+D. Firewalls only
+
+9. LOIC is mainly used to:
+A. Scan vulnerabilities
+B. Capture packets
+C. Simulate DoS attacks
+D. Block traffic
+
+10. Rate limiting helps mitigate DoS by:
+A. Blocking all traffic
+B. Limiting request rate
+C. Encrypting packets
+D. Logging attacks
+
+INTERMEDIATE MCQs (11–20)
+11. Which symptom BEST indicates a DDoS attack?
+A. Slow database query
+B. Multiple IPs flooding a service
+C. Corrupted files
+D. Login failures
+
+12. Tiered architecture improves security by:
+A. Reducing bandwidth
+B. Isolating components
+C. Increasing latency
+D. Removing firewalls
+
+13. IDS sensor placement should ensure:
+A. Minimal visibility
+B. Maximum traffic visibility
+C. Encryption only
+D. Low bandwidth
+
+14. Host-based sensors are BEST for detecting:
+A. Network scans
+B. File integrity changes
+C. DDoS attacks
+D. Packet floods
+
+15. Agents in IDS architecture communicate with:
+A. Firewall
+B. IDS Manager
+C. Router
+D. Switch
+
+16. The IDS Manager is responsible for:
+A. Packet capture
+B. Centralized analysis and correlation
+C. Blocking traffic
+D. Load balancing
+
+17. Which iptables feature is useful for DoS mitigation?
+A. NAT
+B. Rate limiting
+C. Logging only
+D. VLAN tagging
+
+18. Blacklisting mitigates DoS by:
+A. Allowing traffic
+B. Blocking known malicious IPs
+C. Encrypting data
+D. Load balancing
+
+19. Wireshark helps identify DoS symptoms by showing:
+A. File changes
+B. Abnormal traffic patterns
+C. System logs
+D. Firewall rules
+
+20. Snort is typically deployed as a:
+A. Host-based sensor
+B. Network-based sensor
+C. Firewall
+D. VPN
+
+ADVANCED MCQs (21–30)
+21. In a three-tier architecture, the MOST secure placement of database is:
+A. DMZ
+B. Internal network
+C. Public network
+D. Internet-facing
+
+22. Excessive SYN packets without ACK indicate:
+A. UDP flood
+B. SYN flood attack
+C. ICMP flood
+D. DNS amplification
+
+23. DDoS mitigation is difficult mainly due to:
+A. Encryption
+B. Distributed attack sources
+C. Weak IDS
+D. Firewall rules
+
+24. Sensor failure impacts IDS by causing:
+A. False positives
+B. Blind spots
+C. Encryption failure
+D. High latency
+
+25. Agents performing file integrity monitoring detect:
+A. Network floods
+B. Unauthorized file changes
+C. Bandwidth usage
+D. Port scans
+
+26. IDS agents must be lightweight to:
+A. Increase detection
+B. Reduce host performance impact
+C. Block traffic
+D. Encrypt data
+
+27. A centralized IDS Manager helps in:
+A. Single point of failure
+B. Event correlation and reporting
+C. Packet forwarding
+D. NAT
+
+28. LOIC attack traffic is BEST mitigated using:
+A. Signature-based IDS only
+B. Rate limiting and IP filtering
+C. Antivirus
+D. Encryption
+
+29. Deploying both network and host sensors improves:
+A. Bandwidth
+B. Detection coverage
+C. Latency
+D. Encryption
+
+30. From CCEE perspective, effective DoS defense requires:
+A. Single firewall
+B. Layered mitigation techniques
+C. IDS only
+D. VPN
+
+ANSWER KEY
+Basic:
+1-B, 2-B, 3-C, 4-C, 5-B, 6-C, 7-B, 8-B, 9-C, 10-B
+
+Intermediate:
+11-B, 12-B, 13-B, 14-B, 15-B, 16-B, 17-B, 18-B, 19-B, 20-B
+
+Advanced:
+21-B, 22-B, 23-B, 24-B, 25-B, 26-B, 27-B, 28-B, 29-B, 30-B
+
+🔥 VERY HIGH-PROBABILITY CCEE QUESTIONS
+✔ DoS vs DDoS symptoms
+✔ Network vs Host IDS sensors
+✔ IDS agent & manager roles
+✔ Tiered architecture security placement
+✔ LOIC behavior & mitigation
+✔ iptables rate-limit / blacklist use cases
+👉 Tell me what you want next — you are now at CCEE topper level 🏆
