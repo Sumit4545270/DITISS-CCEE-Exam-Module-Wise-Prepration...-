@@ -1,0 +1,206 @@
+Perfect 👍
+Session 10 & 11 is one of the MOST SCORING + TRICKIEST sections in CDAC DITISS CCEE, especially because CDAC mixes theory + lab-tool correlation (Snort, OSSEC, Suricata, ELK).
+
+Below are 30 exam-oriented MCQs (10 Basic + 10 Intermediate + 10 Advanced) crafted exactly from Session 10 & 11 + Lab 15 & 16, aligned to CCEE trap patterns.
+
+Network Defense & Countermeasures – Session 10 & 11 (IDS / IPS & Threat Hunting)
+BASIC MCQs (1–10)
+1. A traditional attack usually originates from:
+A. Multiple compromised hosts
+B. Single attacker/source
+C. Botnet
+D. Cloud environment
+
+2. Distributed attacks mainly aim to:
+A. Steal credentials
+B. Overload resources
+C. Encrypt data
+D. Modify logs
+
+3. Which intruder type has authorized access?
+A. Masquerader
+B. Insider
+C. Script kiddie
+D. External attacker
+
+4. IDS systems are mainly categorized into:
+A. Active and Passive
+B. Host-based and Network-based
+C. Inline and Offline
+D. Hardware and Software
+
+5. IPS is BEST described as a:
+A. Monitoring system
+B. Detection-only system
+C. Preventive security control
+D. Logging mechanism
+
+6. Defense in Depth means:
+A. Single strong firewall
+B. Multiple layers of security
+C. Only IDS deployment
+D. Only IPS deployment
+
+7. Signature-based detection works by:
+A. Learning behavior
+B. Matching known patterns
+C. Blocking unknown traffic
+D. Using heuristics
+
+8. Anomaly detection compares traffic against:
+A. Signature database
+B. Firewall rules
+C. Baseline behavior
+D. Honeypot data
+
+9. Which tool is a Network-based IDS?
+A. OSSEC
+B. Snort
+C. Wazuh
+D. Tripwire
+
+10. Threat hunting is primarily:
+A. Reactive
+B. Automated blocking
+C. Proactive investigation
+D. Logging activity
+
+INTERMEDIATE MCQs (11–20)
+11. A botnet-driven attack is an example of:
+A. Traditional attack
+B. Distributed attack
+C. Insider attack
+D. Passive attack
+
+12. Which intruder type uses stolen credentials?
+A. Insider
+B. Masquerader
+C. Misfeasor
+D. External auditor
+
+13. Host-based IDS (HIDS) typically monitors:
+A. Network packets
+B. System logs and file integrity
+C. Router traffic
+D. Firewall rules
+
+14. IPS categories include:
+A. Signature, anomaly
+B. Network-based, host-based
+C. Inline, out-of-band
+D. Hardware, software
+
+15. Inline IPS operates by:
+A. Copying traffic
+B. Blocking traffic in real time
+C. Logging packets
+D. Forwarding logs
+
+16. IDS analysis scheme involves:
+A. Detection, alerting, response
+B. Logging only
+C. Blocking traffic
+D. Encryption
+
+17. Which detection method is BEST for zero-day attacks?
+A. Signature-based
+B. Rule-based
+C. Anomaly-based
+D. Static analysis
+
+18. One core principle of IDS is:
+A. Eliminate attacks
+B. Detect policy violations
+C. Encrypt traffic
+D. Replace firewall
+
+19. Snort mainly operates as:
+A. HIDS
+B. NIDS
+C. Firewall
+D. Proxy
+
+20. Suricata can operate as both:
+A. IDS and IPS
+B. Firewall and router
+C. VPN and IDS
+D. Proxy and IDS
+
+ADVANCED MCQs (21–30)
+21. Defense in Depth reduces risk mainly by:
+A. Eliminating vulnerabilities
+B. Introducing multiple failure points for attackers
+C. Increasing bandwidth
+D. Centralizing control
+
+22. A false negative in IDS means:
+A. Normal traffic flagged
+B. Attack missed
+C. Attack blocked
+D. System crash
+
+23. IDS evasion techniques target weaknesses in:
+A. Encryption
+B. Detection methodology
+C. Hardware speed
+D. Load balancing
+
+24. OSSEC is BEST suited for detecting:
+A. Network scans
+B. Host-level log anomalies
+C. DDoS attacks
+D. Packet fragmentation
+
+25. Suricata in IPS mode must be deployed:
+A. Out-of-band
+B. Inline
+C. On endpoint
+D. In DMZ only
+
+26. An IDS generating too many alerts suffers from:
+A. False negatives
+B. Alert fatigue
+C. Weak encryption
+D. Poor routing
+
+27. Threat hunting differs from IDS because it is:
+A. Automated
+B. Signature-driven
+C. Hypothesis-based and proactive
+D. Firewall-based
+
+28. ELK stack is mainly used for:
+A. Packet filtering
+B. Log aggregation and visualization
+C. Intrusion blocking
+D. Malware removal
+
+29. In ELK, which component parses logs?
+A. Elasticsearch
+B. Kibana
+C. Logstash
+D. Beats
+
+30. From CCEE perspective, combining IDS + IPS + Threat Hunting achieves:
+A. Absolute security
+B. Detection, prevention, and response
+C. Encryption only
+D. Authentication only
+
+ANSWER KEY
+Basic:
+1-B, 2-B, 3-B, 4-B, 5-C, 6-B, 7-B, 8-C, 9-B, 10-C
+
+Intermediate:
+11-B, 12-B, 13-B, 14-B, 15-B, 16-A, 17-C, 18-B, 19-B, 20-A
+
+Advanced:
+21-B, 22-B, 23-B, 24-B, 25-B, 26-B, 27-C, 28-B, 29-C, 30-B
+
+🔥 CCEE EXAMINER FAVORITES (HIGH PROBABILITY)
+✔ Traditional vs Distributed attacks
+✔ Insider vs Masquerader intruder
+✔ IDS vs IPS vs Threat Hunting
+✔ Signature vs Anomaly detection
+✔ Snort vs OSSEC vs Suricata
+✔ ELK Stack components & flow
