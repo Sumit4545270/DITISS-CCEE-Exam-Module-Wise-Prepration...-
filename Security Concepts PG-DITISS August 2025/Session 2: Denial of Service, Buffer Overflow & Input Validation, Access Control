@@ -1,0 +1,226 @@
+Great 👍
+Below is Session 2 prepared exactly for CDAC–DITISS CCEE mindset — simple reading, option elimination, and exam traps covered.
+
+📘 Security Concepts – PG-DITISS (Aug 2025)
+Session 2: Denial of Service, Buffer Overflow & Input Validation, Access Control
+🔹 BASIC MCQs (10)
+1. The primary goal of a Denial of Service (DoS) attack is to:
+A. Steal data
+B. Modify database
+C. Make service unavailable
+D. Gain admin access
+
+2. Which security property is MOST affected by DoS attacks?
+A. Confidentiality
+B. Integrity
+C. Availability
+D. Authentication
+
+3. Buffer overflow occurs when:
+A. Input is encrypted
+B. Input exceeds allocated memory
+C. Firewall blocks traffic
+D. Password is weak
+
+4. Which programming language is MOST prone to buffer overflow?
+A. Python
+B. Java
+C. C
+D. PHP
+
+5. Input validation mainly protects against:
+A. Malware
+B. Unauthorized input
+C. Network attacks
+D. Power failure
+
+6. Access control defines:
+A. How data is encrypted
+B. Who can access what
+C. How logs are stored
+D. How packets flow
+
+7. Which access control model assigns permissions to roles?
+A. DAC
+B. MAC
+C. RBAC
+D. ABAC
+
+8. Which attack floods a server with excessive requests?
+A. XSS
+B. DoS
+C. SQL Injection
+D. CSRF
+
+9. Improper input validation can lead to:
+A. SQL Injection
+B. XSS
+C. Buffer Overflow
+D. All of the above
+
+10. Access control is enforced AFTER:
+A. Authorization
+B. Authentication
+C. Encryption
+D. Logging
+
+🔸 INTERMEDIATE MCQs (10)
+11. Difference between DoS and DDoS is:
+A. Tool used
+B. Number of attackers
+C. Protocol used
+D. Payload type
+
+12. Which protocol is commonly abused in DoS attacks?
+A. FTP
+B. ICMP
+C. SMTP
+D. DNS
+
+13. Buffer overflow mainly exploits which weakness?
+A. CPU speed
+B. Memory management
+C. Encryption strength
+D. Authentication logic
+
+14. Stack-based buffer overflow allows attacker to:
+A. Read logs
+B. Execute arbitrary code
+C. Capture packets
+D. Bypass firewall
+
+15. Input validation should be performed at:
+A. Client side only
+B. Server side only
+C. Both client & server side
+D. Database side only
+
+16. Which is an example of improper access control?
+A. HTTPS usage
+B. Admin page accessible to normal user
+C. Strong password
+D. MFA enabled
+
+17. Which access control model is MOST restrictive?
+A. DAC
+B. RBAC
+C. MAC
+D. ABAC
+
+18. SYN Flood attack exploits:
+A. UDP handshake
+B. TCP three-way handshake
+C. DNS resolution
+D. ARP cache
+
+19. Input validation failure is a root cause of:
+A. DoS
+B. Injection attacks
+C. Network sniffing
+D. Port scanning
+
+20. Which mechanism helps mitigate DoS attacks?
+A. Input validation
+B. Rate limiting
+C. Encryption
+D. Hashing
+
+🔺 ADVANCED MCQs (10) – CCEE TRICK ZONE
+21. Which CIA principle is directly tested in DoS lab assignment?
+A. Confidentiality
+B. Integrity
+C. Availability
+D. Authentication
+
+22. Why are buffer overflows less common in Java?
+A. Java is slower
+B. Automatic memory management
+C. Encrypted memory
+D. Uses firewall
+
+23. Which payload may trigger buffer overflow?
+A. Normal username
+B. Very long string input
+C. Encoded password
+D. Encrypted token
+
+24. Access control failure mainly leads to:
+A. Service crash
+B. Privilege escalation
+C. Packet loss
+D. DoS
+
+25. Which attack combines availability loss with multiple sources?
+A. DoS
+B. DDoS
+C. MITM
+D. XSS
+
+26. Input validation bypass in lab means attacker:
+A. Crashes server
+B. Executes malware
+C. Gets unauthorized access
+D. Changes firewall rules
+
+27. Which access control model is rule-based and centrally enforced?
+A. DAC
+B. RBAC
+C. MAC
+D. ABAC
+
+28. Why client-side validation alone is insecure?
+A. Slower execution
+B. Can be bypassed by attacker
+C. Uses JavaScript
+D. Needs browser support
+
+29. Buffer overflow attacks can overwrite:
+A. Heap metadata
+B. Return address
+C. Function pointers
+D. All of the above
+
+30. DoS attack success is measured by:
+A. Data theft
+B. System slowdown/unavailability
+C. Password compromise
+D. Privilege escalation
+
+✅ ANSWER KEY (Check ONLY after attempting)
+1. C
+2. C
+3. B
+4. C
+5. B
+6. B
+7. C
+8. B
+9. D
+10. B
+
+11. B
+12. B
+13. B
+14. B
+15. C
+16. B
+17. C
+18. B
+19. B
+20. B
+
+21. C
+22. B
+23. B
+24. B
+25. B
+26. C
+27. C
+28. B
+29. D
+30. B
+
+🔥 What to do now (important)
+Read only the questions → try elimination
+Match with lab scenarios (DoS + input validation bypass)
+Revise CIA + Access Control models (very high CCEE weight)
