@@ -1,0 +1,228 @@
+Excellent 👍
+Below is Session 3 MCQs designed purely from CCEE exam + lab execution perspective.
+Focus here is risk identification, threat modeling logic, HTTP understanding, and Burp Suite usage — very high-weight area.
+
+📘 Security Concepts – PG-DITISS (Aug 2025)
+Session 3: Web App Risks, Risk Identification, Threat Modeling, HTTP Fields, Burp Suite
+🔹 BASIC MCQs (10)
+1. Web application security risks mainly arise due to:
+A. Hardware failure
+B. Poor coding and configuration
+C. Power outage
+D. ISP issues
+
+2. Which organization maintains a list of common web application risks?
+A. ISO
+B. NIST
+C. CERT-In
+D. OWASP
+
+3. Identifying application security risks involves:
+A. Writing new code
+B. Finding vulnerabilities and threats
+C. Encrypting data
+D. Blocking IPs
+
+4. Threat modeling helps in:
+A. Code compilation
+B. Identifying potential attackers and attack paths
+C. Network routing
+D. Patch management
+
+5. Which HTTP field identifies the client software?
+A. Host
+B. Referer
+C. User-Agent
+D. Cookie
+
+6. Which HTTP header is used to send session information?
+A. Accept
+B. Cookie
+C. Content-Type
+D. Connection
+
+7. Burp Suite is mainly used for:
+A. Network routing
+B. Web application security testing
+C. Antivirus scanning
+D. Log management
+
+8. Which Burp Suite feature intercepts HTTP requests?
+A. Scanner
+B. Repeater
+C. Proxy
+D. Decoder
+
+9. Vulnerability scanning aims to:
+A. Remove malware
+B. Detect security weaknesses
+C. Encrypt traffic
+D. Improve performance
+
+10. Risk in security is best defined as:
+A. Threat × Vulnerability × Impact
+B. Threat + Vulnerability
+C. Impact ÷ Threat
+D. Vulnerability − Threat
+
+🔸 INTERMEDIATE MCQs (10)
+11. Which is NOT a web application security risk?
+A. SQL Injection
+B. XSS
+C. Buffer Overflow
+D. Power failure
+
+12. Identifying risks requires understanding:
+A. Only application code
+B. Only server OS
+C. Assets, threats, vulnerabilities
+D. Network bandwidth
+
+13. Threat modeling is performed:
+A. After deployment only
+B. During design phase
+C. After incident
+D. During backup
+
+14. Which HTTP header shows the originating page?
+A. Host
+B. Referer
+C. Origin
+D. Location
+
+15. Burp Suite Proxy works as:
+A. Firewall
+B. Man-in-the-middle
+C. IDS
+D. Load balancer
+
+16. Which Burp tool allows modifying and resending requests?
+A. Scanner
+B. Proxy
+C. Repeater
+D. Intruder
+
+17. Automated scanning in Burp Suite helps identify:
+A. Network latency
+B. Common vulnerabilities
+C. Encryption keys
+D. Server uptime
+
+18. Which HTTP field specifies data format sent to server?
+A. Accept
+B. Content-Type
+C. User-Agent
+D. Cookie
+
+19. Risk identification is ineffective without knowing:
+A. IP address
+B. Business impact
+C. Programming language
+D. Browser type
+
+20. Burp Suite Scanner is MOST useful for:
+A. Manual testing
+B. Passive and active vulnerability detection
+C. Traffic routing
+D. Firewall bypass
+
+🔺 ADVANCED MCQs (10) – CCEE HIGH-TRAP ZONE
+21. Which combination BEST represents threat modeling?
+A. Asset + Patch
+B. Threat + Vulnerability + Impact
+C. Risk + Firewall
+D. Attack + Defense
+
+22. Why threat modeling is critical before deployment?
+A. Improves UI
+B. Reduces future security risks
+C. Speeds up execution
+D. Reduces cost of server
+
+23. Which HTTP header is MOST useful for detecting session hijacking?
+A. Host
+B. Cookie
+C. Accept-Encoding
+D. Cache-Control
+
+24. While scanning with Burp Suite, false positives occur because:
+A. Tool is outdated
+B. Automated tools lack business logic context
+C. Network is slow
+D. SSL is enabled
+
+25. Which Burp Suite feature is used for brute-force and fuzzing?
+A. Repeater
+B. Decoder
+C. Intruder
+D. Scanner
+
+26. Identifying risks using tools mainly supports which security phase?
+A. Prevention
+B. Detection
+C. Recovery
+D. Response
+
+27. HTTP headers are security-sensitive because they:
+A. Control routing
+B. Influence server-side behavior
+C. Increase speed
+D. Reduce bandwidth
+
+28. Which lab task validates MITM capability of Burp Suite?
+A. Vulnerability scanning
+B. Configuring Burp with browser
+C. Report generation
+D. Log analysis
+
+29. Which risk is MOST likely found via Burp Scanner?
+A. Hardware failure
+B. SQL Injection
+C. Power outage
+D. Disk crash
+
+30. Threat modeling failure MOST commonly leads to:
+A. Slow application
+B. Unidentified attack vectors
+C. Poor UI
+D. Network congestion
+
+✅ ANSWER KEY (Check after attempting)
+1. B
+2. D
+3. B
+4. B
+5. C
+6. B
+7. B
+8. C
+9. B
+10. A
+
+11. D
+12. C
+13. B
+14. B
+15. B
+16. C
+17. B
+18. B
+19. B
+20. B
+
+21. B
+22. B
+23. B
+24. B
+25. C
+26. B
+27. B
+28. B
+29. B
+30. B
+
+🎯 CCEE Exam Tip (VERY IMPORTANT)
+Threat modeling + Burp Suite + HTTP headers = guaranteed questions
+Always think: asset → threat → vulnerability → impact
+Labs = direct MCQs, not theory
+👉 Send Session 4 topics when ready — we’re building this step-by-step toward 90%+ 💪
