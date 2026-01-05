@@ -1,0 +1,222 @@
+Perfect 👍
+Below are CCEE-oriented MCQs strictly mapped to PG-DITISS – Security Concepts – Session 1.
+Level is tuned for 90%+ score mindset (option-elimination, trap awareness, lab relevance).
+
+📘 Security Concepts – PG-DITISS (Aug 2025)
+Session 1: OWASP Top 10 (2021), Injection, XSS, Stored Procedure Injection
+🔹 BASIC MCQs (10)
+1. Which organization publishes the OWASP Top 10 list?
+A. ISO
+B. NIST
+C. CERT-In
+D. OWASP
+
+2. Which OWASP Top 10 (2021) category includes SQL Injection?
+A. Broken Authentication
+B. Injection
+C. Security Misconfiguration
+D. Sensitive Data Exposure
+
+3. SQL Injection mainly targets which component of a web application?
+A. Web Server
+B. Database
+C. Client Browser
+D. Firewall
+
+4. Which character is MOST commonly used to comment out SQL queries?
+A. #
+B. --
+C. /* */
+D. All of the above
+
+5. Cross-Site Scripting (XSS) occurs due to:
+A. Improper input validation
+B. Weak encryption
+C. Open ports
+D. Network sniffing
+
+6. Which type of XSS is stored permanently on the server?
+A. Reflected XSS
+B. DOM-based XSS
+C. Stored XSS
+D. Blind XSS
+
+7. Inclusion vulnerabilities allow attackers to:
+A. Modify cookies
+B. Execute remote files
+C. Capture packets
+D. Encrypt traffic
+
+8. Which vulnerability allows execution of JavaScript in a victim’s browser?
+A. SQL Injection
+B. Command Injection
+C. Cross-Site Scripting
+D. CSRF
+
+9. Stored Procedure Injection is dangerous because it:
+A. Bypasses firewall
+B. Executes precompiled SQL logic
+C. Uses JavaScript
+D. Affects DNS
+
+10. Which is a primary goal of OWASP Top 10?
+A. Malware detection
+B. Awareness of web risks
+C. Network monitoring
+D. System hardening
+
+🔸 INTERMEDIATE MCQs (10)
+11. Which payload can bypass a basic login form?
+A. admin/admin
+B. admin' OR '1'='1
+C. admin && password
+D. admin AND false
+
+12. Which OWASP 2021 category includes Injection flaws?
+A. A01
+B. A02
+C. A03
+D. A05
+
+13. Reflected XSS mainly occurs through:
+A. Database storage
+B. URL parameters
+C. Cookies
+D. Server logs
+
+14. Which function helps prevent XSS in PHP?
+A. md5()
+B. htmlspecialchars()
+C. base64_encode()
+D. strlen()
+
+15. SQL Injection is possible when user input is:
+A. Hashed
+B. Sanitized
+C. Directly concatenated into queries
+D. Encrypted
+
+16. Which inclusion attack allows loading files from remote servers?
+A. LFI
+B. RFI
+C. XSS
+D. CSRF
+
+17. Stored procedure injection is MOST likely when procedures use:
+A. Static SQL
+B. Dynamic SQL
+C. Parameterized queries
+D. ORM frameworks
+
+18. Which HTTP method is commonly abused for XSS?
+A. GET
+B. POST
+C. PUT
+D. DELETE
+
+19. Which OWASP control BEST mitigates Injection attacks?
+A. CAPTCHA
+B. Input validation
+C. Logging
+D. Encryption
+
+20. Blind XSS is difficult to detect because:
+A. No immediate response is seen
+B. It uses SSL
+C. It is client-side only
+D. It affects cookies only
+
+🔺 ADVANCED MCQs (10) – CCEE TRICKY ZONE
+21. Which payload targets stored procedure injection?
+A. '; DROP TABLE users--
+B. exec xp_cmdshell 'dir'
+C. alert(1)
+D. ../../etc/passwd
+
+22. In OWASP Top 10 (2021), Injection vulnerabilities are labeled as:
+A. A01: Broken Access Control
+B. A02: Cryptographic Failures
+C. A03: Injection
+D. A04: Insecure Design
+
+23. Which XSS type does NOT involve server-side processing?
+A. Stored XSS
+B. Reflected XSS
+C. DOM-based XSS
+D. Blind XSS
+
+24. Authentication bypass using ' OR 1=1 -- works because:
+A. SQL ignores WHERE clause
+B. Condition always evaluates true
+C. Password hashing fails
+D. Session expires
+
+25. Which defense is MOST effective against SQL Injection?
+A. Input filtering
+B. Parameterized queries
+C. Web Application Firewall
+D. Escaping characters
+
+26. An attacker injects <script> into feedback form and it executes for all users. This is:
+A. Reflected XSS
+B. DOM XSS
+C. Stored XSS
+D. Blind XSS
+
+27. Why are stored procedures NOT automatically secure?
+A. They run on server
+B. They can contain dynamic SQL
+C. They are encrypted
+D. They are compiled
+
+28. Which lab task directly demonstrates authentication bypass?
+A. XSS payload creation
+B. SQL login bypass queries
+C. Session fixation
+D. Port scanning
+
+29. Inclusion vulnerabilities mainly arise due to:
+A. Improper file handling
+B. Weak encryption
+C. Open ports
+D. DNS misconfiguration
+
+30. Which OWASP principle is violated when user input executes as code?
+A. Least privilege
+B. Trust boundary violation
+C. Defense in depth
+D. Availability
+
+✅ ANSWER KEY (Do NOT peek early 😄)
+1. D
+2. B
+3. B
+4. D
+5. A
+6. C
+7. B
+8. C
+9. B
+10. B
+
+11. B
+12. C
+13. B
+14. B
+15. C
+16. B
+17. B
+18. A
+19. B
+20. A
+
+21. B
+22. C
+23. C
+24. B
+25. B
+26. C
+27. B
+28. B
+29. A
+30. B
