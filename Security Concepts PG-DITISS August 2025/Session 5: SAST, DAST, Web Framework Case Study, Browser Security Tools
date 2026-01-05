@@ -1,0 +1,229 @@
+Great 👍
+Session 5 is VERY IMPORTANT for CCEE because SAST vs DAST + tools + lab mapping almost always appear as direct or twisted MCQs.
+
+Below is topper-level preparation, same pattern: Basic → Intermediate → Advanced (trap-based).
+
+📘 Security Concepts – PG-DITISS (Aug 2025)
+Session 5: SAST, DAST, Web Framework Case Study, Browser Security Tools
+🔹 BASIC MCQs (10)
+1. SAST stands for:
+A. Secure Application Security Tool
+B. Static Application Security Testing
+C. Systematic Application Scan Tool
+D. Software Attack Simulation Tool
+
+2. DAST analyzes an application by:
+A. Reading source code
+B. Executing the application
+C. Reviewing logs
+D. Checking firewall rules
+
+3. SAST is performed at which stage?
+A. Runtime
+B. Deployment
+C. Development phase
+D. Post-incident
+
+4. DAST testing treats the application as:
+A. White box
+B. Grey box
+C. Black box
+D. Source code
+
+5. Which vulnerability is BEST found by DAST?
+A. Hardcoded credentials
+B. SQL Injection
+C. Dead code
+D. Coding standards violation
+
+6. Web application frameworks mainly help in:
+A. Network routing
+B. Rapid application development
+C. Packet analysis
+D. Log management
+
+7. Browser security add-ons are used to:
+A. Speed up browsing
+B. Detect malicious web behavior
+C. Encrypt disk
+D. Monitor CPU
+
+8. Static testing does NOT require:
+A. Application execution
+B. Source code
+C. Build artifacts
+D. Coding access
+
+9. DAST tools interact with applications using:
+A. Source code
+B. HTTP/HTTPS requests
+C. Database queries
+D. System calls
+
+10. Which is a key advantage of SAST?
+A. Finds runtime issues
+B. Early vulnerability detection
+C. Requires deployed app
+D. Simulates real attacks
+
+🔸 INTERMEDIATE MCQs (10)
+11. SAST mainly detects:
+A. Runtime misconfigurations
+B. Coding flaws
+C. Network vulnerabilities
+D. Server downtime
+
+12. Which testing approach finds vulnerabilities without seeing code?
+A. SAST
+B. DAST
+C. Manual review
+D. Code audit
+
+13. Web framework case study helps students understand:
+A. Hardware design
+B. Common framework vulnerabilities
+C. Packet filtering
+D. Encryption algorithms
+
+14. Which vulnerability is HARD to detect using SAST alone?
+A. Buffer overflow
+B. Authentication logic flaw
+C. SQL Injection pattern
+D. Hardcoded password
+
+15. DAST tools often produce false positives because:
+A. They analyze source code
+B. They lack business logic context
+C. They are outdated
+D. They are manual
+
+16. Browser-jsguard Firefox add-on helps detect:
+A. SQL Injection
+B. Malicious JavaScript behavior
+C. Port scanning
+D. Password reuse
+
+17. Which testing is closer to real attacker behavior?
+A. SAST
+B. DAST
+C. Code review
+D. Static analysis
+
+18. SAST results are MOST useful for:
+A. Developers
+B. Network admins
+C. SOC analysts
+D. End users
+
+19. Combining SAST and DAST provides:
+A. Redundant results
+B. Complete security coverage
+C. Only performance testing
+D. Network security
+
+20. Case study on frameworks is useful because:
+A. Frameworks are always secure
+B. Same vulnerabilities repeat across apps
+C. Frameworks eliminate bugs
+D. Only UI issues exist
+
+🔺 ADVANCED MCQs (10) – CCEE TRAP + LAB FOCUS
+21. Which testing can find vulnerabilities before application runs?
+A. DAST
+B. Penetration testing
+C. SAST
+D. Vulnerability scanning
+
+22. A vulnerability exploitable only during runtime is BEST found using:
+A. SAST
+B. DAST
+C. Code review
+D. Static scan
+
+23. Why SAST cannot find all vulnerabilities?
+A. It is slow
+B. It does not execute application
+C. It needs internet
+D. It scans network
+
+24. Browser-based security tools mainly help in detecting:
+A. Server-side flaws
+B. Client-side malicious behavior
+C. Database corruption
+D. OS vulnerabilities
+
+25. DAST testing is MOST dependent on:
+A. Code quality
+B. Application responses
+C. Compiler version
+D. Developer skill
+
+26. Case study questions in CCEE usually test:
+A. Tool commands
+B. Conceptual understanding of vulnerabilities
+C. UI design
+D. Performance tuning
+
+27. Which vulnerability is LIKELY missed by DAST?
+A. SQL Injection
+B. XSS
+C. Dead code
+D. Authentication bypass
+
+28. SAST tools may generate more false positives because they:
+A. Execute the app
+B. Use pattern-based detection
+C. Use live traffic
+D. Scan packets
+
+29. Running both SAST and DAST aligns with which security principle?
+A. Least privilege
+B. Defense in depth
+C. Availability
+D. Integrity
+
+30. Session 5 lab validates which security lifecycle phase?
+A. Detection & Prevention
+B. Recovery
+C. Incident response
+D. Forensics
+
+✅ ANSWER KEY (Check after solving)
+1. B
+2. B
+3. C
+4. C
+5. B
+6. B
+7. B
+8. A
+9. B
+10. B
+
+11. B
+12. B
+13. B
+14. B
+15. B
+16. B
+17. B
+18. A
+19. B
+20. B
+
+21. C
+22. B
+23. B
+24. B
+25. B
+26. B
+27. C
+28. B
+29. B
+30. A
+
+🎯 CCEE EXAM GOLD (Session 5)
+SAST = before run (code)
+DAST = during run (black box)
+SAST + DAST = guaranteed MCQ
+Browser tools = client-side protection only
