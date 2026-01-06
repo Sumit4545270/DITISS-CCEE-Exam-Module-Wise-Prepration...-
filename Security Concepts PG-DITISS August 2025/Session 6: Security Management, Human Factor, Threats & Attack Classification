@@ -1,0 +1,231 @@
+Excellent 👍
+Session 6 (Ethical Hacking) is FOUNDATION + HIGH-WEIGHT for CCEE because it mixes
+👉 management concepts + human factor + threat classification
+These questions are theory-looking but trap-based.
+
+Below is Session 6 MCQs exactly in your 30 (10+10+10) format.
+
+📘 Security Concepts – PG-DITISS (Aug 2025)
+Session 6: Security Management, Human Factor, Threats & Attack Classification
+🔹 BASIC MCQs (10)
+1. Information Security management mainly focuses on:
+A. Hacking systems
+B. Protecting information assets
+C. Network routing
+D. Software development
+
+2. Which is the MOST important asset in an organization?
+A. Hardware
+B. Software
+C. Information
+D. Network
+
+3. Human side of information security refers to:
+A. Firewalls
+B. Policies and procedures
+C. People and behavior
+D. Encryption
+
+4. Which factor causes MOST security breaches?
+A. Zero-day exploits
+B. Weak encryption
+C. Human error
+D. Hardware failure
+
+5. A threat is best defined as:
+A. Existing vulnerability
+B. Potential cause of harm
+C. Security control
+D. Security policy
+
+6. An attack is:
+A. A weakness
+B. A policy violation
+C. Exploitation of a vulnerability
+D. A security asset
+
+7. Which CIA triad component is MOST affected by insider threats?
+A. Confidentiality
+B. Integrity
+C. Availability
+D. All of the above
+
+8. Social engineering attacks primarily target:
+A. Network devices
+B. Databases
+C. Humans
+D. Servers
+
+9. Which is an example of a physical threat?
+A. Phishing
+B. Malware
+C. Fire
+D. SQL Injection
+
+10. Security principles are designed to:
+A. Increase profit
+B. Reduce security risks
+C. Improve UI
+D. Speed up systems
+
+🔸 INTERMEDIATE MCQs (10)
+11. Human-related security threats include:
+A. DDoS
+B. Malware
+C. Negligence and insider misuse
+D. Power outage
+
+12. Which attack relies on psychological manipulation?
+A. SQL Injection
+B. Buffer Overflow
+C. Phishing
+D. DoS
+
+13. Threats to information systems can be classified as:
+A. Logical and physical
+B. Internal and external
+C. Intentional and unintentional
+D. All of the above
+
+14. Which of the following is an unintentional threat?
+A. Malware infection
+B. Phishing
+C. Accidental data deletion
+D. Password cracking
+
+15. An insider attack is dangerous because:
+A. Insider has authorized access
+B. Uses malware
+C. Comes from internet
+D. Uses encryption
+
+16. Which attack category aims at making services unavailable?
+A. Integrity attacks
+B. Confidentiality attacks
+C. Availability attacks
+D. Authentication attacks
+
+17. Human factor security can be improved by:
+A. Strong firewalls
+B. Security awareness training
+C. Encryption
+D. IDS
+
+18. Which threat exploits trust relationships?
+A. DoS
+B. Social engineering
+C. SQL Injection
+D. Port scanning
+
+19. Classification of threats helps in:
+A. UI design
+B. Risk assessment
+C. Faster coding
+D. Backup scheduling
+
+20. Which is an example of logical threat?
+A. Flood
+B. Earthquake
+C. Malware
+D. Fire
+
+🔺 ADVANCED MCQs (10) – CCEE TRAP + CONCEPT ZONE
+21. Which security principle is MOST affected by human negligence?
+A. Confidentiality
+B. Integrity
+C. Availability
+D. All of the above
+
+22. A disgruntled employee leaking data is classified as:
+A. External threat
+B. Internal threat
+C. Physical threat
+D. Natural threat
+
+23. Threat ≠ Attack because:
+A. Threat is theoretical, attack is action
+B. Threat needs firewall
+C. Attack is harmless
+D. Threat is encrypted
+
+24. Which classification best fits ransomware?
+A. Physical threat
+B. Natural threat
+C. Logical & intentional threat
+D. Accidental threat
+
+25. Why humans are considered weakest link in security?
+A. Lack of firewalls
+B. Susceptibility to manipulation
+C. Poor hardware
+D. Slow networks
+
+26. Which attack combines technical and human exploitation?
+A. DDoS
+B. Phishing
+C. Port scanning
+D. Sniffing
+
+27. Threat modeling MUST consider human threats because:
+A. Humans write code
+B. Humans operate systems
+C. Humans are predictable
+D. Humans use networks
+
+28. Which threat classification helps identify insider risks?
+A. Physical vs logical
+B. Natural vs man-made
+C. Internal vs external
+D. Active vs passive
+
+29. Security management failures MOST often result in:
+A. UI bugs
+B. Increased attack surface
+C. Better performance
+D. Faster systems
+
+30. Ethical hacking studies threat classification mainly to:
+A. Hack faster
+B. Understand attacker mindset
+C. Write malware
+D. Bypass antivirus
+
+✅ ANSWER KEY (Check only after solving)
+1. B
+2. C
+3. C
+4. C
+5. B
+6. C
+7. D
+8. C
+9. C
+10. B
+
+11. C
+12. C
+13. D
+14. C
+15. A
+16. C
+17. B
+18. B
+19. B
+20. C
+
+21. D
+22. B
+23. A
+24. C
+25. B
+26. B
+27. B
+28. C
+29. B
+30. B
+
+🎯 CCEE EXAM GOLD (Session 6)
+Threat ≠ Attack (very common trap)
+Human factor = highest risk
+Insider threats = guaranteed MCQ
+Classification questions = easy marks if concepts clear
