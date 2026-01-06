@@ -1,0 +1,239 @@
+Excellent 👍
+Session 18 is a mixed infrastructure + detection + OS attack session, and CDAC often asks
+👉 definition + tool-purpose + attack vs defense logic MCQs
+Labs (SNORT, Nagios, IDS/IPS, DMZ) are direct question sources.
+
+Below is Session 18 MCQs in your exact CCEE format (10 Basic + 10 Intermediate + 10 Advanced).
+
+📘 Security Concepts – PG-DITISS (Aug 2025)
+Session 18: Backdoors, DDoS, Biometric Spoofing, Linux Hacking, IDS/IPS, Honeypots, Firewalls
+🔹 BASIC MCQs (10)
+1. A backdoor device is used to:
+A. Improve authentication
+B. Provide hidden access to a system
+C. Encrypt traffic
+D. Monitor logs
+
+2. Distributed DoS (DDoS) attacks differ from DoS because they use:
+A. One system
+B. Multiple compromised systems
+C. Encryption
+D. Firewalls
+
+3. Biometric spoofing involves:
+A. Password guessing
+B. Faking biometric traits
+C. Session hijacking
+D. SQL Injection
+
+4. Linux hacking usually targets:
+A. Hardware BIOS
+B. OS services and configurations
+C. Network cables
+D. Power supply
+
+5. Linux backdoors allow attackers to:
+A. Patch kernel
+B. Maintain persistent access
+C. Improve security
+D. Monitor traffic only
+
+6. IDS stands for:
+A. Internet Detection System
+B. Intrusion Detection System
+C. Internal Defense Software
+D. Integrated Data Security
+
+7. Honeypots are used to:
+A. Block attackers
+B. Detect and study attacker behavior
+C. Encrypt data
+D. Increase bandwidth
+
+8. Firewalls mainly control:
+A. File integrity
+B. Network traffic flow
+C. Password policies
+D. Malware signatures
+
+9. IPS differs from IDS because IPS:
+A. Only detects
+B. Only logs
+C. Can block attacks actively
+D. Is offline
+
+10. DMZ is used to:
+A. Hide internal servers
+B. Separate public-facing services from internal network
+C. Encrypt databases
+D. Improve performance
+
+🔸 INTERMEDIATE MCQs (10)
+11. Backdoors are MOST dangerous because they:
+A. Slow systems
+B. Bypass authentication
+C. Use encryption
+D. Consume CPU
+
+12. DDoS attacks mainly violate which CIA principle?
+A. Confidentiality
+B. Integrity
+C. Availability
+D. Authentication
+
+13. Biometric spoofing is possible because biometric systems:
+A. Are encrypted
+B. Cannot be changed easily
+C. Use passwords
+D. Are hardware-based
+
+14. Linux privilege escalation exploits:
+A. Hardware bugs
+B. Misconfigurations and vulnerabilities
+C. Network cables
+D. Firewalls
+
+15. Linux backdoors commonly use which mechanism?
+A. Hidden services or modified binaries
+B. Antivirus
+C. IDS rules
+D. Encryption only
+
+16. An IDS generates:
+A. Automatic blocks
+B. Alerts and logs
+C. Encryption keys
+D. Backups
+
+17. Honeypots should be:
+A. Same as production servers
+B. Isolated from critical systems
+C. Fully trusted
+D. Internet-facing only
+
+18. Firewalls operate mainly at:
+A. Physical layer
+B. Network & transport layers
+C. Application layer only
+D. Data link only
+
+19. IPS is MOST useful for:
+A. Forensics
+B. Real-time attack prevention
+C. Reporting
+D. Backup
+
+20. DMZ placement usually includes:
+A. User PCs
+B. Internal databases
+C. Web/mail servers
+D. Backup tapes
+
+🔺 ADVANCED MCQs (10) – CCEE TRAP ZONE
+21. Why backdoors are harder to detect than malware?
+A. Use less bandwidth
+B. Appear as legitimate services
+C. Are encrypted
+D. Use UDP
+
+22. DDoS attacks are difficult to mitigate because:
+A. Use TCP only
+B. Originate from many locations
+C. Are encrypted
+D. Use DNS only
+
+23. Biometric spoofing MOST directly affects:
+A. Availability
+B. Confidentiality
+C. Authentication
+D. Integrity
+
+24. Linux backdoor persistence is BEST achieved by modifying:
+A. User documents
+B. Startup scripts / services
+C. Firewall rules
+D. Log files only
+
+25. Which tool is commonly used as IDS/IPS in labs?
+A. Metasploit
+B. SNORT
+C. Wireshark
+D. Nmap
+
+26. Honeypots are intentionally made:
+A. Secure
+B. Vulnerable
+C. Encrypted
+D. Invisible
+
+27. Firewalls FAIL to stop attacks when attacks:
+A. Use allowed ports
+B. Use encryption
+C. Are logged
+D. Are blocked
+
+28. Difference between IDS and IPS is that IPS:
+A. Detects only
+B. Alerts only
+C. Actively prevents attacks
+D. Is offline
+
+29. Using Nagios in lab helps mainly with:
+A. Malware creation
+B. Monitoring and alerting
+C. Packet sniffing
+D. Password cracking
+
+30. Session 18 mainly tests understanding of:
+A. Programming
+B. Infrastructure attacks & defensive controls
+C. Database tuning
+D. Hardware repair
+
+✅ ANSWER KEY (Check ONLY after attempting)
+1. B
+2. B
+3. B
+4. B
+5. B
+6. B
+7. B
+8. B
+9. C
+10. B
+
+11. B
+12. C
+13. B
+14. B
+15. A
+16. B
+17. B
+18. B
+19. B
+20. C
+
+21. B
+22. B
+23. C
+24. B
+25. B
+26. B
+27. A
+28. C
+29. B
+30. B
+
+🎯 CCEE EXAM GOLD (Session 18)
+Backdoor = hidden persistent access
+DDoS = availability killer
+Biometric spoofing = authentication failure
+IDS = detect | IPS = block
+Honeypot = intentionally vulnerable
+DMZ = buffer zone
+👉 If you want next:
+
+Final full 100-MCQ CCEE mock paper
+Only IDS/IPS + DDoS ultra-tricky MCQs
+Last 7-day revision plan
+Just tell me — you’re now fully prepared for 90%+ 💯
