@@ -1,0 +1,230 @@
+Perfect 👍
+Session 7 is a classic CCEE scoring session — concepts look simple, but options are trap-based.
+Mobile/Wireless + IS Management + Fundamentals = direct MCQs every year.
+
+Below is Session 7 MCQs in your exact 30-question (10+10+10) CDAC format.
+
+📘 Security Concepts – PG-DITISS (Aug 2025)
+Session 7: Protecting IS, Mobile & Wireless Security, Credit Card Frauds, IS Management, IS Fundamentals
+🔹 BASIC MCQs (10)
+1. Protecting Information System Security mainly involves:
+A. Only encryption
+B. Only firewalls
+C. Policies, controls, and technologies
+D. Hardware upgrade
+
+2. Mobile computing security is challenging mainly because of:
+A. High speed
+B. Portability and wireless connectivity
+C. Strong encryption
+D. Limited apps
+
+3. Wireless communication is more vulnerable than wired because it:
+A. Uses fiber
+B. Uses shared air medium
+C. Is faster
+D. Is encrypted
+
+4. Credit card fraud in mobile computing usually targets:
+A. Hardware
+B. Network devices
+C. User financial information
+D. Operating system
+
+5. Information Security Management focuses on:
+A. Writing malware
+B. Managing security risks
+C. Network routing
+D. Software testing
+
+6. Which is a core objective of information security?
+A. Performance
+B. Usability
+C. Confidentiality
+D. Scalability
+
+7. Which device is MOST vulnerable to theft-related attacks?
+A. Desktop
+B. Server
+C. Mobile phone
+D. Router
+
+8. Wireless security mainly protects against:
+A. Physical damage
+B. Eavesdropping
+C. Hardware failure
+D. Power loss
+
+9. Credit card fraud is an attack on:
+A. Availability
+B. Integrity
+C. Confidentiality
+D. All of the above
+
+10. Fundamentals of information security are based on:
+A. OSI model
+B. CIA triad
+C. TCP/IP
+D. ISO model
+
+🔸 INTERMEDIATE MCQs (10)
+11. Which wireless attack captures data transmitted over air?
+A. Phishing
+B. Sniffing
+C. Spoofing
+D. Flooding
+
+12. Mobile malware can steal credit card data by:
+A. Physical damage
+B. Keylogging
+C. DoS
+D. Port scanning
+
+13. Which control helps prevent mobile device misuse?
+A. IDS
+B. MDM (Mobile Device Management)
+C. NAT
+D. Proxy
+
+14. Information Security Management includes:
+A. Risk assessment
+B. Threat analysis
+C. Security policies
+D. All of the above
+
+15. Credit card fraud MOST commonly exploits:
+A. Hardware bugs
+B. User negligence
+C. Strong authentication
+D. Encryption
+
+16. Which wireless protocol provides encryption?
+A. HTTP
+B. FTP
+C. WPA2
+D. Telnet
+
+17. Protecting information systems requires:
+A. Only technical controls
+B. Only administrative controls
+C. Technical, administrative & physical controls
+D. Antivirus only
+
+18. Mobile devices increase security risk because they are:
+A. Fixed
+B. Easily lost or stolen
+C. Encrypted
+D. Expensive
+
+19. Which is an example of administrative control?
+A. Firewall
+B. Encryption
+C. Security policy
+D. IDS
+
+20. Credit card fraud using fake wireless access points is called:
+A. Smishing
+B. Evil Twin attack
+C. Shoulder surfing
+D. Pharming
+
+🔺 ADVANCED MCQs (10) – CCEE TRAP ZONE
+21. Wireless security failure MOST directly affects:
+A. Integrity
+B. Availability
+C. Confidentiality
+D. Authentication
+
+22. Why mobile devices are harder to secure than desktops?
+A. Lower performance
+B. Diverse OS & apps
+C. Wired connectivity
+D. Larger size
+
+23. Credit card fraud through malicious apps violates:
+A. Availability
+B. Integrity
+C. Confidentiality
+D. All of the above
+
+24. Information Security Management differs from technical security because it:
+A. Uses firewalls
+B. Focuses on governance & risk
+C. Encrypts data
+D. Blocks ports
+
+25. Which attack exploits open Wi-Fi to steal card details?
+A. DoS
+B. MITM
+C. SQL Injection
+D. Buffer overflow
+
+26. Protecting information systems MUST start with:
+A. Buying tools
+B. Risk identification
+C. Incident response
+D. Backup
+
+27. Why credit card fraud is common in mobile computing?
+A. Strong security
+B. High user trust & weak awareness
+C. Limited apps
+D. Wired networks
+
+28. Which security control is MOST effective for lost mobiles?
+A. Firewall
+B. IDS
+C. Remote wipe
+D. Sniffer
+
+29. Wireless encryption protects against:
+A. Physical theft
+B. Eavesdropping
+C. Malware
+D. Phishing
+
+30. Session 7 topics mainly test understanding of:
+A. Programming
+B. Human + wireless security risks
+C. Hardware design
+D. Database tuning
+
+✅ ANSWER KEY (Check after attempting)
+1. C
+2. B
+3. B
+4. C
+5. B
+6. C
+7. C
+8. B
+9. D
+10. B
+
+11. B
+12. B
+13. B
+14. D
+15. B
+16. C
+17. C
+18. B
+19. C
+20. B
+
+21. C
+22. B
+23. D
+24. B
+25. B
+26. B
+27. B
+28. C
+29. B
+30. B
+
+🎯 CCEE EXAM GOLD (Session 7)
+Wireless = confidentiality risk
+Mobile = theft + malware
+Credit card fraud = user + wireless combo
+IS Management = governance, not tools
