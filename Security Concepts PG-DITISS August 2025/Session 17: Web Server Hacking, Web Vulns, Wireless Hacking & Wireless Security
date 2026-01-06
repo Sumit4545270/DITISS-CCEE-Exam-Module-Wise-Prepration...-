@@ -1,0 +1,232 @@
+Perfect 👍
+Session 17 is a VERY HIGH-WEIGHT CCEE session because it mixes
+👉 Web server hacking + web app vulns + wireless security & cracking
+CDAC loves WEP vs WPA, sniffing, MAC spoofing, and “which attack/defense” MCQs.
+
+Below is Session 17 MCQs in your exact CDAC format (10 Basic + 10 Intermediate + 10 Advanced) — lab-mapped and trap-ready.
+
+📘 Security Concepts – PG-DITISS (Aug 2025)
+Session 17: Web Server Hacking, Web Vulns, Wireless Hacking & Wireless Security
+🔹 BASIC MCQs (10)
+1. Hacking a web server mainly aims to:
+A. Improve performance
+B. Gain unauthorized control
+C. Backup data
+D. Monitor traffic
+
+2. Web application vulnerabilities mostly arise due to:
+A. Hardware failure
+B. Poor coding and configuration
+C. Power issues
+D. ISP problems
+
+3. Which is a common web application vulnerability?
+A. SQL Injection
+B. Power outage
+C. Disk failure
+D. Cable cut
+
+4. Web-based password cracking targets:
+A. Network devices
+B. Authentication mechanisms
+C. Hardware BIOS
+D. DNS server
+
+5. Wireless hacking targets which medium?
+A. Optical fiber
+B. Copper cable
+C. Airwaves
+D. USB
+
+6. WEP stands for:
+A. Wired Equivalent Privacy
+B. Wireless Encrypted Protocol
+C. Wide Encryption Policy
+D. Web Encryption Process
+
+7. WPA is more secure than WEP because it uses:
+A. Static keys
+B. Dynamic key management
+C. Plain text
+D. No encryption
+
+8. Wireless sniffing is used to:
+A. Encrypt traffic
+B. Capture wireless packets
+C. Block signals
+D. Authenticate users
+
+9. MAC spoofing means:
+A. Encrypting MAC
+B. Changing MAC address
+C. Blocking MAC
+D. Learning MAC
+
+10. Securing wireless networks mainly protects:
+A. Confidentiality
+B. Availability
+C. Performance
+D. Speed
+
+🔸 INTERMEDIATE MCQs (10)
+11. Web server hacking often begins with:
+A. Exploitation
+B. Reconnaissance and scanning
+C. Reporting
+D. Encryption
+
+12. Which attack exploits improper input validation in web apps?
+A. SQL Injection
+B. Smurf
+C. ARP poisoning
+D. MAC flooding
+
+13. Web-based password cracking can be performed using:
+A. Brute force or dictionary attacks
+B. ARP poisoning
+C. ICMP flood
+D. MAC flooding
+
+14. Which wireless encryption is considered WEAK today?
+A. WPA3
+B. WPA2
+C. WPA
+D. WEP
+
+15. WEP cracking is easier because it uses:
+A. Strong encryption
+B. Static IVs
+C. Dynamic keys
+D. Mutual authentication
+
+16. Locating SSIDs helps attackers to:
+A. Patch AP
+B. Identify wireless networks
+C. Encrypt traffic
+D. Block users
+
+17. Wireless sniffers work BEST on networks that are:
+A. Encrypted strongly
+B. Open or weakly encrypted
+C. Wired
+D. Switched
+
+18. MAC spoofing is often used to bypass:
+A. Firewalls
+B. MAC-based filtering
+C. IDS
+D. Antivirus
+
+19. Which protocol provides authentication in WPA2?
+A. TKIP
+B. AES-CCMP
+C. WEP
+D. RC4
+
+20. Wireless hacking is easier than wired hacking because:
+A. Faster speed
+B. Shared medium
+C. Encryption
+D. Authentication
+
+🔺 ADVANCED MCQs (10) – CCEE TRAP ZONE
+21. Web server compromise MOST directly leads to:
+A. UI failure
+B. Complete application control
+C. Hardware crash
+D. Power loss
+
+22. Which vulnerability allows attackers to bypass login forms?
+A. XSS
+B. SQL Injection
+C. CSRF
+D. Clickjacking
+
+23. Web-based password cracking is MOST effective when:
+A. CAPTCHA is enabled
+B. No rate limiting exists
+C. MFA is enabled
+D. Strong hashing used
+
+24. Why WEP is fundamentally insecure?
+A. Uses AES
+B. Small IV space reused frequently
+C. Uses hashing
+D. Uses handshake
+
+25. WPA cracking usually targets:
+A. Encryption algorithm
+B. Weak pre-shared keys
+C. Hardware
+D. MAC address
+
+26. Hidden SSIDs do NOT provide real security because:
+A. SSIDs are encrypted
+B. SSIDs appear in probe responses
+C. They block sniffers
+D. They use WPA3
+
+27. Wireless sniffing combined with ARP poisoning results in:
+A. DoS
+B. MITM
+C. Flooding
+D. Scanning
+
+28. Strongest wireless security practice is:
+A. MAC filtering only
+B. WEP encryption
+C. WPA3 + strong passphrase
+D. Hidden SSID
+
+29. Web app vulnerabilities and wireless hacking BOTH mainly violate:
+A. Availability
+B. Confidentiality
+C. Performance
+D. Usability
+
+30. Session 17 mainly tests understanding of:
+A. Hardware design
+B. Web + wireless attack and defense techniques
+C. Database tuning
+D. Programming syntax
+
+✅ ANSWER KEY (Check ONLY after attempting)
+1. B
+2. B
+3. A
+4. B
+5. C
+6. A
+7. B
+8. B
+9. B
+10. A
+
+11. B
+12. A
+13. A
+14. D
+15. B
+16. B
+17. B
+18. B
+19. B
+20. B
+
+21. B
+22. B
+23. B
+24. B
+25. B
+26. B
+27. B
+28. C
+29. B
+30. B
+
+🎯 CCEE EXAM GOLD (Session 17)
+WEP = broken | WPA/WPA2/WPA3 = progressively stronger
+MAC filtering ≠ security
+Hidden SSID = false sense of security
+Web login + no rate limit = brute force MCQ
+Wireless = shared medium → sniffing risk
