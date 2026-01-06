@@ -1,0 +1,232 @@
+Excellent 👍
+Session 21 (Mobile Security – Android) is a guaranteed MCQ area because CDAC frequently asks
+👉 architecture, security model, rooting risks, app fundamentals, and build process
+Labs (Android Emulator) also convert directly into MCQs.
+
+Below is Session 21 MCQs in your exact CDAC CCEE format (10 Basic + 10 Intermediate + 10 Advanced).
+
+📘 Security Concepts – PG-DITISS (Aug 2025)
+Session 21: Android Architecture, Security Model & Rooting
+🔹 BASIC MCQs (10)
+1. Android is an operating system primarily designed for:
+A. Servers
+B. Desktop computers
+C. Mobile devices
+D. Supercomputers
+
+2. Android architecture is based on:
+A. Monolithic kernel
+B. Microkernel
+C. Linux kernel
+D. Windows kernel
+
+3. Which layer of Android directly interacts with hardware?
+A. Application layer
+B. Application Framework
+C. Linux Kernel
+D. Libraries
+
+4. Android applications are primarily written in:
+A. C only
+B. Java / Kotlin
+C. Python
+D. Assembly
+
+5. APK stands for:
+A. Android Package
+B. Application Program Kernel
+C. Android Package Kit
+D. Application Package Key
+
+6. Android file system is mainly based on:
+A. NTFS
+B. FAT32
+C. Linux file system
+D. exFAT
+
+7. Which directory stores application data in Android?
+A. /system
+B. /boot
+C. /data
+D. /cache
+
+8. Android Security Model mainly relies on:
+A. Password only
+B. Application sandboxing
+C. Antivirus
+D. Firewall
+
+9. Device rooting means:
+A. Installing apps
+B. Gaining privileged (root) access
+C. Encrypting device
+D. Updating OS
+
+10. Android Emulator is used to:
+A. Root devices
+B. Simulate Android devices on PC
+C. Crack apps
+D. Modify kernel
+
+🔸 INTERMEDIATE MCQs (10)
+11. Android architecture consists of how many major layers?
+A. Two
+B. Three
+C. Four
+D. Five
+
+12. Which Android layer provides system services like Activity Manager?
+A. Applications
+B. Application Framework
+C. Libraries
+D. Linux Kernel
+
+13. Android build process generates which final output?
+A. .exe
+B. .apk
+C. .jar
+D. .bin
+
+14. Android app components include:
+A. Activities, Services, Broadcast Receivers, Content Providers
+B. Kernel modules only
+C. DLL files
+D. Network drivers
+
+15. Each Android app runs with:
+A. Same user ID
+B. Root privileges
+C. Unique user ID
+D. Admin privileges
+
+16. Android permission system helps in:
+A. Improving UI
+B. Restricting app access to resources
+C. Speeding execution
+D. Rooting device
+
+17. Rooting an Android device disables:
+A. Internet
+B. Application sandboxing protection
+C. Display drivers
+D. Emulator
+
+18. Which file contains Android app permissions?
+A. build.gradle
+B. AndroidManifest.xml
+C. classes.dex
+D. resources.arsc
+
+19. Rooted devices are MORE vulnerable because they:
+A. Are faster
+B. Bypass OS security controls
+C. Use encryption
+D. Are updated
+
+20. Android Emulator is preferred in labs because it:
+A. Is faster than real device
+B. Avoids risk to physical device
+C. Needs root
+D. Is insecure
+
+🔺 ADVANCED MCQs (10) – CCEE TRAP ZONE
+21. Which Android layer enforces application sandboxing?
+A. Application layer
+B. Application Framework
+C. Linux Kernel
+D. Libraries
+
+22. Android apps communicate securely using:
+A. Shared memory
+B. Intents with permission checks
+C. Open ports
+D. Root access
+
+23. Rooting breaks Android security mainly by:
+A. Removing antivirus
+B. Granting apps elevated privileges
+C. Deleting files
+D. Slowing system
+
+24. Which build component converts Java/Kotlin code into bytecode?
+A. APK Builder
+B. DEX compiler
+C. Kernel compiler
+D. Resource linker
+
+25. Android Security Model is MOST similar to which concept?
+A. Trusted computing base
+B. Process isolation
+C. Virtual machines
+D. Cloud security
+
+26. Which attack becomes easier on rooted devices?
+A. DoS
+B. Privilege escalation
+C. SQL Injection
+D. DNS spoofing
+
+27. Application signing in Android ensures:
+A. App speed
+B. App authenticity and integrity
+C. App encryption
+D. Root access
+
+28. Emulator-based testing is useful because it allows:
+A. Kernel modification only
+B. Safe malware and security testing
+C. Network flooding
+D. BIOS changes
+
+29. Android app sandboxing prevents:
+A. Network access
+B. App-to-app unauthorized data access
+C. Internet usage
+D. App installation
+
+30. Session 21 mainly tests understanding of:
+A. Mobile UI design
+B. Android architecture & security fundamentals
+C. Database optimization
+D. Hardware repair
+
+✅ ANSWER KEY (Check ONLY after attempting)
+1. C
+2. C
+3. C
+4. B
+5. C
+6. C
+7. C
+8. B
+9. B
+10. B
+
+11. C
+12. B
+13. B
+14. A
+15. C
+16. B
+17. B
+18. B
+19. B
+20. B
+
+21. C
+22. B
+23. B
+24. B
+25. B
+26. B
+27. B
+28. B
+29. B
+30. B
+
+🎯 CCEE EXAM GOLD (Session 21)
+Linux kernel = backbone of Android security
+Sandboxing = core protection
+Rooting = security killer
+Manifest file = permission control
+Emulator = safe lab testing
