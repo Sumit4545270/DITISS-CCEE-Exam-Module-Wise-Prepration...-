@@ -1,0 +1,233 @@
+Excellent 👍
+Session 19 is a management + methodology + tool-based session.
+CDAC usually tests
+👉 WHY physical security is needed, what affects it, and how penetration testing is done using Metasploit.
+These are direct-scoring MCQs if concepts are clear.
+
+Below is Session 19 MCQs in your exact CCEE format (10 Basic + 10 Intermediate + 10 Advanced).
+
+📘 Security Concepts – PG-DITISS (Aug 2025)
+Session 19: Physical Security & Penetration Testing Methodologies
+🔹 BASIC MCQs (10)
+1. Physical security mainly protects against:
+A. Malware
+B. Unauthorized physical access
+C. SQL Injection
+D. Network sniffing
+
+2. Physical security is required to protect:
+A. Only data
+B. Only people
+C. Assets, infrastructure, and personnel
+D. Only networks
+
+3. Which is an example of physical security control?
+A. Firewall
+B. IDS
+C. CCTV camera
+D. Encryption
+
+4. Physical security threats include:
+A. Phishing
+B. Fire and theft
+C. SQL Injection
+D. XSS
+
+5. The primary goal of physical security is to ensure:
+A. Availability of hardware
+B. Confidentiality of passwords
+C. Integrity of data
+D. Network speed
+
+6. Penetration testing is performed to:
+A. Patch systems
+B. Identify exploitable vulnerabilities
+C. Monitor logs
+D. Improve UI
+
+7. Penetration testing simulates:
+A. Normal users
+B. Real attacker behavior
+C. Network admins
+D. Auditors
+
+8. Which is NOT a physical security mechanism?
+A. Biometric access
+B. Security guards
+C. Fire suppression system
+D. Antivirus
+
+9. Physical access to servers can lead to:
+A. UI issues
+B. Total system compromise
+C. Better performance
+D. Faster boot
+
+10. Penetration testing must be conducted with:
+A. High bandwidth
+B. Proper authorization
+C. Antivirus disabled
+D. Public access
+
+🔸 INTERMEDIATE MCQs (10)
+11. Factors affecting physical security include:
+A. Location and environment
+B. Threat level
+C. Building design
+D. All of the above
+
+12. Which threat is BEST mitigated by physical security?
+A. DDoS
+B. Insider theft
+C. SQL Injection
+D. XSS
+
+13. Physical security controls are classified as:
+A. Preventive, detective, corrective
+B. Logical only
+C. Network-based
+D. Software-only
+
+14. Tailgating is a physical security attack involving:
+A. Malware
+B. Following authorized personnel
+C. Password cracking
+D. Network spoofing
+
+15. Penetration testing methodology usually begins with:
+A. Exploitation
+B. Reconnaissance and planning
+C. Reporting
+D. Patching
+
+16. Which testing approach gives attacker’s perspective?
+A. White-box
+B. Black-box
+C. Code review
+D. Static testing
+
+17. Penetration testing differs from vulnerability scanning because it:
+A. Only detects issues
+B. Actively exploits vulnerabilities
+C. Runs automatically
+D. Generates reports only
+
+18. Metasploit framework is mainly used for:
+A. Packet sniffing
+B. Exploitation and penetration testing
+C. Password storage
+D. Log analysis
+
+19. Physical security failures MOST directly affect:
+A. Availability
+B. Confidentiality
+C. Integrity
+D. All of the above
+
+20. Penetration testing reports should include:
+A. Only tool output
+B. Exploits without fixes
+C. Findings, impact, and recommendations
+D. Source code
+
+🔺 ADVANCED MCQs (10) – CCEE TRAP ZONE
+21. Why physical security is considered the FIRST layer of defense?
+A. Cheapest control
+B. Prevents direct system access
+C. Improves performance
+D. Encrypts data
+
+22. Which scenario BEST shows physical security breach?
+A. SQL Injection on login page
+B. Unauthorized person entering server room
+C. XSS attack
+D. ARP poisoning
+
+23. Penetration testing without permission is considered:
+A. Training
+B. Legal
+C. Illegal
+D. Passive testing
+
+24. A black-box penetration test means tester has:
+A. Full system knowledge
+B. No prior internal information
+C. Source code access
+D. Admin credentials
+
+25. Using Metasploit Framework in labs helps to:
+A. Detect malware only
+B. Exploit known vulnerabilities
+C. Encrypt systems
+D. Monitor bandwidth
+
+26. Physical security controls like CCTV mainly act as:
+A. Preventive only
+B. Detective controls
+C. Corrective controls
+D. Logical controls
+
+27. Penetration testing is MOST valuable when it:
+A. Finds theoretical risks
+B. Demonstrates real impact
+C. Lists CVEs only
+D. Is fully automated
+
+28. Which factor MOST affects physical security design?
+A. Programming language
+B. Geographic location
+C. Network speed
+D. Database size
+
+29. Failure to implement physical security may allow attackers to:
+A. Change UI
+B. Bypass all logical controls
+C. Improve system speed
+D. Encrypt traffic
+
+30. Session 19 mainly tests understanding of:
+A. Programming
+B. Physical security + penetration testing methodology
+C. Database tuning
+D. Hardware assembly
+
+✅ ANSWER KEY (Check ONLY after attempting)
+1. B
+2. C
+3. C
+4. B
+5. A
+6. B
+7. B
+8. D
+9. B
+10. B
+
+11. D
+12. B
+13. A
+14. B
+15. B
+16. B
+17. B
+18. B
+19. D
+20. C
+
+21. B
+22. B
+23. C
+24. B
+25. B
+26. B
+27. B
+28. B
+29. B
+30. B
+
+🎯 CCEE EXAM GOLD (Session 19)
+Physical access = total compromise
+Tailgating = classic CDAC trap
+Pen-test ≠ vulnerability scan
+Metasploit = exploitation framework
+Permission is mandatory
