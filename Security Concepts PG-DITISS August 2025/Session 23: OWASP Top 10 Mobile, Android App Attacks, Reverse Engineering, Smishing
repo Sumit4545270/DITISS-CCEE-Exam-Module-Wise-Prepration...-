@@ -1,0 +1,233 @@
+Excellent 👍
+Session 23 (Mobile Security – OWASP Mobile + Android Attacks) is a VERY HIGH-RETURN CCEE session because CDAC frequently asks
+👉 OWASP Top 10 Mobile mapping + attack scenarios + reverse engineering logic + smishing.
+Labs directly convert into scenario-based MCQs.
+
+Below is Session 23 MCQs in your standard CDAC CCEE format (10 Basic + 10 Intermediate + 10 Advanced).
+
+📘 Security Concepts – PG-DITISS (Aug 2025)
+Session 23: OWASP Top 10 Mobile, Android App Attacks, Reverse Engineering, Smishing
+🔹 BASIC MCQs (10)
+1. OWASP Top 10 Mobile vulnerabilities are published by:
+A. ISO
+B. NIST
+C. CERT-In
+D. OWASP
+
+2. Mobile application vulnerabilities mainly affect:
+A. Hardware only
+B. Operating system only
+C. Mobile applications and user data
+D. Network cables
+
+3. Reverse engineering of Android apps is mainly used to:
+A. Improve UI
+B. Analyze app logic and security flaws
+C. Increase performance
+D. Encrypt applications
+
+4. Smishing is a combination of:
+A. SMS + Phishing
+B. Email + Phishing
+C. Voice + Phishing
+D. App + Malware
+
+5. Which file is commonly reverse engineered in Android apps?
+A. .exe
+B. .apk
+C. .dll
+D. .iso
+
+6. Mobile apps storing sensitive data insecurely violate:
+A. Availability
+B. Integrity
+C. Confidentiality
+D. Performance
+
+7. Attacks on Android apps usually target:
+A. Battery
+B. App logic and permissions
+C. Screen resolution
+D. Hardware ports
+
+8. Smishing attacks mainly exploit:
+A. Network protocols
+B. Human trust
+C. Encryption flaws
+D. OS bugs
+
+9. OWASP Mobile Top 10 helps developers to:
+A. Write malware
+B. Identify common mobile risks
+C. Increase speed
+D. Root devices
+
+10. Reverse engineering without permission is considered:
+A. Ethical
+B. Legal
+C. Illegal
+D. Defensive
+
+🔸 INTERMEDIATE MCQs (10)
+11. Insecure data storage in mobile apps includes storing data in:
+A. Encrypted storage
+B. Plain text files or logs
+C. Secure keystore
+D. Hardware-backed storage
+
+12. Which OWASP Mobile risk involves weak or missing encryption?
+A. Insecure Authentication
+B. Insecure Communication
+C. Code Tampering
+D. Reverse Engineering
+
+13. Reverse engineering helps attackers to:
+A. Patch applications
+B. Extract hardcoded secrets
+C. Improve security
+D. Block attacks
+
+14. Smishing messages often contain:
+A. OS updates
+B. Suspicious links or urgent requests
+C. Antivirus alerts only
+D. App logs
+
+15. Which Android app component is commonly abused in attacks?
+A. Activities and Intents
+B. Kernel drivers
+C. BIOS
+D. Bootloader
+
+16. OWASP Mobile vulnerabilities are MOST dangerous because mobile devices:
+A. Are cheap
+B. Store personal and financial data
+C. Are slow
+D. Use Wi-Fi
+
+17. Reverse engineering is easier when apps are:
+A. Obfuscated
+B. Packed
+C. Not obfuscated
+D. Signed properly
+
+18. Smishing attacks usually lead to:
+A. Hardware damage
+B. Credential theft or malware installation
+C. OS updates
+D. Better security
+
+19. Which tool category is used in Android reverse engineering labs?
+A. Network scanners
+B. Decompilers / disassemblers
+C. Firewalls
+D. IDS
+
+20. Mobile app attacks mostly violate which CIA principle?
+A. Availability
+B. Confidentiality
+C. Performance
+D. Scalability
+
+🔺 ADVANCED MCQs (10) – CCEE TRAP + LAB-FOCUSED
+21. Hardcoded API keys found via reverse engineering violate:
+A. Availability
+B. Integrity
+C. Confidentiality
+D. Usability
+
+22. Why OWASP Top 10 Mobile is important for pentesters?
+A. Lists all malware
+B. Covers most common real-world mobile flaws
+C. Improves UI
+D. Replaces penetration testing
+
+23. Smishing is MORE effective on mobile users because:
+A. Mobile apps are secure
+B. Small screens hide full URLs
+C. Encryption is weak
+D. OS is outdated
+
+24. Which attack is MOST likely after successful smishing?
+A. DoS
+B. Credential harvesting
+C. MAC flooding
+D. ARP poisoning
+
+25. Reverse engineering an APK typically involves converting it into:
+A. Source code directly
+B. Smali / Java-like code
+C. Machine code only
+D. BIOS code
+
+26. OWASP Mobile “Insecure Authentication” mainly leads to:
+A. Service crash
+B. Unauthorized account access
+C. Network slowdown
+D. UI issues
+
+27. Obfuscation is used in Android apps to:
+A. Increase performance
+B. Make reverse engineering harder
+C. Encrypt network traffic
+D. Root device
+
+28. Smishing differs from phishing because it uses:
+A. Email
+B. Phone calls
+C. SMS messages
+D. Websites only
+
+29. Reverse engineering labs mainly test understanding of:
+A. App behavior and hidden logic
+B. Network routing
+C. Hardware design
+D. Database tuning
+
+30. Session 23 mainly tests understanding of:
+A. Mobile UI design
+B. OWASP Mobile risks + Android attack techniques
+C. Hardware repair
+D. Network cabling
+
+✅ ANSWER KEY (Check ONLY after attempting)
+1. D
+2. C
+3. B
+4. A
+5. B
+6. C
+7. B
+8. B
+9. B
+10. C
+
+11. B
+12. B
+13. B
+14. B
+15. A
+16. B
+17. C
+18. B
+19. B
+20. B
+
+21. C
+22. B
+23. B
+24. B
+25. B
+26. B
+27. B
+28. C
+29. A
+30. B
+
+🎯 CCEE EXAM GOLD (Session 23)
+OWASP Mobile Top 10 = guaranteed MCQs
+Reverse engineering → hardcoded secrets
+Smishing = SMS + urgency
+Obfuscation ≠ encryption
+Mobile apps = confidentiality goldmine
+🔥 You have now COMPLETED Mobile Security syllabus also 🎉
