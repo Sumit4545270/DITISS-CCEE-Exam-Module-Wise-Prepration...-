@@ -1,0 +1,233 @@
+Perfect 👍
+Session 22 (Mobile Security – ADB & Pentesting Tools) is a direct lab → MCQ conversion session.
+CDAC typically asks what ADB is, what it can do, risks if exposed, and how pentesting tools are used.
+
+Below is Session 22 MCQs in your exact CDAC CCEE format (10 Basic + 10 Intermediate + 10 Advanced).
+
+📘 Security Concepts – PG-DITISS (Aug 2025)
+Session 22: Android Debug Bridge (ADB) & Mobile Penetration Testing Tools
+🔹 BASIC MCQs (10)
+1. Android Debug Bridge (ADB) is a:
+A. Programming language
+B. Command-line tool
+C. Mobile OS
+D. Antivirus
+
+2. ADB is mainly used to communicate with:
+A. Web servers
+B. Android devices/emulators
+C. Network switches
+D. Databases
+
+3. ADB works in which mode by default?
+A. GUI mode
+B. Client–server mode
+C. Peer-to-peer
+D. Offline mode
+
+4. Which command lists connected Android devices?
+A. adb start
+B. adb devices
+C. adb connect
+D. adb install
+
+5. Android Emulator is commonly used with ADB for:
+A. Hardware repair
+B. App testing and debugging
+C. Network routing
+D. Disk encryption
+
+6. ADB can be used to:
+A. Install applications
+B. Uninstall applications
+C. Access device shell
+D. All of the above
+
+7. Mobile penetration testing tools are used to:
+A. Develop apps
+B. Identify mobile security vulnerabilities
+C. Increase performance
+D. Encrypt devices
+
+8. ADB is part of which Android component?
+A. Android SDK
+B. Android Kernel
+C. Google Play
+D. Android BIOS
+
+9. Which OS supports ADB usage?
+A. Linux only
+B. Windows only
+C. macOS only
+D. Windows, Linux, and macOS
+
+10. Enabling USB debugging allows:
+A. Faster charging
+B. ADB access to device
+C. Root access
+D. App encryption
+
+🔸 INTERMEDIATE MCQs (10)
+11. ADB uses which port by default for communication?
+A. 21
+B. 80
+C. 5037
+D. 8080
+
+12. Which ADB command installs an APK file?
+A. adb shell
+B. adb push
+C. adb install
+D. adb pull
+
+13. ADB shell command provides:
+A. GUI access
+B. Command-line access to device
+C. Network scan
+D. File encryption
+
+14. Leaving USB debugging enabled is risky because it:
+A. Slows device
+B. Allows unauthorized device access
+C. Uses more battery
+D. Breaks apps
+
+15. Mobile penetration testing tools usually test:
+A. Hardware faults
+B. App permissions and insecure storage
+C. Screen resolution
+D. Battery usage
+
+16. Which ADB command copies files from device to PC?
+A. adb push
+B. adb pull
+C. adb install
+D. adb connect
+
+17. ADB over Wi-Fi increases risk because it:
+A. Uses encryption
+B. Exposes debugging interface over network
+C. Improves speed
+D. Requires root
+
+18. Which scenario shows misuse of ADB?
+A. App debugging by developer
+B. Unauthorized data extraction from device
+C. Emulator testing
+D. App deployment
+
+19. Penetration testing tools for Android are often used with:
+A. Antivirus
+B. Emulators and test devices
+C. Routers
+D. Switches
+
+20. ADB helps pentesters mainly during:
+A. Planning phase
+B. Post-exploitation and analysis
+C. Risk assessment
+D. Reporting only
+
+🔺 ADVANCED MCQs (10) – CCEE TRAP ZONE
+21. Why ADB is considered a security risk on production devices?
+A. Uses high CPU
+B. Allows deep system interaction
+C. Consumes battery
+D. Slows apps
+
+22. Which attack becomes easier if ADB is exposed?
+A. DoS
+B. Data exfiltration
+C. DNS spoofing
+D. MAC flooding
+
+23. ADB access WITHOUT rooting still allows:
+A. Kernel modification
+B. App installation and file access (limited)
+C. Full system control
+D. BIOS changes
+
+24. Best practice for secure Android devices is to:
+A. Enable ADB always
+B. Disable USB debugging in production
+C. Use emulator only
+D. Root device
+
+25. Mobile pentesting tools combined with ADB help attackers to:
+A. Improve UI
+B. Automate testing and exploitation
+C. Increase battery life
+D. Encrypt OS
+
+26. Which security principle is violated if ADB is misused?
+A. Availability
+B. Confidentiality
+C. Performance
+D. Scalability
+
+27. ADB command execution requires:
+A. Internet access
+B. Authorized device pairing
+C. Antivirus disabled
+D. Root access
+
+28. Using emulator for ADB labs is preferred because it:
+A. Is faster than real phone
+B. Prevents damage to real device
+C. Is insecure
+D. Requires rooting
+
+29. ADB-based attacks are MOST effective when device is:
+A. Locked and encrypted
+B. USB debugging enabled and unlocked
+C. Powered off
+D. Updated
+
+30. Session 22 mainly tests understanding of:
+A. Mobile UI design
+B. Android debugging & mobile pentesting basics
+C. Hardware troubleshooting
+D. Database security
+
+✅ ANSWER KEY (Check ONLY after attempting)
+1. B
+2. B
+3. B
+4. B
+5. B
+6. D
+7. B
+8. A
+9. D
+10. B
+
+11. C
+12. C
+13. B
+14. B
+15. B
+16. B
+17. B
+18. B
+19. B
+20. B
+
+21. B
+22. B
+23. B
+24. B
+25. B
+26. B
+27. B
+28. B
+29. B
+30. B
+
+🎯 CCEE EXAM GOLD (Session 22)
+ADB = powerful debugging bridge
+USB debugging ON = security risk
+adb devices / install / pull / push = favorite MCQs
+Emulator = safe lab testing
+ADB misuse = confidentiality breach
+🎉 CONGRATULATIONS
+You have now completed FULL Security Concepts + Ethical Hacking + Mobile Security syllabus for PG-DITISS (Aug 2025).
