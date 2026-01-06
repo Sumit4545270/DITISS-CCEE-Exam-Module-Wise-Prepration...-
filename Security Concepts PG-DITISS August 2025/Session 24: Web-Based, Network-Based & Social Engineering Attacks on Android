@@ -1,0 +1,232 @@
+Perfect 👍
+Session 24 (Mobile Security – Web, Network & Social Engineering Attacks) is a direct lab-to-MCQ session.
+CDAC commonly asks MITM logic, packet sniffing concepts, phishing vs social engineering traps.
+
+Below is Session 24 MCQs in your exact CDAC CCEE format (10 Basic + 10 Intermediate + 10 Advanced).
+
+📘 Security Concepts – PG-DITISS (Aug 2025)
+Session 24: Web-Based, Network-Based & Social Engineering Attacks on Android
+🔹 BASIC MCQs (10)
+1. Web-based attacks on Android devices mainly target:
+A. Hardware components
+B. Mobile browsers and web apps
+C. Battery performance
+D. Screen resolution
+
+2. Network-based attacks usually exploit:
+A. UI flaws
+B. Network communication weaknesses
+C. File permissions
+D. App icons
+
+3. Social engineering attacks primarily manipulate:
+A. Network protocols
+B. Operating systems
+C. Human behavior
+D. Encryption algorithms
+
+4. MITM attack stands for:
+A. Mobile Internet Threat Model
+B. Man-In-The-Middle
+C. Mobile Intrusion Technique
+D. Multi-Interface Traffic Method
+
+5. Packet sniffing involves:
+A. Encrypting packets
+B. Capturing network traffic
+C. Blocking network access
+D. Modifying apps
+
+6. Phishing attacks mainly aim to:
+A. Increase availability
+B. Steal sensitive information
+C. Improve performance
+D. Patch systems
+
+7. Android devices are vulnerable to MITM when using:
+A. Encrypted VPN
+B. Secure HTTPS
+C. Open or unsecured Wi-Fi
+D. Mobile data
+
+8. Web-based attacks often exploit:
+A. Browser vulnerabilities
+B. Hardware drivers
+C. BIOS
+D. Power supply
+
+9. Packet sniffing threatens which CIA principle the MOST?
+A. Availability
+B. Integrity
+C. Confidentiality
+D. Authentication
+
+10. Social engineering attacks are dangerous because they:
+A. Use malware only
+B. Bypass technical security controls
+C. Require hacking skills
+D. Are slow
+
+🔸 INTERMEDIATE MCQs (10)
+11. MITM attacks allow attackers to:
+A. Shut down servers
+B. Intercept and modify communication
+C. Encrypt traffic
+D. Patch applications
+
+12. Which Android network scenario is MOST risky?
+A. HTTPS over VPN
+B. Open public Wi-Fi
+C. Encrypted WPA3 Wi-Fi
+D. Mobile data
+
+13. Packet sniffing on Android is easier when traffic is:
+A. Encrypted
+B. Compressed
+C. Plaintext
+D. Signed
+
+14. Phishing attacks commonly use:
+A. Exploits
+B. Fake websites or messages
+C. Rootkits
+D. Port scans
+
+15. MITM attacks on mobile often use:
+A. ARP poisoning
+B. SQL Injection
+C. MAC flooding only
+D. Buffer overflow
+
+16. Which tool is commonly used for packet sniffing in labs?
+A. Nmap
+B. Metasploit
+C. Wireshark
+D. Nessus
+
+17. Network-based attacks mainly target which OSI layer?
+A. Physical
+B. Network / Transport
+C. Presentation
+D. Application only
+
+18. Social engineering attacks include:
+A. Smishing and phishing
+B. Port scanning
+C. MAC spoofing
+D. SQL Injection
+
+19. Phishing attacks on mobile devices often succeed because:
+A. Large screens
+B. Users trust messages on phones
+C. Strong encryption
+D. Secure OS
+
+20. Packet sniffing during MITM attacks helps attackers to:
+A. Increase speed
+B. Capture credentials and data
+C. Patch traffic
+D. Improve routing
+
+🔺 ADVANCED MCQs (10) – CCEE TRAP + LAB-FOCUSED
+21. Which combination BEST describes a MITM attack?
+A. DoS + Flooding
+B. Interception + Manipulation
+C. Encryption + Authentication
+D. Scanning + Reporting
+
+22. HTTPS reduces MITM impact because it:
+A. Blocks packets
+B. Encrypts communication
+C. Improves speed
+D. Uses UDP
+
+23. Why phishing is more effective on mobile devices?
+A. Weak OS
+B. Smaller screens hide URL details
+C. No encryption
+D. Rooted devices
+
+24. Network-based attacks on Android MOST commonly violate:
+A. Availability
+B. Confidentiality
+C. Performance
+D. Scalability
+
+25. MITM attacks are easier when users ignore:
+A. Battery warnings
+B. Certificate warnings
+C. App updates
+D. Screen brightness
+
+26. Packet sniffing combined with ARP poisoning results in:
+A. DoS
+B. MITM
+C. MAC flooding
+D. DNS scanning
+
+27. Phishing differs from malware attacks because phishing:
+A. Exploits software bugs
+B. Relies on user deception
+C. Requires root access
+D. Uses kernel exploits
+
+28. Best countermeasure against MITM on mobile is:
+A. Open Wi-Fi
+B. HTTPS + VPN
+C. MAC spoofing
+D. Plain HTTP
+
+29. Social engineering attacks violate which security principle MOST?
+A. Availability
+B. Confidentiality
+C. Authentication
+D. Performance
+
+30. Session 24 mainly tests understanding of:
+A. Mobile UI design
+B. Network + human-based mobile attacks
+C. Hardware troubleshooting
+D. Database security
+
+✅ ANSWER KEY (Check ONLY after attempting)
+1. B
+2. B
+3. C
+4. B
+5. B
+6. B
+7. C
+8. A
+9. C
+10. B
+
+11. B
+12. B
+13. C
+14. B
+15. A
+16. C
+17. B
+18. A
+19. B
+20. B
+
+21. B
+22. B
+23. B
+24. B
+25. B
+26. B
+27. B
+28. B
+29. C
+30. B
+
+🎯 CCEE EXAM GOLD (Session 24)
+MITM = intercept + alter
+Open Wi-Fi = mobile killer
+Wireshark = packet visibility
+Phishing = human weakness
+HTTPS + VPN = best defense
+🎉 YOU HAVE NOW COMPLETED THE ENTIRE SYLLABUS (Sessions 1–24)
