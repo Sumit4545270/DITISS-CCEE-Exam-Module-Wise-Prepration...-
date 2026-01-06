@@ -1,0 +1,231 @@
+Excellent 👍
+Session 14 is a high-return malware theory session — CDAC often asks
+👉 difference-based, type-based, evasion vs detection MCQs
+These are straightforward marks if concepts are clean.
+
+Below is Session 14 MCQs in your standard CCEE format (10 Basic + 10 Intermediate + 10 Advanced).
+
+📘 Security Concepts – PG-DITISS (Aug 2025)
+Session 14: Virus vs Worm, Types of Viruses, AV Evasion & Detection
+🔹 BASIC MCQs (10)
+1. A computer virus differs from a worm because a virus:
+A. Spreads automatically
+B. Requires user action to spread
+C. Is network-based only
+D. Does not modify files
+
+2. A worm primarily spreads through:
+A. Email attachments only
+B. User execution
+C. Network vulnerabilities
+D. USB devices
+
+3. Which malware can replicate without a host file?
+A. Virus
+B. Trojan
+C. Worm
+D. Spyware
+
+4. File infector viruses mainly target:
+A. Boot sector
+B. Application files
+C. Network traffic
+D. Hardware
+
+5. Boot sector viruses infect:
+A. Executable files
+B. Master Boot Record
+C. Memory only
+D. Network packets
+
+6. Macro viruses are commonly associated with:
+A. Operating system files
+B. Office documents
+C. Network services
+D. BIOS
+
+7. Antivirus evasion techniques are used to:
+A. Improve detection
+B. Avoid antivirus detection
+C. Update signatures
+D. Patch systems
+
+8. Antivirus software mainly protects against:
+A. Hardware failure
+B. Malware infections
+C. Power outages
+D. Network latency
+
+9. Virus detection means:
+A. Removing OS
+B. Identifying malicious code
+C. Blocking network
+D. Encrypting files
+
+10. Which malware spreads faster in networks?
+A. Virus
+B. Worm
+C. Trojan
+D. Adware
+
+🔸 INTERMEDIATE MCQs (10)
+11. Which virus stays resident in system memory?
+A. Boot virus
+B. File virus
+C. Resident virus
+D. Macro virus
+
+12. Non-resident viruses:
+A. Stay permanently in memory
+B. Execute and exit
+C. Spread over network
+D. Modify boot sector
+
+13. Polymorphic viruses evade detection by:
+A. Hiding files
+B. Changing code signature
+C. Using encryption only
+D. Using network ports
+
+14. Metamorphic viruses are harder to detect because they:
+A. Encrypt payload
+B. Rewrite their own code
+C. Use UDP
+D. Are small in size
+
+15. Signature-based antivirus detection fails when malware is:
+A. Known
+B. Unchanged
+C. Polymorphic or new
+D. Small
+
+16. Heuristic detection works by:
+A. Comparing signatures
+B. Analyzing suspicious behavior
+C. Checking file size
+D. Using hashes only
+
+17. Which virus type activates only on a specific condition?
+A. Polymorphic virus
+B. Stealth virus
+C. Logic bomb
+D. Resident virus
+
+18. Stealth viruses evade detection by:
+A. Deleting files
+B. Hiding changes from OS
+C. Encrypting network
+D. Increasing speed
+
+19. Worms cause more damage than viruses mainly due to:
+A. Smaller size
+B. Automatic propagation
+C. File infection
+D. User execution
+
+20. Antivirus updates are important because:
+A. Improve UI
+B. Add new virus signatures
+C. Reduce CPU usage
+D. Increase bandwidth
+
+🔺 ADVANCED MCQs (10) – CCEE TRAP ZONE
+21. Which malware requires a host program to execute?
+A. Worm
+B. Virus
+C. Spyware
+D. Rootkit
+
+22. Antivirus evasion using encryption mainly defeats:
+A. Behavioral detection
+B. Signature-based detection
+C. Firewall rules
+D. IDS alerts
+
+23. Why worms are difficult to control in large networks?
+A. Manual execution
+B. Rapid self-propagation
+C. Need email
+D. Need USB
+
+24. Which detection method is MOST effective against unknown malware?
+A. Signature-based
+B. Heuristic
+C. Static hashing
+D. Manual scan
+
+25. A virus that modifies itself each time it runs is:
+A. Stealth virus
+B. Polymorphic virus
+C. Boot virus
+D. Macro virus
+
+26. Antivirus sandboxing helps by:
+A. Encrypting malware
+B. Running files in isolated environment
+C. Updating signatures
+D. Blocking ports
+
+27. Worms mainly violate which CIA principle?
+A. Confidentiality
+B. Integrity
+C. Availability
+D. Authentication
+
+28. Metamorphic malware MOST challenges which detection method?
+A. Behavioral
+B. Signature-based
+C. Sandbox
+D. Manual
+
+29. Logic bombs are dangerous because they:
+A. Spread automatically
+B. Trigger on specific events/time
+C. Encrypt network
+D. Replicate rapidly
+
+30. Session 14 mainly tests understanding of:
+A. Programming
+B. Malware classification & detection logic
+C. Database tuning
+D. Hardware design
+
+✅ ANSWER KEY (Check ONLY after attempting)
+1. B
+2. C
+3. C
+4. B
+5. B
+6. B
+7. B
+8. B
+9. B
+10. B
+
+11. C
+12. B
+13. B
+14. B
+15. C
+16. B
+17. C
+18. B
+19. B
+20. B
+
+21. B
+22. B
+23. B
+24. B
+25. B
+26. B
+27. C
+28. B
+29. B
+30. B
+
+🎯 CCEE EXAM GOLD (Session 14)
+Virus needs host | Worm doesn’t
+Polymorphic vs Metamorphic = favorite trap
+Signature fails → heuristic wins
+Worm = availability killer
