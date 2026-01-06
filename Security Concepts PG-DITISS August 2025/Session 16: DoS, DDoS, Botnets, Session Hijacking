@@ -1,0 +1,210 @@
+📘 Security Concepts – PG-DITISS (Aug 2025)
+Session 16: DoS, DDoS, Botnets, Session Hijacking
+🔹 BASIC MCQs (10)
+
+DoS attack aims to:
+A. Steal data
+B. Disrupt service availability
+C. Modify data
+D. Bypass authentication
+
+DDoS differs from DoS because it uses:
+A. One attacker
+B. Multiple distributed sources
+C. Encryption
+D. Firewalls
+
+Bots are:
+A. Firewalls
+B. Infected machines
+C. Routers
+D. IDS
+
+A botnet is:
+A. Single system
+B. Network of compromised machines
+C. Secure network
+D. VPN
+
+Smurf attack uses:
+A. TCP
+B. ICMP
+C. UDP
+D. HTTP
+
+SYN flooding exploits:
+A. DNS
+B. TCP handshake
+C. ARP
+D. ICMP
+
+Session hijacking targets:
+A. Availability
+B. User session
+C. Encryption
+D. Database
+
+Spoofing means:
+A. Taking over session
+B. Impersonating identity
+C. Flooding traffic
+D. Encrypting packets
+
+Hijacking means:
+A. Impersonation only
+B. Taking control of session
+C. Packet capture
+D. Port scanning
+
+Prevention of session hijacking includes:
+A. Plain HTTP
+B. HTTPS
+C. MAC flooding
+D. Open Wi-Fi
+
+🔸 INTERMEDIATE MCQs (10)
+
+Smurf attack amplifies traffic using:
+A. Broadcast address
+B. Multicast
+C. DNS
+D. TCP
+
+SYN flood causes server to:
+A. Complete handshake
+B. Keep half-open connections
+C. Encrypt traffic
+D. Drop packets
+
+Botnets are controlled using:
+A. IDS
+B. Command and Control (C2)
+C. Firewalls
+D. Antivirus
+
+Which is NOT a DoS attack?
+A. SYN flood
+B. Smurf
+C. SQL Injection
+D. UDP flood
+
+Session hijacking is easier when:
+A. HTTPS is used
+B. Session IDs are predictable
+C. Cookies are secure
+D. MFA enabled
+
+Types of session hijacking include:
+A. Active and passive
+B. Physical and logical
+C. Internal and external
+D. Wired and wireless
+
+Active session hijacking involves:
+A. Listening only
+B. Taking over session
+C. Logging traffic
+D. Packet filtering
+
+Botnets are commonly used for:
+A. Data backup
+B. DDoS attacks
+C. Encryption
+D. Authentication
+
+SYN cookies help prevent:
+A. DNS attacks
+B. SYN flood
+C. ARP poisoning
+D. Sniffing
+
+Session hijacking mainly violates:
+A. Availability
+B. Integrity
+C. Confidentiality
+D. Authentication
+
+🔺 ADVANCED MCQs (10) – CCEE TRAP ZONE
+
+Which attack consumes maximum bandwidth?
+A. Smurf
+B. SYN flood
+C. Session hijack
+D. Spoofing
+
+DDoS is harder to mitigate because:
+A. Uses encryption
+B. Traffic comes from many sources
+C. Uses UDP only
+D. Uses proxies
+
+Botnet lifecycle begins with:
+A. Exploitation
+B. Infection
+C. Command execution
+D. Reporting
+
+Spoofing vs hijacking difference is that hijacking:
+A. Forges identity
+B. Takes over existing session
+C. Uses malware
+D. Uses encryption
+
+Session fixation is a form of:
+A. DoS
+B. Session hijacking
+C. Spoofing
+D. Sniffing
+
+Best defense against DDoS is:
+A. Single firewall
+B. Rate limiting + filtering
+C. Antivirus
+D. Encryption
+
+Botnets make DDoS powerful because they:
+A. Use encryption
+B. Multiply attack traffic
+C. Reduce latency
+D. Hide logs
+
+Session hijacking is MOST dangerous after:
+A. Logout
+B. Authentication
+C. Encryption
+D. Firewall
+
+TCP sequence prediction enables:
+A. DNS spoofing
+B. Session hijacking
+C. MAC flooding
+D. Sniffing
+
+Session 16 mainly tests understanding of:
+A. Application coding
+B. Availability & session-level attacks
+C. Database security
+D. Hardware design
+
+✅ ANSWER KEY – Session 16
+
+1.B 2.B 3.B 4.B 5.B
+6.B 7.B 8.B 9.B 10.B
+
+11.A 12.B 13.B 14.C 15.B
+16.A 17.B 18.B 19.B 20.D
+
+21.A 22.B 23.B 24.B 25.B
+26.B 27.B 28.B 29.B 30.B
+
+🎯 FINAL CCEE GOLD TIPS (Sessions 15–16)
+
+Sniffing = confidentiality
+
+ARP poisoning = MITM
+
+MAC flooding = switch → hub
+
+DDoS = availability killer
+
+Spoofing ≠ Hijacking (VERY common trap)
