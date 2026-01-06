@@ -1,0 +1,231 @@
+Excellent 👍
+Session 10 is one of the MOST IMPORTANT scoring sessions for CCEE because it mixes
+👉 Ethical hacking basics + reconnaissance + scanning theory + tool-based labs
+CDAC asks direct + tricky MCQs from exactly these points.
+
+Below is Session 10 MCQs in your strict CDAC format (10 Basic + 10 Intermediate + 10 Advanced) — lab-mapped and elimination-friendly.
+
+📘 Security Concepts – PG-DITISS (Aug 2025)
+Session 10: Ethical Hacking, Reconnaissance, Scanning, Footprinting & Tools
+🔹 BASIC MCQs (10)
+1. Ethical hacking is performed to:
+A. Damage systems
+B. Identify and fix vulnerabilities
+C. Steal information
+D. Bypass laws
+
+2. A security evaluation plan mainly defines:
+A. Hardware cost
+B. Scope and methodology of testing
+C. Network speed
+D. UI design
+
+3. Ethical hacking must always begin with:
+A. Exploitation
+B. Permission and scope definition
+C. Port scanning
+D. Vulnerability scanning
+
+4. Foot-printing is the process of:
+A. Exploiting vulnerabilities
+B. Gathering information about a target
+C. Crashing servers
+D. Writing reports
+
+5. Social engineering attacks mainly exploit:
+A. Network protocols
+B. Human psychology
+C. Encryption flaws
+D. Hardware bugs
+
+6. Traceroute is used to:
+A. Scan ports
+B. Identify network path to target
+C. Exploit services
+D. Capture packets
+
+7. Port scanning is used to identify:
+A. Open ports and services
+B. Passwords
+C. Encryption keys
+D. Malware
+
+8. Network scanning mainly focuses on:
+A. Live hosts
+B. Vulnerabilities
+C. Passwords
+D. Logs
+
+9. Vulnerability scanning identifies:
+A. Network topology
+B. Security weaknesses
+C. User behavior
+D. Packet loss
+
+10. SYN scan is also known as:
+A. Full connect scan
+B. Stealth scan
+C. XMAS scan
+D. Idle scan
+
+🔸 INTERMEDIATE MCQs (10)
+11. Which ethical hacking type simulates real attacker behavior?
+A. White-box testing
+B. Black-box testing
+C. Code review
+D. Static analysis
+
+12. Foot-printing includes collecting information like:
+A. IP addresses and DNS details
+B. Encryption keys
+C. User passwords
+D. System logs
+
+13. Social engineering is dangerous because it:
+A. Uses malware
+B. Bypasses technical controls
+C. Needs encryption
+D. Is slow
+
+14. Traceroute primarily uses which protocol?
+A. TCP
+B. UDP / ICMP
+C. FTP
+D. HTTP
+
+15. SYN scan is stealthy because it:
+A. Completes TCP handshake
+B. Does not complete TCP handshake
+C. Uses UDP
+D. Uses ICMP
+
+16. NULL scan sends packets with:
+A. SYN flag
+B. FIN flag
+C. No flags set
+D. All flags set
+
+17. XMAS scan is named because packets have:
+A. No flags
+B. All flags set
+C. Only SYN flag
+D. Only ACK flag
+
+18. IDLE scan hides attacker identity by using:
+A. Proxy server
+B. Zombie host
+C. Firewall
+D. VPN
+
+19. Vulnerability scanning differs from port scanning because it:
+A. Finds open ports
+B. Identifies known weaknesses
+C. Maps network
+D. Captures packets
+
+20. Reconnaissance using search engines is called:
+A. Active recon
+B. Passive recon
+C. Exploitation
+D. Privilege escalation
+
+🔺 ADVANCED MCQs (10) – CCEE TRAP + LAB-FOCUSED
+21. Ethical hacking without written permission is considered:
+A. Training
+B. Legal
+C. Illegal
+D. Passive testing
+
+22. Which phase uses WHOIS, Google Dorks, Netcraft, Shodan?
+A. Scanning
+B. Exploitation
+C. Reconnaissance
+D. Maintaining access
+
+23. Passive footprinting reduces risk because it:
+A. Uses malware
+B. Does not directly interact with target
+C. Uses exploits
+D. Uses scanning tools
+
+24. FIN scan attempts to bypass firewalls by:
+A. Sending malformed packets
+B. Sending FIN packets only
+C. Flooding traffic
+D. Using SYN flood
+
+25. Why XMAS/NULL/FIN scans may evade detection?
+A. Use encryption
+B. Do not follow standard TCP behavior
+C. Use UDP
+D. Use ICMP
+
+26. FOCA tool is mainly used for:
+A. Port scanning
+B. Metadata extraction and fingerprinting
+C. Password cracking
+D. Packet sniffing
+
+27. Burp Suite spidering helps in:
+A. Exploiting vulnerabilities
+B. Mapping application attack surface
+C. Capturing packets
+D. Scanning network
+
+28. Vulnerability scanning should be done:
+A. Before footprinting
+B. After exploitation
+C. After port and network scanning
+D. Only after reporting
+
+29. TreePad tool is used for:
+A. Exploitation
+B. Reporting and documentation
+C. Scanning
+D. Packet capture
+
+30. Session 10 mainly tests understanding of:
+A. Programming logic
+B. Reconnaissance and scanning methodologies
+C. Hardware design
+D. Database tuning
+
+✅ ANSWER KEY (Check only after attempting)
+1. B
+2. B
+3. B
+4. B
+5. B
+6. B
+7. A
+8. A
+9. B
+10. B
+
+11. B
+12. A
+13. B
+14. B
+15. B
+16. C
+17. B
+18. B
+19. B
+20. B
+
+21. C
+22. C
+23. B
+24. B
+25. B
+26. B
+27. B
+28. C
+29. B
+30. B
+
+🎯 CCEE EXAM GOLD (Session 10)
+Reconnaissance ≠ Scanning ≠ Exploitation
+Passive recon = safe, active = risky
+SYN/NULL/FIN/XMAS = stealth scans
+Tools + purpose = guaranteed MCQs
