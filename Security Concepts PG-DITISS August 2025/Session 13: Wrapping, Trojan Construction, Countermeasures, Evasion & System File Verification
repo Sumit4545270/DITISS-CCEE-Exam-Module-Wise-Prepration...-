@@ -1,0 +1,232 @@
+Excellent 👍
+Session 13 is a classic malware–defense balance session — CDAC asks
+👉 what Trojans are, how they are created, how they evade detection, and how to stop them.
+Expect definition + “why/why not” trap MCQs.
+
+Below is Session 13 MCQs in your exact CCEE format (10 Basic + 10 Intermediate + 10 Advanced).
+
+📘 Security Concepts – PG-DITISS (Aug 2025)
+Session 13: Wrapping, Trojan Construction, Countermeasures, Evasion & System File Verification
+🔹 BASIC MCQs (10)
+1. Wrapping in malware context refers to:
+A. Encrypting network traffic
+B. Hiding malicious code inside a legitimate program
+C. Compressing files
+D. Backing up data
+
+2. Trojan Construction Kits are used to:
+A. Detect malware
+B. Create Trojans easily
+C. Remove Trojans
+D. Encrypt systems
+
+3. Trojan makers are designed for:
+A. Defensive security
+B. Generating malicious programs
+C. System monitoring
+D. File recovery
+
+4. A Trojan differs from a virus because it:
+A. Self-replicates
+B. Appears legitimate to user
+C. Infects files automatically
+D. Spreads via network
+
+5. Main objective of a Trojan is to:
+A. Improve performance
+B. Provide unauthorized access
+C. Encrypt data for safety
+D. Backup files
+
+6. Trojan countermeasures aim to:
+A. Speed up execution
+B. Detect and prevent infection
+C. Create signatures
+D. Compress malware
+
+7. System File Verification checks:
+A. User passwords
+B. Integrity of system files
+C. Network traffic
+D. CPU usage
+
+8. Which is a common Trojan delivery method?
+A. Legitimate OS update
+B. Email attachment
+C. Hardware failure
+D. Power outage
+
+9. Trojan evasion techniques mainly try to:
+A. Increase size
+B. Avoid detection
+C. Slow system
+D. Trigger alerts
+
+10. File integrity checking is mainly used to detect:
+A. Network attacks
+B. Unauthorized file changes
+C. Password attacks
+D. DoS attacks
+
+🔸 INTERMEDIATE MCQs (10)
+11. Wrapping helps Trojans by:
+A. Removing antivirus
+B. Fooling users into execution
+C. Encrypting disks
+D. Improving speed
+
+12. Trojan Construction Kits reduce the need for:
+A. Networking knowledge
+B. Programming skills
+C. Malware delivery
+D. Exploit development
+
+13. Which user behavior MOST contributes to Trojan infection?
+A. Regular updates
+B. Downloading cracked software
+C. Strong passwords
+D. Firewall usage
+
+14. Countermeasures against Trojans include:
+A. Antivirus and IDS
+B. Regular patching
+C. User awareness
+D. All of the above
+
+15. Trojan-evading techniques include:
+A. Code obfuscation
+B. Encryption of payload
+C. Polymorphism
+D. All of the above
+
+16. System file verification helps detect Trojans because Trojans often:
+A. Modify system binaries
+B. Increase bandwidth
+C. Encrypt traffic
+D. Consume memory
+
+17. Signature-based antivirus fails against Trojans when they:
+A. Are large
+B. Use polymorphism
+C. Use TCP
+D. Are local
+
+18. Trojan makers are dangerous because they:
+A. Need expert hackers
+B. Enable non-skilled attackers
+C. Are slow
+D. Are easily detected
+
+19. A wrapped Trojan is MOST effective when:
+A. User executes it willingly
+B. Antivirus is updated
+C. OS is patched
+D. Firewall is enabled
+
+20. File integrity tools compare files against:
+A. User input
+B. Baseline hashes
+C. Network traffic
+D. Logs only
+
+🔺 ADVANCED MCQs (10) – CCEE TRAP ZONE
+21. Why Trojan construction kits increase malware spread?
+A. Faster internet
+B. Lower skill requirement
+C. Strong encryption
+D. Better OS
+
+22. Trojan evasion techniques MOST directly defeat:
+A. Firewalls
+B. Signature-based detection
+C. Physical security
+D. Backups
+
+23. Wrapping a Trojan inside a game violates which principle?
+A. Availability
+B. Trust boundary
+C. Least privilege
+D. Redundancy
+
+24. Which countermeasure is MOST effective against unknown Trojans?
+A. Signature-based AV
+B. Behavior-based detection
+C. Static firewall rules
+D. Password policy
+
+25. Polymorphic Trojans are difficult to detect because they:
+A. Use UDP
+B. Change code structure frequently
+C. Use encryption
+D. Are small
+
+26. System file verification failure MOST likely indicates:
+A. Network congestion
+B. Possible Trojan infection
+C. Hardware fault
+D. Power failure
+
+27. Trojan evasion by delaying execution aims to:
+A. Reduce payload
+B. Bypass sandbox detection
+C. Increase damage
+D. Hide files
+
+28. Which scenario BEST represents Trojan wrapping?
+A. Virus infecting files automatically
+B. Malware disguised as free software
+C. Worm spreading on network
+D. DDoS flooding
+
+29. File integrity monitoring aligns with which security goal?
+A. Confidentiality
+B. Integrity
+C. Availability
+D. Authentication
+
+30. Session 13 primarily tests understanding of:
+A. Network routing
+B. Trojan lifecycle: creation → evasion → detection
+C. Database tuning
+D. Hardware repair
+
+✅ ANSWER KEY (Check ONLY after attempting)
+1. B
+2. B
+3. B
+4. B
+5. B
+6. B
+7. B
+8. B
+9. B
+10. B
+
+11. B
+12. B
+13. B
+14. D
+15. D
+16. A
+17. B
+18. B
+19. A
+20. B
+
+21. B
+22. B
+23. B
+24. B
+25. B
+26. B
+27. B
+28. B
+29. B
+30. B
+
+🎯 CCEE EXAM GOLD (Session 13)
+Wrapping = disguise
+Trojan kits = low-skill malware
+Polymorphism beats signatures
+Behavior-based > signature-based
+File integrity = integrity pillar
