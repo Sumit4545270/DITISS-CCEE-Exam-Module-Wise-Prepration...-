@@ -1,0 +1,231 @@
+Excellent 👍
+Session 9 is a pure concept + role-clarity session, and CDAC loves asking
+👉 definitions, comparisons, goals, and “who does what” type MCQs.
+These are easy marks if concepts are crystal clear.
+
+Below is Session 9 in your standard CCEE format (10 Basic + 10 Intermediate + 10 Advanced).
+
+📘 Security Concepts – PG-DITISS (Aug 2025)
+Session 9: Hacker Classes, Red/Blue/Grey Teams, Attacker Goals, Skills of Ethical Hacker
+🔹 BASIC MCQs (10)
+1. A hacker who breaks into systems for malicious intent is called:
+A. White Hat
+B. Grey Hat
+C. Black Hat
+D. Ethical Hacker
+
+2. Ethical hackers work with:
+A. Hidden identity
+B. Permission
+C. Malware
+D. Exploits only
+
+3. Which team is responsible for defending systems?
+A. Red Team
+B. Blue Team
+C. Grey Team
+D. Black Team
+
+4. Red Team primarily focuses on:
+A. Defense
+B. Monitoring
+C. Attacking to test security
+D. Policy writing
+
+5. Grey Hat hackers act:
+A. Fully legally
+B. Fully illegally
+C. Between ethical and unethical
+D. Only for money
+
+6. Crackers are mainly involved in:
+A. Improving security
+B. Breaking software protection
+C. Writing policies
+D. Network monitoring
+
+7. Goals of attackers usually include:
+A. Improving performance
+B. Stealing data
+C. Increasing availability
+D. Strengthening systems
+
+8. The Security–Functionality–Ease of Use triangle shows that:
+A. All three can be maximized
+B. Improving one impacts others
+C. Security is independent
+D. Usability has no effect
+
+9. Ethical hackers aim to:
+A. Cause damage
+B. Identify and report vulnerabilities
+C. Exploit users
+D. Bypass law
+
+10. Skills of an ethical hacker include:
+A. Only programming
+B. Only networking
+C. Technical + analytical skills
+D. Hardware repair
+
+🔸 INTERMEDIATE MCQs (10)
+11. Which hacker class is hired by organizations?
+A. Black Hat
+B. Grey Hat
+C. White Hat
+D. Script Kiddie
+
+12. Script kiddies differ from ethical hackers because they:
+A. Write advanced exploits
+B. Use ready-made tools
+C. Follow laws
+D. Report vulnerabilities
+
+13. Blue Team activities include:
+A. Penetration testing
+B. Vulnerability exploitation
+C. Incident detection and response
+D. Social engineering
+
+14. Red Team vs Blue Team exercises mainly test:
+A. Hardware efficiency
+B. Real-world security readiness
+C. UI quality
+D. Database speed
+
+15. Which is NOT a typical attacker goal?
+A. Data theft
+B. Privilege escalation
+C. Service disruption
+D. Improving user trust
+
+16. Grey Team combines roles of:
+A. Red and Black
+B. Blue and Black
+C. Red and Blue
+D. White and Black
+
+17. Ease of use often conflicts with security because:
+A. Users prefer complexity
+B. Users make mistakes
+C. Strong security reduces usability
+D. Security is optional
+
+18. Ethical hackers must have knowledge of:
+A. Networking and OS
+B. Security tools
+C. Laws and ethics
+D. All of the above
+
+19. Which role focuses on continuous monitoring?
+A. Red Team
+B. Blue Team
+C. Grey Team
+D. Hacktivist
+
+20. Attacker goals help ethical hackers to:
+A. Write malware
+B. Predict attack paths
+C. Avoid documentation
+D. Disable antivirus
+
+🔺 ADVANCED MCQs (10) – CCEE TRAP ZONE
+21. A hacker finds a bug without permission but reports it responsibly. This is:
+A. White Hat
+B. Black Hat
+C. Grey Hat
+D. Cracker
+
+22. Which team simulates real attackers without knowing defenders’ plans?
+A. Blue Team
+B. Grey Team
+C. Red Team
+D. White Team
+
+23. Attackers targeting availability will MOST likely perform:
+A. SQL Injection
+B. Phishing
+C. DoS/DDoS
+D. Keylogging
+
+24. Why organizations use Red–Blue Teaming?
+A. For fun
+B. To improve real-time security posture
+C. To reduce staff
+D. To test hardware
+
+25. The triangle implies that maximum security often leads to:
+A. Better usability
+B. Reduced ease of use
+C. Increased functionality
+D. Faster systems
+
+26. Ethical hackers differ from crackers mainly because of:
+A. Skill level
+B. Tools used
+C. Intent and authorization
+D. Experience
+
+27. Which skill is MOST important for ethical hackers beyond tools?
+A. Memorization
+B. Analytical thinking
+C. Hardware assembly
+D. Typing speed
+
+28. A Blue Team failure is MOST evident when:
+A. Attacks are detected late
+B. Scans are run
+C. Logs are stored
+D. Policies exist
+
+29. Understanding attacker goals helps reduce:
+A. Hardware cost
+B. Attack success rate
+C. Network speed
+D. Usability
+
+30. Session 9 mainly tests understanding of:
+A. Programming languages
+B. Roles, mindset, and skills in security
+C. Database tuning
+D. Hardware troubleshooting
+
+✅ ANSWER KEY (Check only after attempting)
+1. C
+2. B
+3. B
+4. C
+5. C
+6. B
+7. B
+8. B
+9. B
+10. C
+
+11. C
+12. B
+13. C
+14. B
+15. D
+16. C
+17. C
+18. D
+19. B
+20. B
+
+21. C
+22. C
+23. C
+24. B
+25. B
+26. C
+27. B
+28. A
+29. B
+30. B
+
+🎯 CCEE EXAM GOLD (Session 9)
+Permission + intent = legality
+Red = attack | Blue = defend
+Grey = mixed behavior
+Triangle questions = direct MCQs
