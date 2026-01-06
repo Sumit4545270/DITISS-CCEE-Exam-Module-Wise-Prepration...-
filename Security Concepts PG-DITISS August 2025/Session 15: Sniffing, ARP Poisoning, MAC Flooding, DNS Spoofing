@@ -1,0 +1,198 @@
+📘 Security Concepts – PG-DITISS (Aug 2025)
+Session 15: Sniffing, ARP Poisoning, MAC Flooding, DNS Spoofing
+🔹 BASIC MCQs (10)
+
+Sniffing is the process of:
+A. Blocking traffic
+B. Capturing network packets
+C. Encrypting data
+D. Filtering logs
+
+Which protocol is MOST vulnerable to sniffing?
+A. HTTPS
+B. SSH
+C. FTP
+D. SSL
+
+Passive sniffing means:
+A. Injecting packets
+B. Only listening to traffic
+C. Modifying packets
+D. Dropping packets
+
+Active sniffing requires:
+A. Hub
+B. Switch manipulation
+C. Encrypted traffic
+D. VPN
+
+ARP poisoning is used to:
+A. Encrypt ARP packets
+B. Redirect traffic
+C. Block DNS
+D. Flood MAC table
+
+Ethereal (Wireshark) is mainly used for:
+A. Exploitation
+B. Packet capture and analysis
+C. Password cracking
+D. Port scanning
+
+MAC flooding targets:
+A. Routers
+B. Switch CAM table
+C. DNS servers
+D. Firewalls
+
+DNS spoofing results in:
+A. Correct IP resolution
+B. Fake IP resolution
+C. Faster DNS
+D. Encrypted DNS
+
+Sniffing primarily threatens:
+A. Availability
+B. Integrity
+C. Confidentiality
+D. Authentication
+
+Which is a sniffing countermeasure?
+A. Plain HTTP
+B. Encryption
+C. MAC flooding
+D. ARP poisoning
+
+🔸 INTERMEDIATE MCQs (10)
+
+Active sniffing is possible on switched networks using:
+A. Packet loss
+B. ARP poisoning
+C. Encryption
+D. VLAN
+
+Display filters in Wireshark are used to:
+A. Capture packets
+B. Show specific packets
+C. Modify packets
+D. Inject packets
+
+Capture filters work at:
+A. After capture
+B. During capture
+C. Application layer
+D. Transport layer
+
+MAC flooding forces a switch to act like a:
+A. Router
+B. Hub
+C. Firewall
+D. IDS
+
+DNS hacking mainly targets:
+A. DNS cache
+B. ARP cache
+C. MAC table
+D. Routing table
+
+ARP poisoning enables which attack?
+A. MITM
+B. DoS only
+C. SQL Injection
+D. XSS
+
+Passive sniffing is difficult to detect because it:
+A. Sends packets
+B. Does not alter traffic
+C. Uses malware
+D. Uses encryption
+
+Which protocol uses plaintext credentials?
+A. HTTPS
+B. FTP
+C. SFTP
+D. SSH
+
+DNS spoofing mainly violates:
+A. Availability
+B. Integrity
+C. Confidentiality
+D. Authentication
+
+Which countermeasure prevents ARP poisoning?
+A. Static ARP entries
+B. Plain HTTP
+C. MAC flooding
+D. DNS cache
+
+🔺 ADVANCED MCQs (10) – CCEE TRAP ZONE
+
+Which network device is MOST vulnerable to passive sniffing?
+A. Switch
+B. Router
+C. Hub
+D. Firewall
+
+ARP poisoning + sniffing results in:
+A. DoS
+B. MITM
+C. Port scanning
+D. Flooding
+
+Why encrypted protocols defeat sniffing?
+A. Block packets
+B. Hide data content
+C. Reduce traffic
+D. Use UDP
+
+MAC flooding attack is successful when switch:
+A. Drops packets
+B. CAM table overflows
+C. Encrypts traffic
+D. Filters ARP
+
+DNS spoofing is dangerous because it:
+A. Slows network
+B. Redirects users to fake sites
+C. Blocks DNS
+D. Encrypts traffic
+
+Best defense against sniffing on Wi-Fi is:
+A. Open network
+B. WPA2/WPA3 encryption
+C. MAC flooding
+D. ARP spoofing
+
+Capture filters reduce:
+A. Security
+B. Storage and noise
+C. Speed
+D. Encryption
+
+Sniffing countermeasures focus MOST on:
+A. Confidentiality
+B. Availability
+C. Integrity
+D. Performance
+
+DNS cache poisoning is an example of:
+A. Passive attack
+B. Active attack
+C. Physical attack
+D. Insider attack
+
+Session 15 mainly tests understanding of:
+A. Application security
+B. Network sniffing & spoofing attacks
+C. Database tuning
+D. Hardware repair
+
+✅ ANSWER KEY – Session 15
+
+1.B 2.C 3.B 4.B 5.B
+6.B 7.B 8.B 9.C 10.B
+
+11.B 12.B 13.B 14.B 15.A
+16.A 17.B 18.B 19.B 20.A
+
+21.C 22.B 23.B 24.B 25.B
+26.B 27.B 28.A 29.B 30.B
