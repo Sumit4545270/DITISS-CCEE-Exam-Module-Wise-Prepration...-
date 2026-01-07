@@ -1,0 +1,243 @@
+Perfect 👍
+Below are CCEE-grade MCQs for PG-DITISS – Compliance Audit (Session 11 & 12), designed with exam traps, framework confusion points, and comparison logic exactly aligned to C-DAC CCEE pattern.
+
+📘 Compliance Audit – Session 11 & 12
+Session 11
+Payment Card Industry Data Security Standard (PCI DSS)
+Session 12
+Center for Internet Security (CIS)
+Image
+
+Image
+
+Image
+
+Image
+
+🔹 BASIC LEVEL MCQs (10)
+1. PCI DSS is primarily designed to protect:
+A. Healthcare data
+B. Payment cardholder data
+C. Financial audit logs
+D. Intellectual property
+
+2. PCI DSS applies to organizations that:
+A. Store employee data
+B. Process, store, or transmit card data
+C. Use ISO standards
+D. Conduct audits
+
+3. PCI DSS was developed by:
+A. ISO
+B. PCI Security Standards Council
+C. NIST
+D. CIS
+
+4. The main goal of PCI DSS is to:
+A. Improve network speed
+B. Reduce payment card fraud
+C. Replace ISO 27001
+D. Improve coding practices
+
+5. Which of the following is PCI DSS data?
+A. PAN (Primary Account Number)
+B. Employee ID
+C. System hostname
+D. Source code
+
+6. PCI DSS compliance is:
+A. Voluntary
+B. Mandatory for card handlers
+C. Optional guideline
+D. Only for banks
+
+7. CIS Critical Security Controls are best described as:
+A. Legal regulations
+B. Prioritized security best practices
+C. Audit penalties
+D. Incident reports
+
+8. CIS Controls are designed to:
+A. Replace ISO and NIST
+B. Reduce cyber risks effectively
+C. Improve financial reporting
+D. Conduct audits
+
+9. CIS Benchmarks mainly provide:
+A. Legal compliance
+B. Secure configuration guidelines
+C. Penetration testing scripts
+D. Malware signatures
+
+10. CIS Controls are MOST useful for:
+A. Hackers
+B. Organizations of all sizes
+C. Law enforcement
+D. End users only
+
+🔸 INTERMEDIATE LEVEL MCQs (10)
+11. PCI DSS history started due to:
+A. Healthcare breaches
+B. Increasing credit card fraud
+C. Cloud adoption
+D. GDPR enforcement
+
+12. PCI DSS Level classification is based on:
+A. Organization size
+B. Number of transactions processed annually
+C. Number of audits
+D. Network size
+
+13. Which PCI level applies to merchants processing over 6 million transactions?
+A. Level 4
+B. Level 3
+C. Level 2
+D. Level 1
+
+14. PCI DSS Level 1 merchants require:
+A. Self-assessment only
+B. External audit by QSA
+C. No assessment
+D. Internal review only
+
+15. PCI DSS requires organizations to:
+A. Eliminate all risks
+B. Protect cardholder data environment (CDE)
+C. Replace IT controls
+D. Avoid audits
+
+16. CIS Controls follow which core principle?
+A. Compliance first
+B. Risk-based prioritization
+C. Financial auditing
+D. Legal enforcement
+
+17. CIS Controls v8 are grouped into:
+A. 5 domains
+B. 10 domains
+C. 18 controls
+D. 25 controls
+
+18. CIS Compliance means:
+A. Following all laws
+B. Implementing CIS Controls and Benchmarks
+C. Getting ISO certification
+D. Passing audits
+
+19. CIS Benchmarks help auditors by:
+A. Providing evidence templates
+B. Defining secure baseline configurations
+C. Replacing audits
+D. Eliminating vulnerabilities
+
+20. PCI DSS focuses MOST on which security objective?
+A. Availability
+B. Confidentiality of card data
+C. Performance
+D. Scalability
+
+🔴 ADVANCED LEVEL MCQs (10)
+21. PCI DSS scope reduction can be achieved by:
+A. Increasing documentation
+B. Network segmentation
+C. Ignoring controls
+D. Avoiding audits
+
+22. PCI DSS is different from ISO 27001 because PCI DSS is:
+A. Risk-based
+B. Industry-specific and mandatory
+C. Management-driven
+D. Voluntary
+
+23. A major challenge in PCI DSS compliance is:
+A. Tool availability
+B. Identifying complete cardholder data flow
+C. Staff training
+D. Reporting format
+
+24. CIS Controls are considered implementation-focused because they:
+A. Are laws
+B. Provide actionable steps
+C. Replace governance
+D. Eliminate risk
+
+25. CIS Benchmarks are MOST useful during which audit activity?
+A. Risk identification
+B. Configuration review
+C. Financial audit
+D. Incident response
+
+26. PCI DSS Level 4 merchants usually validate compliance through:
+A. External audit
+B. Self-Assessment Questionnaire (SAQ)
+C. No validation
+D. Regulatory approval
+
+27. CIS Controls complement other frameworks like NIST and ISO by:
+A. Replacing them
+B. Providing technical implementation guidance
+C. Acting as law
+D. Eliminating audits
+
+28. From CCEE exam view, PCI DSS questions MOSTLY test:
+A. Penalty amounts
+B. Scope, levels, and core objective
+C. Encryption algorithms
+D. Coding standards
+
+29. CIS Controls are prioritized based on:
+A. Cost
+B. Known attack patterns
+C. Auditor preference
+D. Compliance laws
+
+30. An organization using CIS Benchmarks improves:
+A. Network speed
+B. System hardening and security posture
+C. Incident response time only
+D. Compliance penalties
+
+✅ ANSWER KEY
+1. B
+2. B
+3. B
+4. B
+5. A
+6. B
+7. B
+8. B
+9. B
+10. B
+
+11. B
+12. B
+13. D
+14. B
+15. B
+16. B
+17. C
+18. B
+19. B
+20. B
+
+21. B
+22. B
+23. B
+24. B
+25. B
+26. B
+27. B
+28. B
+29. B
+30. B
+
+🔥 CCEE ULTRA-IMPORTANT MEMORY BLOCK
+PCI DSS → Card data protection (Mandatory, industry-specific)
+PCI Levels → Based on transaction volume
+CIS Controls → “WHAT to implement first”
+CIS Benchmarks → “HOW to harden systems”
+Exam Rule:
+Law → GDPR / HIPAA
+Industry Mandate → PCI DSS
+Governance → COBIT
+Implementation → CIS Controls
