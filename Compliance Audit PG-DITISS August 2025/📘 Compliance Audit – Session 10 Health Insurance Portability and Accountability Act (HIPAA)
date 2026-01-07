@@ -1,0 +1,233 @@
+Excellent 👍
+Below are CCEE-oriented MCQs for PG-DITISS – Compliance Audit (Session 10), framed exactly the way C-DAC tests HIPAA: scope confusion, titles vs rules, safeguards, and compliance intent.
+
+📘 Compliance Audit – Session 10
+Health Insurance Portability and Accountability Act (HIPAA)
+Image
+
+Image
+
+Image
+
+🔹 BASIC LEVEL MCQs (10)
+1. HIPAA primarily protects:
+A. Financial data
+B. Healthcare information
+C. Network traffic
+D. Intellectual property
+
+2. HIPAA applies mainly to:
+A. All IT companies
+B. Covered entities and business associates
+C. Government agencies only
+D. Individuals only
+
+3. Which type of data is protected under HIPAA?
+A. Public data
+B. PHI (Protected Health Information)
+C. System logs
+D. Source code
+
+4. HIPAA was enacted in the year:
+A. 1990
+B. 1996
+C. 2001
+D. 2005
+
+5. Which of the following is a HIPAA objective?
+A. Improve coding standards
+B. Ensure privacy and security of health data
+C. Increase hospital revenue
+D. Replace ISO standards
+
+6. HIPAA is best described as a:
+A. Voluntary framework
+B. Mandatory regulation
+C. Security tool
+D. Audit guideline
+
+7. PHI includes:
+A. Server IP address
+B. Patient medical records
+C. Firewall rules
+D. Software license
+
+8. HIPAA compliance failure may lead to:
+A. Only warnings
+B. Civil and criminal penalties
+C. Improved compliance
+D. No impact
+
+9. HIPAA applies mainly in which country?
+A. India
+B. European Union
+C. United States
+D. Global
+
+10. HIPAA is MOST relevant to which sector?
+A. Banking
+B. Healthcare
+C. Manufacturing
+D. Telecom
+
+🔸 INTERMEDIATE LEVEL MCQs (10)
+11. HIPAA Privacy Rule primarily governs:
+A. Network security
+B. Use and disclosure of PHI
+C. Incident response
+D. Encryption algorithms
+
+12. The HIPAA Security Rule focuses on:
+A. Physical safety only
+B. Administrative, physical, and technical safeguards
+C. Financial audits
+D. Employee background checks
+
+13. Which HIPAA rule mandates reporting of data breaches?
+A. Privacy Rule
+B. Security Rule
+C. Breach Notification Rule
+D. Enforcement Rule
+
+14. HIPAA covered entities include:
+A. Hospitals and healthcare providers
+B. Hackers
+C. Software vendors only
+D. End users
+
+15. Business associates under HIPAA are organizations that:
+A. Provide medical treatment
+B. Handle PHI on behalf of covered entities
+C. Regulate healthcare
+D. Perform audits only
+
+16. Which safeguard includes policies, procedures, and workforce training?
+A. Technical
+B. Physical
+C. Administrative
+D. Network
+
+17. Encryption and access control fall under which safeguard?
+A. Administrative
+B. Physical
+C. Technical
+D. Legal
+
+18. HIPAA Privacy Rule gives patients the right to:
+A. Modify network settings
+B. Access and request correction of their records
+C. Delete audit logs
+D. Avoid audits
+
+19. HIPAA Security Rule applies to:
+A. Paper records only
+B. Electronic PHI (ePHI)
+C. Financial data
+D. Public data
+
+20. HIPAA Breach Notification Rule requires notification within:
+A. 24 hours
+B. 48 hours
+C. 60 days
+D. One year
+
+🔴 ADVANCED LEVEL MCQs (10)
+21. HIPAA Titles define:
+A. Audit phases
+B. Broad purpose and scope of the Act
+C. Security tools
+D. ISO mappings
+
+22. Title II of HIPAA is MOST associated with:
+A. Portability of insurance
+B. Administrative simplification
+C. Financial audits
+D. Clinical trials
+
+23. HIPAA Enforcement Rule deals with:
+A. Safeguards
+B. Penalties and investigations
+C. Data classification
+D. Risk assessment
+
+24. Which scenario BEST represents a HIPAA violation?
+A. Encrypting PHI
+B. Unauthorized access to patient records
+C. Conducting risk assessment
+D. Applying access control
+
+25. HIPAA requires risk analysis to:
+A. Eliminate all risks
+B. Identify and reduce risks to ePHI
+C. Replace audits
+D. Increase compliance cost
+
+26. A cloud service provider handling patient data is considered a:
+A. Covered entity
+B. Business associate
+C. Regulator
+D. Auditor
+
+27. HIPAA Security Rule flexibility means controls should be:
+A. Identical for all organizations
+B. Scaled based on size and risk
+C. Ignored if costly
+D. Optional
+
+28. HIPAA Privacy Rule violation MOST impacts:
+A. Network performance
+B. Patient trust and legal compliance
+C. System availability
+D. Incident response time
+
+29. From compliance audit perspective, HIPAA emphasizes:
+A. Tool implementation
+B. Confidentiality, integrity, and availability of PHI
+C. Software development
+D. Network optimization
+
+30. From CCEE exam viewpoint, HIPAA questions MOSTLY test:
+A. Penalty amounts
+B. Rules, roles, and safeguards
+C. Coding standards
+D. Encryption algorithms
+
+✅ ANSWER KEY
+1. B
+2. B
+3. B
+4. B
+5. B
+6. B
+7. B
+8. B
+9. C
+10. B
+
+11. B
+12. B
+13. C
+14. A
+15. B
+16. C
+17. C
+18. B
+19. B
+20. C
+
+21. B
+22. B
+23. B
+24. B
+25. B
+26. B
+27. B
+28. B
+29. B
+30. B
+
+🔥 CCEE QUICK MEMORY (HIGH-YIELD)
+HIPAA = US Healthcare Data Law (Mandatory)
+PHI / ePHI = Core focus
+Rules = Privacy | Security | Breach Notification | Enforcement
+Safeguards = Administrative + Physical + Technical
