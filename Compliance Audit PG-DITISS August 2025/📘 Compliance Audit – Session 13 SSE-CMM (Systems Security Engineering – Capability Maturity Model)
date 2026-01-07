@@ -1,0 +1,233 @@
+Excellent 👍
+Below are CCEE-oriented MCQs for PG-DITISS – Compliance Audit (Session 13), framed exactly how C-DAC tests SSE-CMM: history vs need, maturity thinking, usage logic, and pilot concepts.
+
+📘 Compliance Audit – Session 13
+SSE-CMM (Systems Security Engineering – Capability Maturity Model)
+Image
+
+Image
+
+Image
+
+🔹 BASIC LEVEL MCQs (10)
+1. SSE-CMM primarily focuses on:
+A. Network security tools
+B. Security engineering process maturity
+C. Incident response automation
+D. Compliance penalties
+
+2. SSE-CMM stands for:
+A. Secure Software Engineering – Capability Model
+B. Systems Security Engineering – Capability Maturity Model
+C. Security Services Evaluation – Control Model
+D. Software Security Evaluation – Maturity Model
+
+3. The main purpose of SSE-CMM is to:
+A. Detect cyber-attacks
+B. Assess and improve security engineering processes
+C. Replace ISO 27001
+D. Perform penetration testing
+
+4. SSE-CMM was developed to address gaps in:
+A. Financial audits
+B. Security engineering practices
+C. Network performance
+D. Software licensing
+
+5. SSE-CMM is best categorized as a:
+A. Legal regulation
+B. Process maturity model
+C. Security tool
+D. Audit checklist
+
+6. SSE-CMM evaluates maturity based on:
+A. Hardware used
+B. Defined process areas and practices
+C. Number of tools
+D. Incident count
+
+7. SSE-CMM is MOST useful for:
+A. End users
+B. Organizations developing secure systems
+C. Hackers
+D. Marketing teams
+
+8. Using SSE-CMM helps organizations to:
+A. Eliminate all risks
+B. Improve consistency of security engineering
+C. Avoid audits
+D. Reduce documentation
+
+9. SSE-CMM maturity levels indicate:
+A. System performance
+B. Capability of security processes
+C. Network throughput
+D. Compliance penalties
+
+10. SSE-CMM is typically used during:
+A. Only operations
+B. System lifecycle and development phases
+C. Incident response only
+D. Post-breach activities
+
+🔸 INTERMEDIATE LEVEL MCQs (10)
+11. The need for SSE-CMM arose mainly due to:
+A. Increase in malware
+B. Lack of standardized security engineering processes
+C. New regulations
+D. Cloud adoption
+
+12. SSE-CMM focuses more on:
+A. Technology selection
+B. Process capability and maturity
+C. Vulnerability scanning
+D. Network monitoring
+
+13. SSE-CMM can be used to:
+A. Benchmark organizational security capability
+B. Replace compliance laws
+C. Perform audits automatically
+D. Detect intrusions
+
+14. SSE-CMM maturity assessment helps management to:
+A. Choose antivirus tools
+B. Identify process improvement areas
+C. Increase penalties
+D. Eliminate documentation
+
+15. Which activity is central to using SSE-CMM?
+A. Risk scoring
+B. Process evaluation and improvement
+C. Tool deployment
+D. Incident response
+
+16. SSE-CMM pilots were primarily conducted to:
+A. Test malware
+B. Validate model usability and effectiveness
+C. Replace ISO standards
+D. Train hackers
+
+17. SSE-CMM differs from ISO 27001 because it focuses more on:
+A. Certification
+B. Engineering process maturity
+C. Legal compliance
+D. Data privacy
+
+18. SSE-CMM is MOST relevant to which role?
+A. SOC analyst
+B. Security engineer and system architect
+C. End user
+D. Sales manager
+
+19. SSE-CMM supports continuous improvement by:
+A. One-time assessment
+B. Progressive maturity levels
+C. Fixed controls
+D. Penalty enforcement
+
+20. From audit perspective, SSE-CMM helps in:
+A. Tool selection
+B. Evaluating security engineering capability
+C. Financial reporting
+D. Incident handling
+
+🔴 ADVANCED LEVEL MCQs (10)
+21. SSE-CMM maturity levels indicate:
+A. Number of audits conducted
+B. Predictability and control of security processes
+C. Incident response speed
+D. Tool effectiveness
+
+22. SSE-CMM is MOST useful when security needs to be:
+A. Reactive
+B. Integrated into system engineering
+C. Tool-driven
+D. Compliance-only
+
+23. SSE-CMM pilots provided evidence that the model:
+A. Was too complex
+B. Could be applied across organizations
+C. Replaced all standards
+D. Eliminated risks
+
+24. A low SSE-CMM maturity level indicates:
+A. High assurance
+B. Ad-hoc or inconsistent security processes
+C. Full compliance
+D. Strong governance
+
+25. SSE-CMM adoption helps reduce risk by:
+A. Adding more tools
+B. Standardizing and improving security processes
+C. Increasing audits
+D. Eliminating documentation
+
+26. Which scenario BEST fits SSE-CMM usage?
+A. Configuring firewall rules
+B. Improving secure system development lifecycle
+C. Responding to ransomware
+D. Performing vulnerability scan
+
+27. SSE-CMM complements ISO 27001 by addressing:
+A. Certification scope
+B. Security engineering maturity
+C. Legal compliance
+D. Privacy principles
+
+28. SSE-CMM assessment results are MOST valuable to:
+A. End users
+B. Senior management and engineering leadership
+C. Hackers
+D. Customers only
+
+29. From CCEE exam perspective, SSE-CMM questions MOSTLY test:
+A. Exact maturity level names
+B. Purpose, need, and usage logic
+C. Tool configuration
+D. Penalty details
+
+30. SSE-CMM encourages organizations to move from:
+A. Reactive security to proactive security engineering
+B. Compliance to non-compliance
+C. Governance to operations
+D. Manual to automated audits
+
+✅ ANSWER KEY
+1. B
+2. B
+3. B
+4. B
+5. B
+6. B
+7. B
+8. B
+9. B
+10. B
+
+11. B
+12. B
+13. A
+14. B
+15. B
+16. B
+17. B
+18. B
+19. B
+20. B
+
+21. B
+22. B
+23. B
+24. B
+25. B
+26. B
+27. B
+28. B
+29. B
+30. A
+
+🔥 CCEE POWER MEMORY (HIGH-YIELD)
+SSE-CMM = Security Engineering Maturity Model
+Focus = HOW well security is engineered, not just WHAT controls exist
+Pilots = Proof of practical applicability
+Low maturity = Ad-hoc | High maturity = Predictable & optimized
