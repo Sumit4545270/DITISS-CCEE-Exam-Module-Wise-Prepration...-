@@ -1,0 +1,229 @@
+Great 👍
+Below are CDAC–DITISS CCEE–focused MCQs for
+Cyber Forensics PG-DITISS (August 2025)
+Session 2 – Forensics Process, Incident Response & Chain of Custody
+
+Strictly aligned with theory + lab (IR & Chain of Custody) and framed to help you eliminate options quickly in exam.
+
+🧠 Session 2: Cyber Forensics – MCQs (CCEE Pattern)
+🔹 BASIC MCQs (1–10)
+Q1. Computer forensics involves which of the following activities?
+A. System optimization
+B. Evidence collection and analysis
+C. Software development
+D. Network acceleration
+
+Q2. Preservation in computer forensics means:
+A. Improving system performance
+B. Preventing evidence alteration
+C. Deleting unnecessary files
+D. Compressing data
+
+Q3. Identification phase focuses on:
+A. Presenting evidence
+B. Locating potential evidence
+C. Reporting findings
+D. Formatting disks
+
+Q4. Extraction in forensics refers to:
+A. Removing viruses
+B. Recovering relevant data from evidence
+C. Installing tools
+D. Encrypting files
+
+Q5. Documentation is important to:
+A. Speed up investigation
+B. Prove evidence authenticity
+C. Reduce storage usage
+D. Modify logs
+
+Q6. Interpretation phase involves:
+A. Collecting data
+B. Analyzing and drawing conclusions
+C. Hash calculation
+D. Disk cloning
+
+Q7. The main goal of forensic analysis is to:
+A. Repair systems
+B. Produce legally acceptable evidence
+C. Improve UI
+D. Increase bandwidth
+
+Q8. Which is a type of cyber forensics technique?
+A. Network forensics
+B. Civil engineering
+C. Mechanical analysis
+D. Thermodynamics
+
+Q9. Preparation in cyber forensics mainly happens:
+A. After the incident
+B. During investigation
+C. Before an incident occurs
+D. After reporting
+
+Q10. Chain of custody is used to track:
+A. Tools used
+B. Investigators involved
+C. Evidence handling history
+D. Network traffic
+
+🔹 INTERMEDIATE MCQs (11–20)
+Q11. Which step ensures evidence remains unaltered?
+A. Identification
+B. Preservation
+C. Interpretation
+D. Reporting
+
+Q12. What should be done BEFORE an incident?
+A. Analyze logs
+B. Create incident response plan
+C. Collect evidence
+D. Prepare report
+
+Q13. Incident response plan mainly helps in:
+A. System installation
+B. Structured handling of incidents
+C. Software development
+D. Employee appraisal
+
+Q14. Incident response team usually includes:
+A. Only developers
+B. Legal, IT, and management members
+C. Only end users
+D. Hardware vendors
+
+Q15. Detecting incidents involves:
+A. Ignoring alerts
+B. Monitoring systems and logs
+C. Formatting storage
+D. Shutting down servers
+
+Q16. Cyber forensics procedures must be:
+A. Random
+B. Fast but undocumented
+C. Systematic and repeatable
+D. Tool-dependent only
+
+Q17. Which document records every transfer of evidence?
+A. Incident report
+B. Chain of custody form
+C. Audit log
+D. System log
+
+Q18. Which forensics technique focuses on emails, logs, and documents?
+A. Disk forensics
+B. Network forensics
+C. Application forensics
+D. Database tuning
+
+Q19. Why is preparation critical in cyber forensics?
+A. To reduce exam syllabus
+B. To respond quickly and legally to incidents
+C. To avoid tools
+D. To delete logs
+
+Q20. In labs, simulating chain of custody mainly teaches:
+A. Tool installation
+B. Proper evidence handling
+C. Network routing
+D. Malware creation
+
+🔹 ADVANCED / CCEE-LEVEL MCQs (21–30)
+Q21. Which phase directly impacts admissibility of evidence in court?
+A. Extraction
+B. Preservation
+C. Interpretation
+D. Presentation
+
+Q22. If evidence is collected without documentation, it becomes:
+A. More reliable
+B. Faster to analyze
+C. Legally weak
+D. Encrypted
+
+Q23. The BEST objective of cyber forensic procedures is to:
+A. Recover maximum data
+B. Maintain evidence integrity
+C. Reduce investigation time
+D. Depend on tools
+
+Q24. Incident response preparation includes all EXCEPT:
+A. Defining roles
+B. Training team
+C. Deleting logs regularly
+D. Creating policies
+
+Q25. Which scenario violates chain of custody?
+A. Evidence sealed and logged
+B. Evidence transferred without record
+C. Hash verification done
+D. Secure storage used
+
+Q26. Which technique is MOST suitable for detecting data exfiltration?
+A. Disk forensics
+B. Network forensics
+C. Memory forensics
+D. Mobile forensics
+
+Q27. Interpretation phase failure can lead to:
+A. Faster investigation
+B. Wrong conclusions
+C. Stronger evidence
+D. Better documentation
+
+Q28. Chain of custody primarily proves:
+A. Investigator skills
+B. Evidence was not tampered
+C. System uptime
+D. Tool efficiency
+
+Q29. During incident response, first priority should be to:
+A. Restore system immediately
+B. Preserve evidence
+C. Delete malware
+D. Inform media
+
+Q30. Lab simulation of incident response helps students understand:
+A. Coding skills
+B. Real-time decision making
+C. UI design
+D. Hardware assembly
+
+✅ ANSWER KEY (Bottom – CDAC Style)
+1. B
+2. B
+3. B
+4. B
+5. B
+6. B
+7. B
+8. A
+9. C
+10. C
+11. B
+12. B
+13. B
+14. B
+15. B
+16. C
+17. B
+18. A
+19. B
+20. B
+21. B
+22. C
+23. B
+24. C
+25. B
+26. B
+27. B
+28. B
+29. B
+30. B
+🔥 CCEE EXAM SHORTCUT (Very Important)
+Preservation + Chain of Custody = Evidence Validity
+If option mentions “without documentation / no hash / no log” → WRONG
+Network forensics → data movement, exfiltration, traffic
+Before incident = preparation + IR plan + team
+📩 Send Session 3 topics
+I’ll continue this same strict CCEE-focused pattern till your full Cyber Forensics syllabus is exam-ready 💯
