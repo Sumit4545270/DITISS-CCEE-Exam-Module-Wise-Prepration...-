@@ -1,0 +1,226 @@
+Excellent 👍
+Below are high-quality, exam-focused MCQs for PG-DITISS – Compliance Audit (Session 3), crafted strictly from C-DAC CCEE perspective with conceptual traps + scenario thinking.
+
+📘 Compliance Audit – Session 3
+(Security Evaluation, Evaluation Process, Assurance Levels, Methodology)
+
+🔹 BASIC LEVEL MCQs (10)
+1. Security evaluation primarily focuses on:
+A. Improving system performance
+B. Assessing effectiveness of security controls
+C. Detecting active cyber-attacks
+D. Increasing system availability
+
+2. The main goal of security evaluation is to provide:
+A. Compliance penalties
+B. Assurance to stakeholders
+C. System automation
+D. Network segmentation
+
+3. Evaluation process helps an organization to:
+A. Eliminate all risks
+B. Identify gaps in implemented controls
+C. Replace security tools
+D. Avoid documentation
+
+4. Security evaluation is MOST closely related to:
+A. Software development lifecycle
+B. Compliance and audit activities
+C. Marketing strategy
+D. Incident response only
+
+5. Evaluation phases are generally performed in:
+A. Random order
+B. Predefined structured sequence
+C. Reverse order
+D. Parallel without dependency
+
+6. Assurance in security evaluation means:
+A. Guarantee of zero incidents
+B. Confidence level on security posture
+C. Availability of backups
+D. Deployment of security tools
+
+7. Higher assurance levels indicate:
+A. Lower confidence
+B. Increased evaluation rigor
+C. Fewer evaluation activities
+D. Reduced documentation
+
+8. Evaluation methodology mainly defines:
+A. Audit fees
+B. System architecture
+C. Steps, techniques, and criteria
+D. Incident response plan
+
+9. Which of the following is an outcome of evaluation?
+A. Penetration report only
+B. Assurance statement
+C. Firewall rules
+D. Malware signature
+
+10. Security evaluation is BEST described as:
+A. One-time activity
+B. Continuous improvement process
+C. Emergency response
+D. Tool-dependent task
+
+🔸 INTERMEDIATE LEVEL MCQs (10)
+11. Which activity is performed FIRST in evaluation process?
+A. Reporting
+B. Scope definition
+C. Assurance rating
+D. Remediation
+
+12. Evaluation phases ensure that security controls are:
+A. Randomly checked
+B. Systematically assessed
+C. Ignored if costly
+D. Only documented
+
+13. Assurance levels are mainly used to:
+A. Rank employees
+B. Measure trust in security implementation
+C. Increase audit duration
+D. Reduce audit cost
+
+14. Which factor directly affects assurance level selection?
+A. Auditor experience
+B. Risk appetite of organization
+C. Hardware brand
+D. Network speed
+
+15. A higher evaluation assurance level usually requires:
+A. Less evidence
+B. Informal review
+C. Extensive testing and validation
+D. No documentation
+
+16. Which methodology focuses on structured evaluation against standards?
+A. Ad-hoc testing
+B. Risk-based methodology
+C. Informal assessment
+D. Random sampling
+
+17. Evaluation process differs from audit because evaluation:
+A. Is optional
+B. Focuses on assurance confidence
+C. Ignores compliance
+D. Eliminates documentation
+
+18. Which phase includes data collection and control testing?
+A. Planning
+B. Execution
+C. Reporting
+D. Follow-up
+
+19. Assurance levels help management in:
+A. Selecting vendors
+B. Decision-making and risk acceptance
+C. Writing code
+D. Incident handling
+
+20. Evaluation methodology ensures:
+A. Subjective judgment
+B. Consistency and repeatability
+C. Elimination of auditors
+D. No dependency on standards
+
+🔴 ADVANCED LEVEL MCQs (10)
+21. The 7-level assurance model primarily provides:
+A. Seven types of audits
+B. Graduated confidence levels of evaluation
+C. Seven security tools
+D. Seven compliance laws
+
+22. Moving from lower to higher assurance levels means:
+A. Reduced scope
+B. Increased depth and verification
+C. Less control testing
+D. Faster evaluation
+
+23. Which assurance level would MOST likely include independent verification?
+A. Lowest level
+B. Medium level
+C. Highest level
+D. Informal level
+
+24. Evaluation methodology should be selected based on:
+A. Auditor preference
+B. Organizational risk and compliance needs
+C. Availability of tools
+D. Budget only
+
+25. A major limitation of low-assurance evaluation is:
+A. High cost
+B. Limited confidence and higher residual risk
+C. Excessive documentation
+D. Complex reporting
+
+26. In evaluation phases, failure to define scope properly leads to:
+A. Better coverage
+B. Ineffective assurance results
+C. Faster reporting
+D. Improved confidence
+
+27. Assurance levels are MOST useful when communicating results to:
+A. Technical staff only
+B. End users
+C. Senior management and regulators
+D. Vendors
+
+28. Which activity differentiates evaluation from penetration testing?
+A. Control testing
+B. Assurance rating
+C. Evidence collection
+D. Reporting
+
+29. Evaluation methodology enhances audit quality by ensuring:
+A. Tool dependency
+B. Consistent and objective assessment
+C. Faster audits only
+D. Reduced auditor involvement
+
+30. A mature organization typically opts for higher assurance levels due to:
+A. Compliance pressure and risk exposure
+B. Reduced staff
+C. Low threat landscape
+D. No regulatory requirements
+
+✅ ANSWER KEY (Check after attempting)
+1. B
+2. B
+3. B
+4. B
+5. B
+6. B
+7. B
+8. C
+9. B
+10. B
+
+11. B
+12. B
+13. B
+14. B
+15. C
+16. B
+17. B
+18. B
+19. B
+20. B
+
+21. B
+22. B
+23. C
+24. B
+25. B
+26. B
+27. C
+28. B
+29. B
+30. A
+
+🔑 CCEE EXAM TIP (Very Important)
+Assurance levels = confidence depth
+Higher level → more evidence + independent validation + higher cost + lower residual risk.
