@@ -1,0 +1,224 @@
+Perfect 👍
+Below are CCEE-oriented MCQs for Cyber Forensics PG-DITISS (August 2025)
+Session 1 – Introduction to Computer Forensics
+(Exactly as CDAC asks: conceptual → applied → tricky)
+
+🧠 Session 1: Cyber Forensics – MCQs (CCEE Pattern)
+🔹 BASIC MCQs (1–10)
+Q1. Computer forensics is primarily concerned with:
+A. Preventing cyber attacks
+B. Recovering deleted files only
+C. Collection and analysis of digital evidence
+D. Writing secure programs
+
+Q2. Which of the following best defines computer forensics?
+A. Hacking systems legally
+B. Digital investigation for legal evidence
+C. Network monitoring
+D. Virus removal
+
+Q3. Digital evidence must be:
+A. Easily editable
+B. Altered for readability
+C. Preserved in original form
+D. Stored only on cloud
+
+Q4. Computer crime mainly involves:
+A. Authorized usage of systems
+B. Accidental system misuse
+C. Intentional illegal use of computers
+D. Hardware malfunction
+
+Q5. Unauthorized activity refers to:
+A. Crime always punishable by law
+B. Actions without permission
+C. Ethical hacking
+D. Government surveillance
+
+Q6. Which is an example of computer crime?
+A. Forgetting password
+B. Software piracy
+C. System shutdown
+D. Hardware failure
+
+Q7. Cyber laws are required to:
+A. Improve internet speed
+B. Control hardware manufacturing
+C. Regulate cyber activities legally
+D. Block all websites
+
+Q8. The main goal of cyber laws is to:
+A. Protect system administrators
+B. Secure digital transactions and data
+C. Promote hacking
+D. Replace criminal law
+
+Q9. Computer forensics is used in:
+A. Gaming
+B. Entertainment
+C. Legal investigations
+D. Software testing
+
+Q10. Who uses computer forensics the most?
+A. Gamers
+B. Software developers
+C. Law enforcement agencies
+D. Graphic designers
+
+🔹 INTERMEDIATE MCQs (11–20)
+Q11. Which of the following is NOT a computer crime?
+A. Identity theft
+B. Phishing
+C. Authorized penetration testing
+D. Data theft
+
+Q12. Unauthorized access becomes a crime when:
+A. It causes system slowdown
+B. It violates law and intent is malicious
+C. It is accidental
+D. User forgets to log out
+
+Q13. Cyber forensics mainly deals with evidence that is:
+A. Physical
+B. Biological
+C. Digital
+D. Chemical
+
+Q14. Which phase ensures evidence integrity?
+A. Identification
+B. Collection
+C. Preservation
+D. Reporting
+
+Q15. The first step in the forensic process is:
+A. Analysis
+B. Reporting
+C. Identification
+D. Presentation
+
+Q16. Why is documentation important in forensics?
+A. For system performance
+B. To prove evidence authenticity
+C. To format disks
+D. To encrypt data
+
+Q17. Cyber laws apply to:
+A. Only government networks
+B. Only private companies
+C. All users of digital systems
+D. Only hackers
+
+Q18. Which activity is considered unauthorized but NOT always a crime?
+A. Viewing confidential files without permission
+B. Ethical hacking with permission
+C. Accessing someone’s email
+D. Database breach
+
+Q19. Forensic investigation should be:
+A. Fast and undocumented
+B. Random and flexible
+C. Systematic and legally compliant
+D. Tool-dependent only
+
+Q20. Chain of custody ensures:
+A. Speed of investigation
+B. Evidence handling history
+C. Tool efficiency
+D. Network security
+
+🔹 ADVANCED / CCEE-LEVEL MCQs (21–30)
+Q21. Which principle is MOST critical in computer forensics?
+A. Speed of investigation
+B. Cost effectiveness
+C. Integrity of evidence
+D. Tool automation
+
+Q22. If evidence is modified during investigation, it becomes:
+A. Stronger
+B. Admissible
+C. Questionable in court
+D. Encrypted
+
+Q23. Which process step involves finding potential digital evidence sources?
+A. Analysis
+B. Identification
+C. Presentation
+D. Documentation
+
+Q24. Computer crime differs from unauthorized activity because crime:
+A. Is always accidental
+B. Is legally punishable
+C. Needs internet
+D. Is harmless
+
+Q25. Which situation BEST represents unauthorized activity but not crime?
+A. Employee accessing files beyond role
+B. Data theft
+C. Online fraud
+D. Ransomware attack
+
+Q26. A forensic investigator must ensure evidence is:
+A. Edited for clarity
+B. Copied without hashing
+C. Collected using forensically sound methods
+D. Stored on same system
+
+Q27. Which skill is MOST important for a forensic investigator?
+A. Programming
+B. Attention to detail
+C. Graphic design
+D. Gaming
+
+Q28. Cyber laws help forensic investigators by:
+A. Providing hacking tools
+B. Defining legal boundaries
+C. Increasing internet access
+D. Speeding hardware
+
+Q29. Reporting phase mainly focuses on:
+A. Collecting evidence
+B. Presenting findings clearly
+C. Imaging disks
+D. Hash calculation
+
+Q30. Why is computer forensics required in organizations?
+A. To reduce hardware cost
+B. To investigate policy violations and incidents
+C. To improve UI design
+D. To increase bandwidth
+
+✅ ANSWER KEY (At Bottom – As Requested)
+1. C
+2. B
+3. C
+4. C
+5. B
+6. B
+7. C
+8. B
+9. C
+10. C
+11. C
+12. B
+13. C
+14. C
+15. C
+16. B
+17. C
+18. B
+19. C
+20. B
+21. C
+22. C
+23. B
+24. B
+25. A
+26. C
+27. B
+28. B
+29. B
+30. B
+🔥 Exam Tip (CCEE)
+Keywords CDAC loves: Integrity, Chain of Custody, Forensically Sound, Admissibility
+If option mentions legal compliance / evidence integrity → usually correct
+Eliminate options with speed, convenience, automation-only
