@@ -1,0 +1,231 @@
+Great 👍
+Below are CCEE-focused MCQs for PG-DITISS – Compliance Audit (Session 4), strictly aligned with C-DAC exam depth, including framework logic, components, and real-world use cases.
+
+📘 Compliance Audit – Session 4
+National Institute of Standards and Technology (NIST)
+Image
+
+Image
+
+Image
+
+🔹 BASIC LEVEL MCQs (10)
+1. NIST is primarily known for providing:
+A. Cyber laws
+B. Security standards and guidelines
+C. Antivirus solutions
+D. Compliance penalties
+
+2. The NIST Cybersecurity Framework (CSF) is mainly designed to:
+A. Replace ISO standards
+B. Improve cybersecurity risk management
+C. Perform penetration testing
+D. Detect malware
+
+3. Which organization developed the NIST CSF?
+A. ISO
+B. CERT-In
+C. NIST
+D. OWASP
+
+4. NIST CSF is best described as:
+A. Mandatory law
+B. Voluntary framework
+C. Security tool
+D. Audit checklist only
+
+5. The core of NIST CSF consists of:
+A. Policies and procedures
+B. Five security functions
+C. Seven assurance levels
+D. Audit phases
+
+6. Which of the following is NOT a NIST CSF core function?
+A. Identify
+B. Protect
+C. Audit
+D. Recover
+
+7. NIST CSF helps organizations to:
+A. Eliminate all risks
+B. Manage and reduce cyber risks
+C. Avoid compliance
+D. Replace internal audits
+
+8. NIST CSF can be used by:
+A. Only government organizations
+B. Only IT companies
+C. Any organization
+D. Only auditors
+
+9. The NIST framework mainly focuses on:
+A. Technical controls only
+B. Risk-based approach
+C. Financial auditing
+D. Network performance
+
+10. NIST CSF is MOST useful for:
+A. Incident hacking
+B. Cybersecurity governance
+C. Software coding
+D. Hardware maintenance
+
+🔸 INTERMEDIATE LEVEL MCQs (10)
+11. The “Identify” function of NIST CSF primarily deals with:
+A. Incident response
+B. Asset management and risk understanding
+C. Data recovery
+D. Malware detection
+
+12. Which function ensures safeguards to protect critical services?
+A. Identify
+B. Protect
+C. Detect
+D. Recover
+
+13. Continuous monitoring and anomaly detection fall under:
+A. Identify
+B. Protect
+C. Detect
+D. Respond
+
+14. The “Respond” function focuses on:
+A. Backup creation
+B. Incident containment and mitigation
+C. Risk assessment
+D. Policy drafting
+
+15. Business continuity and restoration are part of:
+A. Detect
+B. Protect
+C. Respond
+D. Recover
+
+16. NIST CSF profiles are used to:
+A. Select tools
+B. Map current and target security posture
+C. Conduct penetration testing
+D. Replace audits
+
+17. Which component allows comparison between “as-is” and “to-be” state?
+A. Core
+B. Implementation tiers
+C. Profiles
+D. Controls
+
+18. NIST CSF implementation tiers indicate:
+A. Maturity and risk management practices
+B. Number of audits
+C. Compliance penalties
+D. Security budget
+
+19. From a compliance audit perspective, NIST CSF is useful because it:
+A. Is legally binding
+B. Aligns security controls with business risk
+C. Eliminates documentation
+D. Replaces ISO 27001
+
+20. NIST CSF is commonly mapped with:
+A. Accounting standards
+B. Other standards like ISO and COBIT
+C. Antivirus signatures
+D. Hardware manuals
+
+🔴 ADVANCED LEVEL MCQs (10)
+21. Which NIST CSF component provides high-level outcomes rather than specific controls?
+A. Profiles
+B. Core
+C. Implementation tiers
+D. Audit checklist
+
+22. An organization using NIST CSF for audit primarily benefits from:
+A. Tool-based assessment
+B. Risk-based compliance alignment
+C. Elimination of audits
+D. Reduced reporting
+
+23. In NIST CSF, categories and subcategories belong to:
+A. Profiles
+B. Core
+C. Tiers
+D. Risk register
+
+24. Which scenario BEST demonstrates use of NIST CSF?
+A. Performing vulnerability scan
+B. Aligning cybersecurity strategy with business objectives
+C. Writing firewall rules
+D. Detecting malware
+
+25. A mature organization usually targets higher NIST CSF tiers because they:
+A. Are mandatory
+B. Indicate adaptive risk management
+C. Reduce compliance needs
+D. Eliminate incidents
+
+26. NIST CSF supports compliance audits by:
+A. Acting as law
+B. Providing common language for security controls
+C. Replacing legal requirements
+D. Ignoring regulations
+
+27. Mapping ISO 27001 controls to NIST CSF is an example of:
+A. Framework misuse
+B. Framework harmonization
+C. Penetration testing
+D. Risk avoidance
+
+28. Which NIST CSF function is MOST critical during ransomware attack recovery?
+A. Identify
+B. Protect
+C. Detect
+D. Recover
+
+29. Improper use of NIST CSF may result in:
+A. Better governance
+B. False sense of security
+C. Higher assurance
+D. Improved compliance
+
+30. From CCEE exam perspective, NIST CSF is BEST categorized as:
+A. Technical standard
+B. Risk management framework
+C. Legal regulation
+D. Security tool
+
+✅ ANSWER KEY
+1. B
+2. B
+3. C
+4. B
+5. B
+6. C
+7. B
+8. C
+9. B
+10. B
+
+11. B
+12. B
+13. C
+14. B
+15. D
+16. B
+17. C
+18. A
+19. B
+20. B
+
+21. B
+22. B
+23. B
+24. B
+25. B
+26. B
+27. B
+28. D
+29. B
+30. B
+
+🔥 CCEE MEMORY TRICK (Must-remember)
+NIST CSF Core = I-P-D-R-R
+👉 Identify → Protect → Detect → Respond → Recover
